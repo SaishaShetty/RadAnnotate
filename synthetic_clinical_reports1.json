@@ -1,0 +1,46 @@
+[
+    {
+        "report": "Clinical Report:\n\nThe patient's chest radiograph was carefully evaluated. The examination revealed a clear delineation of the diaphragm arch, with no signs of abnormal elevation or subdiaphragmatic air. The pulmonary apex was visualized and displayed no abnormalities, indicating good health in those regions. However, the examination did reveal some scattered areas of opacification, particularly in the lower lung fields, suggestive of possible inflammatory changes or infection. No additional abnormalities were detected.\n\nEntity List:\n\"ANAT-DA: diaphragm arch\"\n\"ANAT-DP: pulmonary apex\"\n\"OBS-DD: scattered areas of opacification\"",
+        "entities": {},
+        "included_labels": [
+            "ANAT-DA",
+            "ANAT-DP",
+            "OBS-DD"
+        ]
+    },
+    {
+        "report": "Clinical Report:\n\nThe patient has presented with an abnormal opacity in the right upper lobe of the lung on the chest x-ray. The opacity seems to be irregular in shape and may suggest a potential malignancy. Further, the mediastinum is slightly deviated towards the right, indicating possible atelectasis. The heart size and pulmonary vasculature are within normal limits. No pleural effusion or pneumothorax is identified. \n\nImpressions:\nThe irregular opacity in the right upper lobe needs further investigation. This could be indicative of a neoplasm. A CT scan of the chest is recommended for a more detailed evaluation. The slight mediastinal shift may be due to volume loss secondary to atelectasis. \n\nEntity List:\n\n\"OBS-DA: irregular opacity in the right upper lobe\"\n\"ANAT-DA: mediastinum\"\n\"OBS-DD: mediastinal shift\"",
+        "entities": {},
+        "included_labels": [
+            "OBS-DA",
+            "ANAT-DA",
+            "OBS-DD"
+        ]
+    },
+    {
+        "report": "Clinical Findings:\n\nThe patient's chest radiograph was reviewed. The heart appears normal in size and contour. The mediastinum is unremarkable. The lungs are clear; they show no evidence of acute pulmonary disease. Specifically, there are no infiltrates, consolidation, or pleural effusion. The osseous structures of the chest show degenerative changes.\n\nImpression:\n\nNo acute cardiopulmonary disease. The patient has degenerative changes in the osseous structures of the chest. \n\nEntity List:\n\n\"OBS-DA: degenerative changes\"\n\"ANAT-DA: osseous structures of the chest\"\n\"ANAT-DP: lungs\"",
+        "entities": {},
+        "included_labels": [
+            "OBS-DA",
+            "ANAT-DA",
+            "ANAT-DP"
+        ]
+    },
+    {
+        "report": "Clinical Report:\n\nPatient's chest radiograph was reviewed. The heart size and pulmonary vasculature are within normal limits. No focal consolidation, pleural effusion, or pneumothorax is seen. However, there is an abnormal density seen in the right lung field. It appears to be a well-defined, round opacity that could suggest a possible nodule or mass. Further characterization with a high-resolution imaging study may be needed for definitive diagnosis. Additionally, the diaphragmatic contour appears elevated on the right side, which could indicate diaphragmatic paralysis. The skeletal structures, soft tissues, and the rest of the visualized chest structures appear unremarkable.\n\nEntity List:\n\n\"OBS-DA: abnormal density in the right lung field\"\n\"OBS-DP: diaphragmatic contour appears elevated on the right side\"",
+        "entities": {},
+        "included_labels": [
+            "OBS-DA",
+            "OBS-DP"
+        ]
+    },
+    {
+        "report": "Clinical Report:\n\nThe patient's chest radiograph was thoroughly examined revealing a few key findings. A prominent increase in the density of the pulmonary parenchyma was observed, which indicates potential consolidation. This may be suggestive of a present infection or inflammation, such as pneumonia. \n\nIn addition, the vascular markings, particularly in the upper regions, appear to be more widely spaced than usual. This could be an indicator of air trapping, often seen in obstructive lung diseases like COPD or asthma. \n\nThe radiograph also showed dilatation of the aortic arch. This abnormal widening may be indicative of an aneurysm. It is recommended that the patient undergo further diagnostic procedures to confirm this possibility. \n\nImpression: \nThere are signs of a possible lung infection or inflammation, indicated by the increased density of the pulmonary parenchyma. Furthermore, the widespread vascular markings suggest the possibility of an obstructive lung disease. Finally, the dilatation of the aortic arch raises concerns of a potential aneurysm. \n\nEntity List:\n\"OBS-DP: increased density of the pulmonary parenchyma\"\n\"OBS-DA: widespread vascular markings\"\n\"ANAT-DA: dilatation of the aortic arch\"",
+        "entities": {},
+        "included_labels": [
+            "OBS-DP",
+            "OBS-DA",
+            "ANAT-DA"
+        ]
+    }
+]

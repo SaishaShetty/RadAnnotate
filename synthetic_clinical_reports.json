@@ -1,0 +1,27 @@
+[
+    {
+        "report": "Clinical Findings:\nThe patient's chest radiograph reveals a notable opacity in the right lower lobe, which could indicate some form of pulmonary pathology. No other significant abnormalities or signs of active disease are seen in the lungs or pleural spaces. The heart size appears to be within regular limits. There is no visible mediastinal shift. The diaphragm and costophrenic angles are well-outlined and unremarkable. The aortic arch and the remainder of the visible mediastinum maintain normal contours. No fractures or dislocations are observed in the visible osseous structures.\n\nImpression:\nThe presence of an opacity in the right lower lobe could be indicative of an infection, inflammation, or a neoplastic process. A follow-up radiograph or a CT of the chest may be beneficial for further evaluation and characterization of the opacity.",
+        "entities": {
+            "\"OBS-DP": "opacity in the right lower lobe\"",
+            "\"ANAT-DA": "aortic arch\"",
+            "\"ANAT-DP": "diaphragm and costophrenic angles\""
+        },
+        "included_labels": [
+            "OBS-DP",
+            "ANAT-DA",
+            "ANAT-DP"
+        ]
+    },
+    {
+        "report": "Clinical Report:\n\nThe patient's chest radiograph reveals a clear delineation of the diaphragm and aorta, both structures appearing normal in size and contour. No evidence of any mass, calcification, or abnormal opacity is seen in the thoracic region. Both the lungs exhibit proper inflation without any visible signs of consolidation or effusion. The heart size is within normal limits. The mediastinum and hila are unremarkable. No visible pneumothorax or pleural effusion is noted.\n\nImpression: \n\nThe radiograph shows normal chest findings. The aorta and diaphragm, in particular, are well-defined and exhibit no abnormalities. Therefore, no immediate intervention or follow-up is required unless the patient exhibits new or worsening symptoms.",
+        "entities": {
+            "\"ANAT-DA": "diaphragm\"",
+            "\"OBS-DA": "aorta\""
+        },
+        "included_labels": [
+            "ANAT-DA",
+            "OBS-DA"
+        ]
+    }
+]
+    
