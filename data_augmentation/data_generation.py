@@ -765,7 +765,7 @@ format = """{
   """
 
 prompt = """
-Create a JSON file with 2 full-text radiology reports. Take a look at {format} for examples. It should generate in that format.
+Create a JSON file with 5 full-text radiology reports. Take a look at {format} for examples. It should generate in that format.
 Each report should include the following fields:
 - text
 - entities: maps to a dictionary of entities labeled in the report. Each entity has an “entity_id,” which is a unique identifier of the entity in the report. “entity_id” maps to a dictionary with the following keys: 
@@ -778,18 +778,33 @@ Each report should include the following fields:
         - located_at (Observation, Anatomy) is a relation between an Observation entity and an Anatomy entity indicating that the Observation is related to the Anatomy. While located_at often refers to location, it can also be used to describe other relations between an Observation and an Anatomy.
         - modify (Observation, Observation) or (Anatomy, Anatomy) is a relation between two Observation entities or two Anatomy entities indicating that the first entity modifies the scope of, or quantifies the degree of, the second entity. As a result, all Observation modifiers are annotated as Observation entities, and all Anatomy modifiers are annotated as Anatomy entities.
 
-
 **Additional Instruction**: Avoid labeling insignificant words or common stop words, such as “in,” “the,” “of,” and other similar non-medical terms. Only assign labels to that are medically relevant to anatomy or observations. Do not label anything in the text. Label each word separately.
 Ensure the JSON uses numeric keys for each entity (e.g., "1", "2") in `entities` and avoids additional nested structures. Each entity should be an individual dictionary mapped by its numeric key. Only respond with the JSON.
-
 """
 
+# Run the command using the subprocess module
 result = subprocess.run(
-    ["ollama", "run", "llama3.1"],  # Replace "llama2" with the model name available in Ollama
+    ["ollama", "run", "llama3.1"],  # Replace with correct model name in Ollama
     input=prompt,
     text=True,
     capture_output=True
 )
 
-# Print the result
-print(result.stdout)
+if result.returncode == 0:
+    # Attempt to parse only the JSON portion of the response
+    try:
+        output_text = result.stdout.strip()  # Remove any extraneous whitespace
+        start_idx = output_text.find('{')
+        end_idx = output_text.rfind('}') + 1
+        output_json = json.loads(output_text[start_idx:end_idx])
+
+        # Save to a file
+        output_path = "RadAnnotate/data_augmentation/synthetic_radiology_reports.json"
+        with open(output_path, "w") as json_file:
+            json.dump(output_json, json_file, indent=4)
+        
+        print(f"Output saved to {output_path}")
+    except json.JSONDecodeError:
+        print("Failed to decode JSON output. Raw output was:\n", result.stdout)
+else:
+    print("Error in running the subprocess:", result.stderr)
