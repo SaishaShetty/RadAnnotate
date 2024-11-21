@@ -1,0 +1,414 @@
+{
+    "Cases": [
+    {
+    "Annotations": [
+        {
+            "tokens": "Lungs",
+            "label": "ANAT-DP",
+            "start_ix": 36,
+            "end_ix": 36,
+            "relations": []
+        },
+        {
+            "tokens": "Opacities",
+            "label": "OBS-DP",
+            "start_ix": 38,
+            "end_ix": 40,
+            "relations": [
+                [
+                    "located_at",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "tokens": "Cardiomediastinal",
+            "label": "ANAT-DA",
+            "start_ix": 41,
+            "end_ix": 41,
+            "relations": []
+        },
+        {
+            "tokens": "Hilar",
+            "label": "ANAT-DA",
+            "start_ix": 43,
+            "end_ix": 43,
+            "relations": []
+        },
+        {
+            "tokens": "Infiltrates",
+            "label": "OBS-DP",
+            "start_ix": 44,
+            "end_ix": 46,
+            "relations": [
+                [
+                    "located_at",
+                    "2"
+                ]
+            ]
+        },
+        {
+            "tokens": "Mediasthal",
+            "label": "ANAT-DP",
+            "start_ix": 47,
+            "end_ix": 47,
+            "relations": []
+        },
+        {
+            "tokens": "Lymph nodes",
+            "label": "ANAT-DP",
+            "start_ix": 48,
+            "end_ix": 48,
+            "relations": []
+        },
+        {
+            "tokens": "Left",
+            "label": "ANAT-DP",
+            "start_ix": 49,
+            "end_ix": 49,
+            "relations": [
+                [
+                    "modify",
+                    "7"
+                ]
+            ]
+        },
+        {
+            "tokens": "Right",
+            "label": "ANAT-DP",
+            "start_ix": 50,
+            "end_ix": 50,
+            "relations": [
+                [
+                    "modify",
+                    "8"
+                ]
+            ]
+        }
+    ],
+    "Report": "Patient's lungs show multiple opacities. Cardiomediastinal and hilar structures are not visible. There are infiltrates noted in the mediastinum. Left and right lymph nodes are visible."
+},
+
+{
+    "Annotations": [
+        {
+            "tokens": "Lungs",
+            "label": "ANAT-DP",
+            "start_ix": 36,
+            "end_ix": 36,
+            "relations": []
+        },
+        {
+            "tokens": "Pneumothorax",
+            "label": "OBS-DP",
+            "start_ix": 38,
+            "end_ix": 40,
+            "relations": [
+                [
+                    "located_at",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "tokens": "Cardiomediastinal",
+            "label": "ANAT-DP",
+            "start_ix": 41,
+            "end_ix": 41,
+            "relations": []
+        },
+        {
+            "tokens": "Hilar",
+            "label": "ANAT-DP",
+            "start_ix": 43,
+            "end_ix": 43,
+            "relations": []
+        },
+        {
+            "tokens": "Contusions",
+            "label": "OBS-DP",
+            "start_ix": 44,
+            "end_ix": 46,
+            "relations": [
+                [
+                    "located_at",
+                    "2"
+                ]
+            ]
+        },
+        {
+            "tokens": "Mediasthal",
+            "label": "ANAT-DP",
+            "start_ix": 47,
+            "end_ix": 47,
+            "relations": []
+        },
+        {
+            "tokens": "Vascular structures",
+            "label": "ANAT-DP",
+            "start_ix": 48,
+            "end_ix": 48,
+            "relations": []
+        },
+        {
+            "tokens": "Aorta",
+            "label": "ANAT-DP",
+            "start_ix": 49,
+            "end_ix": 49,
+            "relations": []
+        },
+        {
+            "tokens": "Pulmonary artery",
+            "label": "ANAT-DP",
+            "start_ix": 50,
+            "end_ix": 50,
+            "relations": []
+        }
+    ],
+    "Report": "The patient's lungs show evidence of pneumothorax. Cardiomediastinal and hilar structures are intact. There are contusions noted in the lung fields. Vascular structures, including the aorta and pulmonary artery, are visible."
+},
+
+
+{
+    "Annotations": [
+        {
+            "tokens": "Lungs",
+            "label": "ANAT-DP",
+            "start_ix": 36,
+            "end_ix": 36,
+            "relations": []
+        },
+        {
+            "tokens": "Atelectasis",
+            "label": "OBS-DP",
+            "start_ix": 38,
+            "end_ix": 40,
+            "relations": [
+                [
+                    "located_at",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "tokens": "Cardiomediastinal",
+            "label": "ANAT-DP",
+            "start_ix": 41,
+            "end_ix": 41,
+            "relations": []
+        },
+        {
+            "tokens": "Hilar",
+            "label": "ANAT-DP",
+            "start_ix": 43,
+            "end_ix": 43,
+            "relations": []
+        },
+        {
+            "tokens": "Consolidation",
+            "label": "OBS-DP",
+            "start_ix": 44,
+            "end_ix": 46,
+            "relations": [
+                [
+                    "located_at",
+                    "2"
+                ]
+            ]
+        },
+        {
+            "tokens": "Mediasthal",
+            "label": "ANAT-DP",
+            "start_ix": 47,
+            "end_ix": 47,
+            "relations": []
+        },
+        {
+            "tokens": "Lymph nodes",
+            "label": "ANAT-DP",
+            "start_ix": 48,
+            "end_ix": 48,
+            "relations": []
+        },
+        {
+            "tokens": "Calcified",
+            "label": "ANAT-DP",
+            "start_ix": 49,
+            "end_ix": 49,
+            "relations": []
+        },
+        {
+            "tokens": "Enlarged",
+            "label": "ANAT-DP",
+            "start_ix": 50,
+            "end_ix": 50,
+            "relations": []
+        }
+    ],
+    "Report": "The patient's lungs show evidence of atelectasis and consolidation. Cardiomediastinal and hilar structures are intact. There are enlarged, calcified lymph nodes visible in the mediastinum."
+},
+{
+    "Annotations": [
+        {
+            "tokens": "Lungs",
+            "label": "ANAT-DP",
+            "start_ix": 36,
+            "end_ix": 36,
+            "relations": []
+        },
+        {
+            "tokens": "Pleural effusion",
+            "label": "OBS-DP",
+            "start_ix": 38,
+            "end_ix": 40,
+            "relations": [
+                [
+                    "located_at",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "tokens": "Cardiomediastinal",
+            "label": "ANAT-DP",
+            "start_ix": 41,
+            "end_ix": 41,
+            "relations": []
+        },
+        {
+            "tokens": "Hilar",
+            "label": "ANAT-DP",
+            "start_ix": 43,
+            "end_ix": 43,
+            "relations": []
+        },
+        {
+            "tokens": "Elevated diaphragm",
+            "label": "OBS-DP",
+            "start_ix": 44,
+            "end_ix": 46,
+            "relations": [
+                [
+                    "located_at",
+                    "2"
+                ]
+            ]
+        },
+        {
+            "tokens": "Mediasthal",
+            "label": "ANAT-DP",
+            "start_ix": 47,
+            "end_ix": 47,
+            "relations": []
+        },
+        {
+            "tokens": "Fat",
+            "label": "ANAT-DP",
+            "start_ix": 48,
+            "end_ix": 48,
+            "relations": []
+        },
+        {
+            "tokens": "Mass",
+            "label": "ANAT-DP",
+            "start_ix": 49,
+            "end_ix": 49,
+            "relations": []
+        },
+        {
+            "tokens": "Mediastinal",
+            "label": "ANAT-DP",
+            "start_ix": 50,
+            "end_ix": 50,
+            "relations": []
+        }
+    ],
+    "Report": "The patient's lungs show evidence of pleural effusion. Cardiomediastinal and hilar structures are intact. There is an elevated diaphragm, and a mass is visible in the mediastinum. The mediastinum contains fat."
+},
+{
+    "Annotations": [
+        {
+            "tokens": "Lungs",
+            "label": "ANAT-DP",
+            "start_ix": 36,
+            "end_ix": 36,
+            "relations": []
+        },
+        {
+            "tokens": "Pneumonia",
+            "label": "OBS-DP",
+            "start_ix": 38,
+            "end_ix": 40,
+            "relations": [
+                [
+                    "located_at",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "tokens": "Cardiomediastinal",
+            "label": "ANAT-DP",
+            "start_ix": 41,
+            "end_ix": 41,
+            "relations": []
+        },
+        {
+            "tokens": "Hilar",
+            "label": "ANAT-DP",
+            "start_ix": 43,
+            "end_ix": 43,
+            "relations": []
+        },
+        {
+            "tokens": "Fibrosis",
+            "label": "OBS-DP",
+            "start_ix": 44,
+            "end_ix": 46,
+            "relations": [
+                [
+                    "located_at",
+                    "2"
+                ]
+            ]
+        },
+        {
+            "tokens": "Mediasthal",
+            "label": "ANAT-DP",
+            "start_ix": 47,
+            "end_ix": 47,
+            "relations": []
+        },
+        {
+            "tokens": "Lymph nodes",
+            "label": "ANAT-DP",
+            "start_ix": 48,
+            "end_ix": 48,
+            "relations": []
+        },
+        {
+            "tokens": "Calcified",
+            "label": "ANAT-DP",
+            "start_ix": 49,
+            "end_ix": 49,
+            "relations": []
+        },
+        {
+            "tokens": "Enlarged",
+            "label": "ANAT-DP",
+            "start_ix": 50,
+            "end_ix": 50,
+            "relations": []
+        },
+        {
+            "tokens": "Necrosis",
+            "label": "ANAT-DP",
+            "start_ix": 51,
+            "end_ix": 51,
+            "relations": []
+        }
+    ],
+    "Report": "The patient's lungs show evidence of pneumonia. Cardiomediastinal and hilar structures are intact. There is evidence of fibrosis in the lung fields. A lymph node is visible in the mediastinum, which appears enlarged, calcified, and shows signs of necrosis."
+}
+    ]
+}
