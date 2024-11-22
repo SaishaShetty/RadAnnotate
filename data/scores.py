@@ -12,11 +12,7 @@ def compute_bert_score(reference, hypothesis):
 
 # Example usage
 reference_text = "Patient has been extubated . Lungs are clear . Normal cardiomediastinal and hilar silhouettes and pleural surfaces ."
-hypothesis_text = ["Patient has a history of smoking. Significant calcification observed in the apical segment of the left lower lobe.",
-"Patient presents with persistent chest pain. No signs of abnormalities in the heart or major vessels. Pleural effusion is noted on the left side.",
-"Patient's CT scan shows a possible nodule in the right upper lobe. Further evaluation recommended.", 
-"Patient has a normal EKG. No signs of ischemia or infarction.",
-"Patient presents with shortness of breath. There is a mass in the right lung apex."]
+hypothesis_text = ["Patient's lungs show multiple opacities. Cardiomediastinal and hilar structures are not visible. There are infiltrates noted in the mediastinum. Left and right lymph nodes are visible."]
 
 for s in hypothesis_text:
     rouge_l_score = compute_rouge_l(reference_text, s)
