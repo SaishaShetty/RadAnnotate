@@ -1,4 +1,3 @@
-
 from mistral_inference.transformer import Transformer
 from mistral_inference.generate import generate
 
@@ -19,11 +18,16 @@ prompt = """
                 - ANAT-DA: Anatomy - Definitely Absent
                 - OBS-DP: Observation - Definitely Present
                 - OBS-DA: Observation - Definitely Absent
-            2. Using these annotations to generate realistic, diverse synthetic clinical reports related to chest radiology.
+            2. Using these annotations to generate realistic, diverse synthetic clinical reports related to chest radiology. Annotations should be single words and not phrases.
 
-            Your task is to generate variations in findings, conditions, and anatomical structures to help build a comprehensive dataset. Ensure the annotations are accurate and medically plausible, and the reports use the annotations naturally.[/System]
+            Instructions:
+            - First, generate a list of tokens (annotations), ensuring diversity across anatomy and observations.
+            - Then, use these tokens to construct a report. Ensure every token appears naturally in the report.
+            - Avoid repeatedly starting reports with the same token, such as 'Lungs.' Ensure diversity in the choice of initial annotations across reports while maintaining medical plausibility.
+            Make sure to number every token in every report.
+            Stricly output in JSON format as a list of dictionaries. Each dictionary should have two keys 'Report' and 'Annotations'. [/System]
     [User]
-            Generate 5 synthetic clinical reports related to the chest that can be helpful to find different diverse data for our model. 
+            Generate 1 synthetic clinical report related to the chest that can be helpful to find different diverse data for our model. 
             Use single-token annotations for the following categories:
             - ANAT-DP: Anatomy - Definitely Present
             - ANAT-DA: Anatomy - Definitely Absent
@@ -31,7 +35,7 @@ prompt = """
             - OBS-DA: Observation - Definitely Absent
 
         One example of a report and its annotations is:
-        '''
+        {
         "Annotations": {
             "1": {
                 "tokens": "Lungs",
@@ -122,17 +126,19 @@ prompt = """
                 ]
             },
         "Report": "Patient has been extubated . Lungs are clear . Normal cardiomediastinal and hilar silhouettes and pleural surfaces ."
-        }'''[/User]
+        }[/User]
 
-        [/System]Make sure to only respond with valid JSON.[/INST]
+        [/System]
+        Make sure to only respond with valid JSON.[/INST]
 """
 completion_request = ChatCompletionRequest(messages=[UserMessage(content = prompt)])
 
 tokens = tokenizer.encode_chat_completion(completion_request).tokens
 
-out_tokens, _ = generate([tokens], model, max_tokens=6000, temperature=0.9, eos_id=tokenizer.instruct_tokenizer.tokenizer.eos_id)
+out_tokens, _ = generate([tokens], model, max_tokens=6000, temperature=0.6, eos_id=tokenizer.instruct_tokenizer.tokenizer.eos_id)
 result = tokenizer.instruct_tokenizer.tokenizer.decode(out_tokens[0])
+print(result)
 
-#print(result)
-with open('outputs/generated_output_first_reports.json', 'w') as f:
-    json.dump(result, f)
+parsed_res = json.loads(result)
+with open("outputs/data.json", "w") as file:
+    json.dump(parsed_res, file, indent=4)

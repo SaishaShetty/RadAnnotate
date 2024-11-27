@@ -1,11 +1,10 @@
 
 from mistral_inference.transformer import Transformer
 from mistral_inference.generate import generate
-
 from mistral_common.tokens.tokenizers.mistral import MistralTokenizer
 from mistral_common.protocol.instruct.messages import UserMessage
 from mistral_common.protocol.instruct.request import ChatCompletionRequest
-
+import json
 
 tokenizer = MistralTokenizer.from_file("/home/spshetty/RadAnnotate/data/mixtral/mixtral-model/tokenizer.model.v3")
 model = Transformer.from_folder('/home/spshetty/RadAnnotate/data/mixtral/mixtral-model')
@@ -13,7 +12,7 @@ model = Transformer.from_folder('/home/spshetty/RadAnnotate/data/mixtral/mixtral
 prompt = """
     <s><INST>
     [System]
-    You are a radiological expert capable of generating diverse synthetic clinical reports and their annotations. 
+    You are a radiological expert capable of generating diverse synthetic clinical reports and their annotations in a structured JSON response. 
     Your task is to create variations in findings, conditions, and anatomical structures related to the chest to help build a comprehensive dataset.[/System]
     [User]
     The annotations can be one of the two entities : Observation and Anatomy. These labels can have two uncertainty levels : Definitely Present and Definitely Absent.
@@ -22,7 +21,7 @@ prompt = """
         3. OBS-DA (Observation - Definitely Absent)
         4. OBS-DP (Observation - Definitely Present)
     Annotate only specific **single words** related to anatomy or observations. Do not annotate phrases or entire sentences. Focus only on individual, relevant terms.
-    Generate 5 synthetic clinical reports related to the chest that can be helpful to find different diverse data for our model. 
+    Generate 1 synthetic clinical reports related to the chest that can be helpful to find different diverse data for our model. 
         One example of a report and its annotations is : 
         '''
         "Report": "Patient has been extubated . Lungs are clear . Normal cardiomediastinal and hilar silhouettes and pleural surfaces .",
@@ -122,7 +121,9 @@ completion_request = ChatCompletionRequest(messages=[UserMessage(content = promp
 
 tokens = tokenizer.encode_chat_completion(completion_request).tokens
 
-out_tokens, _ = generate([tokens], model, max_tokens=6000, temperature=0.9, eos_id=tokenizer.instruct_tokenizer.tokenizer.eos_id)
+out_tokens, _ = generate([tokens], model, max_tokens=6000, temperature=0.4, eos_id=tokenizer.instruct_tokenizer.tokenizer.eos_id)
 result = tokenizer.instruct_tokenizer.tokenizer.decode(out_tokens[0])
 
-print(result)
+
+response = json.loads(result)
+print(json.dumps(response, indent=2))
