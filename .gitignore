@@ -1,3 +1,13 @@
 data/mixtral/mix
 data/mixtral/mixtral-7b-v3
 data/mixtral/mixtral-model
+data_generation/mixtral/dataset
+data_generation/mixtral/mix
+data_generation/mixtral/mixtral-7b-v3
+data_generation/mixtral/mixtral-model
+finetune/logs
+finetune/mistral-finetuned
+finetune/mixtral-7b
+data_generation/llama3.2-instruct
+/__pycache__
+data_generation/mixtral

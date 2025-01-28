@@ -7,9 +7,6 @@ from peft import PeftModel
 base_model_path = "/home/spshetty/RadAnnotate/finetune/mixtral-7b"  # Base Mixtral model path
 peft_checkpoint_path  = "/home/spshetty/RadAnnotate/finetune/mistral-finetuned/checkpoint-66"  # Fine-tuned Mixtral model
 
-
-
-# Load the tokenizer
 print("Loading tokenizer...")
 tokenizer = AutoTokenizer.from_pretrained(base_model_path)
 
@@ -46,7 +43,7 @@ def generate_annotation(report):
     inputs = tokenizer(prompt, return_tensors="pt").to("cuda" if torch.cuda.is_available() else "cpu")
     outputs = model.generate(
         **inputs,
-        max_new_tokens=150,
+        max_new_tokens=2000,
         do_sample=False,
         num_return_sequences=1
     )
@@ -54,7 +51,7 @@ def generate_annotation(report):
 
 # Test the model
 if __name__ == "__main__":
-    test_report = "The lungs are clear. No signs of pneumonia or pleural effusion."
+    test_report = "The lungs are clear without focal consolidation, or edema . The cardiomediastinal silhouette is within normal limits . No acute osseous abnormalities . IMPRESSION : No acute cardiopulmonary process ."
     print("Running Mixtral model test...")
     annotated_report = generate_annotation(test_report)
     print("\nGenerated Annotated Report:")
