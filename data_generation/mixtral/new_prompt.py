@@ -28,7 +28,7 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                     - ANAT-DA: Anatomy - Definitely Absent (e.g., "no pericardium").
                     - OBS-DP: Observation - Definitely Present (e.g., "effusion").
                     - OBS-DA: Observation - Definitely Absent (e.g., "no edema").
-                2. Using these annotations to generate realistic, diverse synthetic clinical reports related to chest radiology. Annotations should be single words and not phrases.
+                2. Using these annotations to generate realistic, diverse synthetic clinical reports related to chest radiology.
 
                 Instructions:
                 1. **Generate a List of Tokens:**
@@ -37,6 +37,7 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                     - Include at least 3 different anatomical structures and 3 different observations.
                     - Make sure to not assume adjectives as a part of the anatomy. (Example - "pulmonary" is not an anatomy)
                     - Make sure not to annotate auxiliary words or modifiers as entities. (Example - in the sentence "No pleural effusion," the word "No" is not an annotation. Instead, only "effusion" should be labeled as OBS-DA. Apply this principle to similar cases. )
+                    - Stick strictly to generating individual words and not phrases.
 
                 2. **Construct a Report:**
                     - Make sure to use only the tokens provided in the annotations to construct the report. Do not add, modify, or interpret tokens beyond what is defined.
@@ -44,20 +45,25 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                     - Strictly avoid generating or using any tokens not provided in the annotations.
 
                 3. **Incorporate Relations into the Report:**
-                    - **suggestive_of (Observation, Observation):** Create pairs of Observation entities where the second logically depends on the first.
-                        - Example: "scoliosis" is suggestive_of "asymmetry".
-                            - Report: "Moderate scoliosis, causing asymmetry of the ribcage."
+                    1. **`suggestive_of (Observation → Observation):`** Link `Observation` entities where the second logically depends on or is inferred from the first.  
+                    - **Example:**  
+                        - **Relation:** "scoliosis" is suggestive_of "asymmetry"  
+                        - **Report:** *"Moderate scoliosis, causing asymmetry of the ribcage."*
 
-                    - **located_at (Observation, Anatomy):** Link Observation entities to appropriate Anatomy entities indicating their location or relationship.
-                        - Example: "Normal" is located_at "cardiomediastinal".
-                            - Report: "The cardiomediastinal contours appear normal."
+                    2. **`located_at (Observation → Anatomy):`**  Link `Observation` entities to the corresponding `Anatomy` entities to indicate location or spatial relationship.  
+                    - **Example:**  
+                        - **Relation:** "Normal" is located_at "cardiomediastinal"  
+                        - **Report:** *"The cardiomediastinal contours appear normal."*
 
-                    - **modify (Observation, Observation) or (Anatomy, Anatomy):** Ensure one entity modifies or quantifies the degree of the second.
-                        - Example 1: "Endotracheal" modifies "tube".
-                            - Report: "The endotracheal tube tip terminates approximately 4.6 cm from the carina." (Observation, Observation)
-
-                        - Example 2: "right" modifies "apex".
-                            - Report: "The right apex is slightly obscured." (Anatomy, Anatomy)
+                    3. **`modify (Observation → Observation)` or `(Anatomy → Anatomy):`**  
+                    - Annotate when one entity modifies, specifies, or quantifies the degree of another entity.  
+                    - **Examples:**  
+                        - **Observation → Observation:**  
+                            - **Relation:** "Endotracheal" is modify at "tube"  
+                            - **Report:** *"The endotracheal tube tip terminates approximately 4.6 cm from the carina."*  
+                        - **Anatomy → Anatomy:**  
+                            - **Relation:** "right" is modify at "apex"  
+                            - **Report:** *"The right apex is slightly obscured."*
 
                     **Note**An annotation may be linked to one or more annotations through defined relations, but this is not mandatory.
 
