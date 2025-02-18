@@ -1,0 +1,256 @@
+[
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": []
+            },
+            "2": {
+                "tokens": "aorta",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "ANAT-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": []
+            },
+            "4": {
+                "tokens": "arteries",
+                "label": "ANAT-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": []
+            },
+            "5": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": []
+            },
+            "6": {
+                "tokens": "edema",
+                "label": "OBS-DA",
+                "start_ix": 53,
+                "end_ix": 53,
+                "relations": []
+            }
+        },
+        "Report": "The heart, aorta, and pulmonary arteries are all present. There is no evidence of effusion or edema."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": []
+            },
+            "2": {
+                "tokens": "aorta",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "ANAT-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": []
+            },
+            "4": {
+                "tokens": "veins",
+                "label": "ANAT-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": []
+            },
+            "5": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": []
+            },
+            "6": {
+                "tokens": "edema",
+                "label": "OBS-DA",
+                "start_ix": 53,
+                "end_ix": 53,
+                "relations": []
+            }
+        },
+        "Report": "The heart, aorta, and pulmonary veins are all present. There is no evidence of effusion or edema."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": []
+            },
+            "2": {
+                "tokens": "aorta",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "ANAT-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": []
+            },
+            "4": {
+                "tokens": "arteries",
+                "label": "ANAT-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": []
+            },
+            "5": {
+                "tokens": "veins",
+                "label": "ANAT-DP",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": []
+            },
+            "6": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 53,
+                "end_ix": 53,
+                "relations": []
+            },
+            "7": {
+                "tokens": "edema",
+                "label": "OBS-DA",
+                "start_ix": 54,
+                "end_ix": 54,
+                "relations": []
+            },
+            "8": {
+                "tokens": "pneumonia",
+                "label": "OBS-DA",
+                "start_ix": 55,
+                "end_ix": 55,
+                "relations": []
+            },
+            "9": {
+                "tokens": "CHF",
+                "label": "OBS-DA",
+                "start_ix": 56,
+                "end_ix": 56,
+                "relations": []
+            },
+            "10": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 61,
+                "end_ix": 61,
+                "relations": []
+            },
+            "11": {
+                "tokens": "pneumothorax",
+                "label": "OBS-DA",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": []
+            },
+            "12": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 66,
+                "end_ix": 66,
+                "relations": []
+            },
+            "13": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 69,
+                "end_ix": 69,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "osseous",
+                "label": "ANAT-DP",
+                "start_ix": 72,
+                "end_ix": 72,
+                "relations": []
+            },
+            "16": {
+                "tokens": "structures",
+                "label": "ANAT-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": [
+                    [
+                        "modify",
+                        "15"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "intact",
+                "label": "OBS-DP",
+                "start_ix": 75,
+                "end_ix": 75,
+                "relations": [
+                    [
+                        "located_at",
+                        "15"
+                    ]
+                ]
+            },
+            "18": {
+                "tokens": "Limited",
+                "label": "OBS-DP",
+                "start_ix": 79,
+                "end_ix": 79,
+                "relations": []
+            },
+            "19": {
+                "tokens": "negative",
+                "label": "OBS-DP",
+                "start_ix": 81,
+                "end_ix": 81,
+                "relations": []
+            }
+        },
+        "Report": "The heart, aorta, and pulmonary arteries and veins are all present. There is no evidence of effusion, edema, pneumonia, CHF, or pneumothorax. The cardiomediastinal silhouette is normal. Imaged osseous structures are intact. Limited negative findings."
+    }
+]
+]

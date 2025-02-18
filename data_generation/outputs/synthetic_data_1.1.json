@@ -1,0 +1,2542 @@
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Left",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "lobe",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "infiltration",
+                "label": "OBS-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "peripheral",
+                "label": "ANAT-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "opacities",
+                "label": "OBS-DA",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 55,
+                "end_ix": 55,
+                "relations": []
+            },
+            "7": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 56,
+                "end_ix": 56,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "apical",
+                "label": "ANAT-DP",
+                "start_ix": 57,
+                "end_ix": 57,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "nodules",
+                "label": "OBS-DA",
+                "start_ix": 58,
+                "end_ix": 58,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": []
+            },
+            "11": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 61,
+                "end_ix": 61,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": [
+                    [
+                        "located_at",
+                        "10"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "mediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 64,
+                "end_ix": 64,
+                "relations": []
+            },
+            "14": {
+                "tokens": "lymphadenopathy",
+                "label": "OBS-DA",
+                "start_ix": 65,
+                "end_ix": 65,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "prominent",
+                "label": "OBS-DP",
+                "start_ix": 66,
+                "end_ix": 66,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": [
+                    [
+                        "modify",
+                        "17"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "paratracheal",
+                "label": "ANAT-DP",
+                "start_ix": 68,
+                "end_ix": 68,
+                "relations": []
+            },
+            "18": {
+                "tokens": "lymphnode",
+                "label": "ANAT-DP",
+                "start_ix": 69,
+                "end_ix": 69,
+                "relations": []
+            },
+            "19": {
+                "tokens": "calcification",
+                "label": "OBS-DP",
+                "start_ix": 70,
+                "end_ix": 70,
+                "relations": [
+                    [
+                        "located_at",
+                        "18"
+                    ]
+                ]
+            },
+            "20": {
+                "tokens": "moderate",
+                "label": "OBS-DP",
+                "start_ix": 71,
+                "end_ix": 71,
+                "relations": [
+                    [
+                        "modify",
+                        "19"
+                    ]
+                ]
+            },
+            "21": {
+                "tokens": "hilar",
+                "label": "ANAT-DP",
+                "start_ix": 72,
+                "end_ix": 72,
+                "relations": []
+            },
+            "22": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": [
+                    [
+                        "located_at",
+                        "21"
+                    ]
+                ]
+            },
+            "23": {
+                "tokens": "cardiac",
+                "label": "ANAT-DP",
+                "start_ix": 74,
+                "end_ix": 74,
+                "relations": []
+            },
+            "24": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 75,
+                "end_ix": 75,
+                "relations": [
+                    [
+                        "modify",
+                        "23"
+                    ]
+                ]
+            },
+            "25": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 77,
+                "end_ix": 77,
+                "relations": [
+                    [
+                        "located_at",
+                        "24"
+                    ]
+                ]
+            },
+            "26": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 78,
+                "end_ix": 78,
+                "relations": []
+            },
+            "27": {
+                "tokens": "elevated",
+                "label": "OBS-DP",
+                "start_ix": 79,
+                "end_ix": 79,
+                "relations": [
+                    [
+                        "located_at",
+                        "26"
+                    ]
+                ]
+            },
+            "28": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 80,
+                "end_ix": 80,
+                "relations": [
+                    [
+                        "modify",
+                        "29"
+                    ]
+                ]
+            },
+            "29": {
+                "tokens": "hemi",
+                "label": "ANAT-DP",
+                "start_ix": 81,
+                "end_ix": 81,
+                "relations": []
+            },
+            "30": {
+                "tokens": "dome",
+                "label": "ANAT-DP",
+                "start_ix": 82,
+                "end_ix": 82,
+                "relations": []
+            }
+        },
+        "Report": "There is a peripheral infiltration in the left lobe, with some minor opacities. The cardiomediastinal silhouette is normal. No pleural effusion or apical nodules are observed. The right paratracheal lymphnode shows prominent calcification, while the right hilar region appears clear. The cardiac silhouette is normal. The diaphragm is elevated on the right hemi-dome."
+    }
+,
+
+    [
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Left",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": []
+            },
+            "2": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "base",
+                "label": "ANAT-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": []
+            },
+            "4": {
+                "tokens": "opacity",
+                "label": "OBS-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "focal",
+                "label": "OBS-DP",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pleural",
+                "label": "ANAT-DA",
+                "start_ix": 53,
+                "end_ix": 53,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 54,
+                "end_ix": 54,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 59,
+                "end_ix": 59,
+                "relations": []
+            },
+            "9": {
+                "tokens": "infiltration",
+                "label": "OBS-DP",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "posterior",
+                "label": "ANAT-DP",
+                "start_ix": 61,
+                "end_ix": 61,
+                "relations": []
+            },
+            "11": {
+                "tokens": "lobule",
+                "label": "ANAT-DP",
+                "start_ix": 62,
+                "end_ix": 62,
+                "relations": []
+            },
+            "12": {
+                "tokens": "infiltrates",
+                "label": "OBS-DP",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "medial",
+                "label": "ANAT-DP",
+                "start_ix": 64,
+                "end_ix": 64,
+                "relations": []
+            },
+            "14": {
+                "tokens": "fissure",
+                "label": "ANAT-DP",
+                "start_ix": 65,
+                "end_ix": 65,
+                "relations": []
+            },
+            "15": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 66,
+                "end_ix": 66,
+                "relations": []
+            },
+            "16": {
+                "tokens": "cardiac",
+                "label": "ANAT-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": []
+            },
+            "17": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 68,
+                "end_ix": 68,
+                "relations": [
+                    [
+                        "modify",
+                        "16"
+                    ]
+                ]
+            },
+            "18": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 69,
+                "end_ix": 69,
+                "relations": [
+                    [
+                        "located_at",
+                        "16"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 70,
+                "end_ix": 70,
+                "relations": []
+            },
+            "20": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 71,
+                "end_ix": 71,
+                "relations": []
+            },
+            "21": {
+                "tokens": "domes",
+                "label": "ANAT-DP",
+                "start_ix": 72,
+                "end_ix": 72,
+                "relations": []
+            },
+            "22": {
+                "tokens": "elevated",
+                "label": "OBS-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": [
+                    [
+                        "located_at",
+                        "20"
+                    ]
+                ]
+            },
+            "23": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 74,
+                "end_ix": 74,
+                "relations": []
+            },
+            "24": {
+                "tokens": "hemi",
+                "label": "ANAT-DP",
+                "start_ix": 75,
+                "end_ix": 75,
+                "relations": []
+            },
+            "25": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 76,
+                "end_ix": 76,
+                "relations": []
+            },
+            "26": {
+                "tokens": "flat",
+                "label": "OBS-DP",
+                "start_ix": 77,
+                "end_ix": 77,
+                "relations": [
+                    [
+                        "located_at",
+                        "25"
+                    ]
+                ]
+            },
+            "27": {
+                "tokens": "cardiac",
+                "label": "ANAT-DP",
+                "start_ix": 78,
+                "end_ix": 78,
+                "relations": []
+            },
+            "28": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 79,
+                "end_ix": 79,
+                "relations": [
+                    [
+                        "modify",
+                        "27"
+                    ]
+                ]
+            },
+            "29": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 80,
+                "end_ix": 80,
+                "relations": [
+                    [
+                        "located_at",
+                        "27"
+                    ]
+                ]
+            },
+            "30": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 81,
+                "end_ix": 81,
+                "relations": []
+            }
+        },
+        "Report": "The left lung base shows a focal opacity. The left apex has a small infiltration in the posterior lobule. The cardiac silhouette is normal. The right hemi-diaphragm is elevated, with the right diaphragm dome appearing flat. The cardiac silhouette and the right diaphragm are normal."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Lungs",
+                "label": "ANAT-DP",
+                "start_ix": 36,
+                "end_ix": 36,
+                "relations": []
+            },
+            "2": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 38,
+                "end_ix": 38,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "Normal",
+                "label": "OBS-DP",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ],
+                    [
+                        "located_at",
+                        "5"
+                    ],
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 41,
+                "end_ix": 41,
+                "relations": []
+            },
+            "5": {
+                "tokens": "hilar",
+                "label": "ANAT-DP",
+                "start_ix": 43,
+                "end_ix": 43,
+                "relations": []
+            },
+            "6": {
+                "tokens": "silhouettes",
+                "label": "ANAT-DP",
+                "start_ix": 44,
+                "end_ix": 44,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ],
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 46,
+                "end_ix": 46,
+                "relations": []
+            },
+            "8": {
+                "tokens": "surfaces",
+                "label": "ANAT-DP",
+                "start_ix": 47,
+                "end_ix": 47,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            }
+        },
+        "Report": "Patient has been extubated. Lungs are clear. Normal cardiomediastinal and hilar silhouettes and pleural surfaces."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Lung",
+                "label": "ANAT-DP",
+                "start_ix": 39,
+                "end_ix": 39,
+                "relations": []
+            },
+            "2": {
+                "tokens": "volumes",
+                "label": "ANAT-DP",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "low",
+                "label": "OBS-DP",
+                "start_ix": 42,
+                "end_ix": 42,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pneumonia",
+                "label": "OBS-DA",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": []
+            },
+            "5": {
+                "tokens": "overt",
+                "label": "OBS-DA",
+                "start_ix": 54,
+                "end_ix": 54,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "CHF",
+                "label": "OBS-DA",
+                "start_ix": 55,
+                "end_ix": 55,
+                "relations": []
+            },
+            "7": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 61,
+                "end_ix": 61,
+                "relations": []
+            },
+            "8": {
+                "tokens": "pneumothorax",
+                "label": "OBS-DA",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": []
+            },
+            "9": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 66,
+                "end_ix": 66,
+                "relations": []
+            },
+            "10": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 69,
+                "end_ix": 69,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "osseous",
+                "label": "ANAT-DP",
+                "start_ix": 72,
+                "end_ix": 72,
+                "relations": []
+            },
+            "13": {
+                "tokens": "structures",
+                "label": "ANAT-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "intact",
+                "label": "OBS-DP",
+                "start_ix": 75,
+                "end_ix": 75,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "Limited",
+                "label": "OBS-DP",
+                "start_ix": 79,
+                "end_ix": 79,
+                "relations": []
+            },
+            "16": {
+                "tokens": "negative",
+                "label": "OBS-DP",
+                "start_ix": 81,
+                "end_ix": 81,
+                "relations": []
+            }
+        },
+        "Report": "Lung volumes are low. Allowing for this, no definite evidence of pneumonia or overt CHF. No supine evidence for effusion or pneumothorax. The cardiomediastinal silhouette is normal. Imaged osseous structures are intact."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Borderline",
+                "label": "OBS-DP",
+                "start_ix": 34,
+                "end_ix": 34,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "size",
+                "label": "ANAT-DP",
+                "start_ix": 35,
+                "end_ix": 35,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "cardiac",
+                "label": "ANAT-DP",
+                "start_ix": 38,
+                "end_ix": 38,
+                "relations": []
+            },
+            "4": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 39,
+                "end_ix": 39,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "pneumonia",
+                "label": "OBS-DA",
+                "start_ix": 42,
+                "end_ix": 42,
+                "relations": []
+            },
+            "6": {
+                "tokens": "pulmonary",
+                "label": "ANAT-DP",
+                "start_ix": 45,
+                "end_ix": 45,
+                "relations": []
+            },
+            "7": {
+                "tokens": "edema",
+                "label": "OBS-DA",
+                "start_ix": 46,
+                "end_ix": 46,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "pneumothorax",
+                "label": "OBS-DA",
+                "start_ix": 53,
+                "end_ix": 53,
+                "relations": []
+            }
+        },
+        "Report": "As compared to the previous radiograph, there is no relevant change. Borderline size of the cardiac silhouette. No pneumonia, no pulmonary edema. No pneumothorax."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "left",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "basal",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "parenchymal",
+                "label": "ANAT-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "opacity",
+                "label": "OBS-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "remnant",
+                "label": "OBS-DA",
+                "start_ix": 59,
+                "end_ix": 59,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "opacities",
+                "label": "OBS-DA",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": []
+            },
+            "7": {
+                "tokens": "complications",
+                "label": "OBS-DA",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": []
+            },
+            "8": {
+                "tokens": "frontal",
+                "label": "OBS-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "lateral",
+                "label": "OBS-DP",
+                "start_ix": 70,
+                "end_ix": 70,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "radiograph",
+                "label": "OBS-DP",
+                "start_ix": 71,
+                "end_ix": 71,
+                "relations": []
+            },
+            "11": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 76,
+                "end_ix": 76,
+                "relations": []
+            },
+            "13": {
+                "tokens": "effusions",
+                "label": "OBS-DA",
+                "start_ix": 77,
+                "end_ix": 77,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "pulmonary",
+                "label": "ANAT-DP",
+                "start_ix": 80,
+                "end_ix": 80,
+                "relations": []
+            },
+            "15": {
+                "tokens": "edema",
+                "label": "OBS-DA",
+                "start_ix": 81,
+                "end_ix": 81,
+                "relations": [
+                    [
+                        "located_at",
+                        "14"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "Moderate",
+                "label": "OBS-DP",
+                "start_ix": 83,
+                "end_ix": 83,
+                "relations": [
+                    [
+                        "modify",
+                        "17"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "scoliosis",
+                "label": "OBS-DP",
+                "start_ix": 84,
+                "end_ix": 84,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "18"
+                    ]
+                ]
+            },
+            "18": {
+                "tokens": "asymmetry",
+                "label": "OBS-DP",
+                "start_ix": 87,
+                "end_ix": 87,
+                "relations": [
+                    [
+                        "located_at",
+                        "19"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "ribcage",
+                "label": "ANAT-DP",
+                "start_ix": 90,
+                "end_ix": 90,
+                "relations": []
+            }
+        },
+        "Report": "As compared to the previous radiograph , a pre - existing left basal parenchymal opacity has completely cleared . No evidence of remnant opacities or of complications . Both the frontal and the lateral radiograph appear unremarkable . No pleural effusions . No pulmonary edema . Moderate scoliosis , causing asymmetry of the ribcage ."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Left",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": []
+            },
+            "2": {
+                "tokens": "lobar",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "infiltrate",
+                "label": "OBS-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": []
+            },
+            "4": {
+                "tokens": "opacities",
+                "label": "OBS-DA",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "pleural",
+                "label": "ANAT-DA",
+                "start_ix": 59,
+                "end_ix": 59,
+                "relations": []
+            },
+            "6": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": []
+            },
+            "7": {
+                "tokens": "cardiomegaly",
+                "label": "OBS-DP",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": []
+            },
+            "8": {
+                "tokens": "lateral",
+                "label": "OBS-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "radiograph",
+                "label": "OBS-DP",
+                "start_ix": 71,
+                "end_ix": 71,
+                "relations": []
+            },
+            "10": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "anterior",
+                "label": "ANAT-DP",
+                "start_ix": 76,
+                "end_ix": 76,
+                "relations": []
+            },
+            "12": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 77,
+                "end_ix": 77,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 79,
+                "end_ix": 79,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "medial",
+                "label": "ANAT-DP",
+                "start_ix": 82,
+                "end_ix": 82,
+                "relations": []
+            },
+            "15": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 83,
+                "end_ix": 83,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "dense",
+                "label": "OBS-DP",
+                "start_ix": 85,
+                "end_ix": 85,
+                "relations": [
+                    [
+                        "modify",
+                        "15"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "calcifications",
+                "label": "OBS-DP",
+                "start_ix": 87,
+                "end_ix": 87,
+                "relations": []
+            },
+            "18": {
+                "tokens": "posterior",
+                "label": "ANAT-DP",
+                "start_ix": 90,
+                "end_ix": 90,
+                "relations": []
+            },
+            "19": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 91,
+                "end_ix": 91,
+                "relations": [
+                    [
+                        "modify",
+                        "18"
+                    ]
+                ]
+            },
+            "20": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 93,
+                "end_ix": 93,
+                "relations": [
+                    [
+                        "modify",
+                        "19"
+                    ]
+                ]
+            }
+        },
+        "Report": "The left lobar infiltrate has significantly improved. No residual opacities are noted. The pleural effusion has resolved. There is no evidence of cardiomegaly. The lateral radiograph shows no abnormalities. Both the anterior and medial lobes appear clear. The posterior lobes are also clear."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Left",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": []
+            },
+            "2": {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "calcification",
+                "label": "OBS-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": []
+            },
+            "4": {
+                "tokens": "absent",
+                "label": "OBS-DP",
+                "start_ix": 59,
+                "end_ix": 59,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "cardiomegaly",
+                "label": "OBS-DA",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": []
+            },
+            "6": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 64,
+                "end_ix": 64,
+                "relations": []
+            },
+            "7": {
+                "tokens": "lateral",
+                "label": "OBS-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "radiograph",
+                "label": "OBS-DP",
+                "start_ix": 71,
+                "end_ix": 71,
+                "relations": []
+            },
+            "9": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "anterior",
+                "label": "ANAT-DP",
+                "start_ix": 76,
+                "end_ix": 76,
+                "relations": []
+            },
+            "11": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 77,
+                "end_ix": 77,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 79,
+                "end_ix": 79,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "medial",
+                "label": "ANAT-DP",
+                "start_ix": 82,
+                "end_ix": 82,
+                "relations": []
+            },
+            "14": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 83,
+                "end_ix": 83,
+                "relations": [
+                    [
+                        "modify",
+                        "13"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "dense",
+                "label": "OBS-DP",
+                "start_ix": 85,
+                "end_ix": 85,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "calcifications",
+                "label": "OBS-DP",
+                "start_ix": 87,
+                "end_ix": 87,
+                "relations": []
+            },
+            "17": {
+                "tokens": "posterior",
+                "label": "ANAT-DP",
+                "start_ix": 90,
+                "end_ix": 90,
+                "relations": []
+            },
+            "18": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 91,
+                "end_ix": 91,
+                "relations": [
+                    [
+                        "modify",
+                        "17"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 93,
+                "end_ix": 93,
+                "relations": [
+                    [
+                        "modify",
+                        "18"
+                    ]
+                ]
+            }
+        },
+        "Report": "The left apex calcification is absent. No cardiomegaly or pleural effusion is noted. The lateral radiograph is unremarkable. Both the anterior and medial lobes are clear. The posterior lobes are also clear."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Left",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "3": {
+                "tokens": "base",
+                "label": "ANAT-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "opacity",
+                "label": "OBS-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "focal",
+                "label": "OBS-DP",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pleural",
+                "label": "ANAT-DA",
+                "start_ix": 53,
+                "end_ix": 53,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 54,
+                "end_ix": 54,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 55,
+                "end_ix": 55,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 56,
+                "end_ix": 56,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "infiltrate",
+                "label": "OBS-DP",
+                "start_ix": 57,
+                "end_ix": 57,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "cardiac",
+                "label": "ANAT-DP",
+                "start_ix": 58,
+                "end_ix": 58,
+                "relations": []
+            },
+            "12": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 59,
+                "end_ix": 59,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "mediastinum",
+                "label": "ANAT-DP",
+                "start_ix": 61,
+                "end_ix": 61,
+                "relations": []
+            },
+            "15": {
+                "tokens": "widened",
+                "label": "OBS-DP",
+                "start_ix": 62,
+                "end_ix": 62,
+                "relations": [
+                    [
+                        "located_at",
+                        "14"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "frontal",
+                "label": "OBS-DP",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": [
+                    [
+                        "modify",
+                        "17"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "radiograph",
+                "label": "OBS-DP",
+                "start_ix": 64,
+                "end_ix": 64,
+                "relations": []
+            },
+            "18": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 65,
+                "end_ix": 65,
+                "relations": [
+                    [
+                        "modify",
+                        "17"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "lateral",
+                "label": "OBS-DP",
+                "start_ix": 66,
+                "end_ix": 66,
+                "relations": [
+                    [
+                        "modify",
+                        "17"
+                    ]
+                ]
+            },
+            "20": {
+                "tokens": "view",
+                "label": "OBS-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": [
+                    [
+                        "modify",
+                        "21"
+                    ]
+                ]
+            },
+            "21": {
+                "tokens": "oblique",
+                "label": "OBS-DP",
+                "start_ix": 68,
+                "end_ix": 68,
+                "relations": []
+            },
+            "22": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 69,
+                "end_ix": 69,
+                "relations": []
+            },
+            "23": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 70,
+                "end_ix": 70,
+                "relations": [
+                    [
+                        "located_at",
+                        "22"
+                    ]
+                ]
+            },
+            "24": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 71,
+                "end_ix": 71,
+                "relations": [
+                    [
+                        "modify",
+                        "25"
+                    ]
+                ]
+            },
+            "25": {
+                "tokens": "hemi",
+                "label": "ANAT-DP",
+                "start_ix": 72,
+                "end_ix": 72,
+                "relations": [
+                    [
+                        "modify",
+                        "24"
+                    ]
+                ]
+            },
+            "26": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": []
+            },
+            "27": {
+                "tokens": "elevated",
+                "label": "OBS-DP",
+                "start_ix": 74,
+                "end_ix": 74,
+                "relations": [
+                    [
+                        "located_at",
+                        "26"
+                    ]
+                ]
+            },
+            "28": {
+                "tokens": "moderate",
+                "label": "OBS-DP",
+                "start_ix": 75,
+                "end_ix": 75,
+                "relations": [
+                    [
+                        "modify",
+                        "27"
+                    ]
+                ]
+            },
+            "29": {
+                "tokens": "scoliosis",
+                "label": "OBS-DP",
+                "start_ix": 76,
+                "end_ix": 76,
+                "relations": []
+            },
+            "30": {
+                "tokens": "left",
+                "label": "ANAT-DP",
+                "start_ix": 77,
+                "end_ix": 77,
+                "relations": [
+                    [
+                        "modify",
+                        "31"
+                    ]
+                ]
+            },
+            "31": {
+                "tokens": "hemi",
+                "label": "ANAT-DP",
+                "start_ix": 78,
+                "end_ix": 78,
+                "relations": [
+                    [
+                        "modify",
+                        "30"
+                    ]
+                ]
+            },
+            "32": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 79,
+                "end_ix": 79,
+                "relations": []
+            },
+            "33": {
+                "tokens": "flattened",
+                "label": "OBS-DP",
+                "start_ix": 80,
+                "end_ix": 80,
+                "relations": [
+                    [
+                        "located_at",
+                        "32"
+                    ]
+                ]
+            },
+            "34": {
+                "tokens": "mild",
+                "label": "OBS-DP",
+                "start_ix": 81,
+                "end_ix": 81,
+                "relations": [
+                    [
+                        "modify",
+                        "33"
+                    ]
+                ]
+            },
+            "35": {
+                "tokens": "asymmetry",
+                "label": "OBS-DP",
+                "start_ix": 82,
+                "end_ix": 82,
+                "relations": []
+            }
+        },
+        "Report": "The left lung base opacity has resolved. No pleural effusion is noted. The right hemi-diaphragm is elevated with moderate scoliosis. The left hemi-diaphragm is flattened with mild asymmetry."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Left",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 4,
+                "relations": []
+            },
+            "2": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 5,
+                "end_ix": 8,
+                "relations": []
+            },
+            "3": {
+                "tokens": "base",
+                "label": "ANAT-DP",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "opacity",
+                "label": "OBS-DP",
+                "start_ix": 12,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "minor",
+                "label": "OBS-DP",
+                "start_ix": 16,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": []
+            },
+            "7": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "Right",
+                "label": "ANAT-DP",
+                "start_ix": 22,
+                "end_ix": 25,
+                "relations": []
+            },
+            "9": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 26,
+                "end_ix": 28,
+                "relations": []
+            },
+            "10": {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 29,
+                "end_ix": 31,
+                "relations": []
+            },
+            "11": {
+                "tokens": "opacity",
+                "label": "OBS-DA",
+                "start_ix": 32,
+                "end_ix": 35,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "moderate",
+                "label": "OBS-DP",
+                "start_ix": 36,
+                "end_ix": 38,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 39,
+                "end_ix": 46,
+                "relations": []
+            },
+            "14": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 47,
+                "end_ix": 47,
+                "relations": [
+                    [
+                        "modify",
+                        "13"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 50,
+                "relations": []
+            },
+            "17": {
+                "tokens": "hemi",
+                "label": "ANAT-DP",
+                "start_ix": 51,
+                "end_ix": 52,
+                "relations": []
+            },
+            "18": {
+                "tokens": "elevated",
+                "label": "OBS-DP",
+                "start_ix": 53,
+                "end_ix": 56,
+                "relations": [
+                    [
+                        "located_at",
+                        "16"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "mediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 57,
+                "end_ix": 59,
+                "relations": []
+            },
+            "20": {
+                "tokens": "shift",
+                "label": "OBS-DP",
+                "start_ix": 60,
+                "end_ix": 63,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "18"
+                    ]
+                ]
+            },
+            "21": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 64,
+                "end_ix": 64,
+                "relations": [
+                    [
+                        "modify",
+                        "20"
+                    ]
+                ]
+            }
+        },
+        "Report": "The left lung base shows a minor opacity. The right lung apex is unremarkable. The cardiomediastinal silhouette is normal. The diaphragm hemi is elevated, with a slight mediastinal shift. The rest of the study is unremarkable."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Left",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 4,
+                "relations": []
+            },
+            "2": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 5,
+                "end_ix": 8,
+                "relations": []
+            },
+            "3": {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "opacity",
+                "label": "OBS-DA",
+                "start_ix": 12,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 18,
+                "relations": []
+            },
+            "6": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 19,
+                "end_ix": 21,
+                "relations": []
+            },
+            "7": {
+                "tokens": "base",
+                "label": "ANAT-DP",
+                "start_ix": 22,
+                "end_ix": 24,
+                "relations": []
+            },
+            "8": {
+                "tokens": "opacity",
+                "label": "OBS-DP",
+                "start_ix": 25,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "minor",
+                "label": "OBS-DP",
+                "start_ix": 29,
+                "end_ix": 31,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 32,
+                "end_ix": 32,
+                "relations": []
+            },
+            "11": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": [
+                    [
+                        "located_at",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "Right",
+                "label": "ANAT-DP",
+                "start_ix": 34,
+                "end_ix": 37,
+                "relations": []
+            },
+            "13": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 38,
+                "end_ix": 40,
+                "relations": []
+            },
+            "14": {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 41,
+                "end_ix": 43,
+                "relations": []
+            },
+            "15": {
+                "tokens": "opacity",
+                "label": "OBS-DA",
+                "start_ix": 44,
+                "end_ix": 47,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "moderate",
+                "label": "OBS-DP",
+                "start_ix": 48,
+                "end_ix": 50,
+                "relations": [
+                    [
+                        "modify",
+                        "15"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 51,
+                "end_ix": 58,
+                "relations": []
+            },
+            "18": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 59,
+                "end_ix": 59,
+                "relations": [
+                    [
+                        "modify",
+                        "17"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": [
+                    [
+                        "located_at",
+                        "17"
+                    ]
+                ]
+            },
+            "20": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 61,
+                "end_ix": 62,
+                "relations": []
+            },
+            "21": {
+                "tokens": "hemi",
+                "label": "ANAT-DP",
+                "start_ix": 63,
+                "end_ix": 64,
+                "relations": []
+            },
+            "22": {
+                "tokens": "elevated",
+                "label": "OBS-DP",
+                "start_ix": 65,
+                "end_ix": 68,
+                "relations": [
+                    [
+                        "located_at",
+                        "20"
+                    ]
+                ]
+            },
+            "23": {
+                "tokens": "mediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 69,
+                "end_ix": 71,
+                "relations": []
+            },
+            "24": {
+                "tokens": "shift",
+                "label": "OBS-DP",
+                "start_ix": 72,
+                "end_ix": 75,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "22"
+                    ]
+                ]
+            },
+            "25": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 76,
+                "end_ix": 76,
+                "relations": [
+                    [
+                        "modify",
+                        "24"
+                    ]
+                ]
+            }
+        },
+        "Report": "The left lung apex shows a minor opacity. The right lung base is unremarkable. The cardiomediastinal silhouette is normal. The diaphragm hemi is elevated, with a slight mediastinal shift. The rest of the study is unremarkable."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Left",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 4,
+                "relations": []
+            },
+            "2": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 5,
+                "end_ix": 8,
+                "relations": []
+            },
+            "3": {
+                "tokens": "base",
+                "label": "ANAT-DP",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "opacity",
+                "label": "OBS-DA",
+                "start_ix": 12,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "Right",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 19,
+                "relations": []
+            },
+            "6": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 20,
+                "end_ix": 22,
+                "relations": []
+            },
+            "7": {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 23,
+                "end_ix": 25,
+                "relations": []
+            },
+            "8": {
+                "tokens": "opacity",
+                "label": "OBS-DP",
+                "start_ix": 26,
+                "end_ix": 29,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "minor",
+                "label": "OBS-DP",
+                "start_ix": 30,
+                "end_ix": 32,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": []
+            },
+            "11": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 34,
+                "end_ix": 34,
+                "relations": [
+                    [
+                        "located_at",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "Right",
+                "label": "ANAT-DP",
+                "start_ix": 35,
+                "end_ix": 38,
+                "relations": []
+            },
+            "13": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 39,
+                "end_ix": 41,
+                "relations": []
+            },
+            "14": {
+                "tokens": "base",
+                "label": "ANAT-DP",
+                "start_ix": 42,
+                "end_ix": 44,
+                "relations": []
+            },
+            "15": {
+                "tokens": "opacity",
+                "label": "OBS-DA",
+                "start_ix": 45,
+                "end_ix": 48,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "moderate",
+                "label": "OBS-DP",
+                "start_ix": 49,
+                "end_ix": 51,
+                "relations": [
+                    [
+                        "modify",
+                        "15"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 52,
+                "end_ix": 59,
+                "relations": []
+            },
+            "18": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": [
+                    [
+                        "modify",
+                        "17"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 61,
+                "end_ix": 61,
+                "relations": [
+                    [
+                        "located_at",
+                        "17"
+                    ]
+                ]
+            },
+            "20": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 62,
+                "end_ix": 63,
+                "relations": []
+            },
+            "21": {
+                "tokens": "hemi",
+                "label": "ANAT-DP",
+                "start_ix": 64,
+                "end_ix": 65,
+                "relations": []
+            },
+            "22": {
+                "tokens": "elevated",
+                "label": "OBS-DP",
+                "start_ix": 66,
+                "end_ix": 69,
+                "relations": [
+                    [
+                        "located_at",
+                        "20"
+                    ]
+                ]
+            },
+            "23": {
+                "tokens": "mediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 70,
+                "end_ix": 72,
+                "relations": []
+            },
+            "24": {
+                "tokens": "shift",
+                "label": "OBS-DP",
+                "start_ix": 73,
+                "end_ix": 76,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "22"
+                    ]
+                ]
+            },
+            "25": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 77,
+                "end_ix": 77,
+                "relations": [
+                    [
+                        "modify",
+                        "24"
+                    ]
+                ]
+            }
+        },
+        "Report": "The left lung base is unremarkable. The right lung apex shows a minor opacity. The right lung base has a moderate opacity. The cardiomediastinal silhouette is normal. The diaphragm hemi is elevated, with a slight mediastinal shift. The rest of the study is unremarkable."
+    }
+],
