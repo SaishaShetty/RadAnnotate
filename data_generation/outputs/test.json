@@ -1,0 +1,759 @@
+[
+    {
+        "Annotations": [
+            {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            {
+                "tokens": "hilar",
+                "label": "ANAT-DP",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            {
+                "tokens": "contours",
+                "label": "ANAT-DP",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "0"
+                    ],
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "0"
+                    ],
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            {
+                "tokens": "lungs",
+                "label": "ANAT-DP",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            }
+        ],
+        "Report": "The cardiomediastinal and hilar contours of the lungs are normal and clear."
+    },
+    {
+        "Annotations": [
+            {
+                "tokens": "Biapical",
+                "label": "ANAT-DP",
+                "start_ix": 45,
+                "end_ix": 45,
+                "relations": []
+            },
+            {
+                "tokens": "pneumothoraces",
+                "label": "OBS-DP",
+                "start_ix": 46,
+                "end_ix": 46,
+                "relations": [
+                    [
+                        "located_at",
+                        "45"
+                    ]
+                ]
+            },
+            {
+                "tokens": "Bibasilar",
+                "label": "ANAT-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": []
+            },
+            {
+                "tokens": "atelectasis",
+                "label": "OBS-DP",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": [
+                    [
+                        "located_at",
+                        "51"
+                    ]
+                ]
+            },
+            {
+                "tokens": "lungs",
+                "label": "ANAT-DP",
+                "start_ix": 58,
+                "end_ix": 58,
+                "relations": []
+            },
+            {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": [
+                    [
+                        "located_at",
+                        "58"
+                    ]
+                ]
+            },
+            {
+                "tokens": "left",
+                "label": "ANAT-DP",
+                "start_ix": 66,
+                "end_ix": 66,
+                "relations": [
+                    [
+                        "modify",
+                        "67"
+                    ]
+                ]
+            },
+            {
+                "tokens": "hemidiaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": []
+            },
+            {
+                "tokens": "elevation",
+                "label": "OBS-DP",
+                "start_ix": 68,
+                "end_ix": 68,
+                "relations": [
+                    [
+                        "located_at",
+                        "67"
+                    ],
+                    [
+                        "suggestive_of",
+                        "72"
+                    ]
+                ]
+            },
+            {
+                "tokens": "increase",
+                "label": "OBS-DP",
+                "start_ix": 72,
+                "end_ix": 72,
+                "relations": [
+                    [
+                        "modify",
+                        "73"
+                    ]
+                ]
+            },
+            {
+                "tokens": "distance",
+                "label": "OBS-DP",
+                "start_ix": 73,
+                "end_ix": 73,
+                "relations": []
+            },
+            {
+                "tokens": "apex",
+                "label": "ANAT-DP",
+                "start_ix": 76,
+                "end_ix": 76,
+                "relations": [
+                    [
+                        "modify",
+                        "79"
+                    ]
+                ]
+            },
+            {
+                "tokens": "left",
+                "label": "ANAT-DP",
+                "start_ix": 78,
+                "end_ix": 78,
+                "relations": [
+                    [
+                        "modify",
+                        "79"
+                    ]
+                ]
+            },
+            {
+                "tokens": "hemidiaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 79,
+                "end_ix": 79,
+                "relations": []
+            },
+            {
+                "tokens": "stomach",
+                "label": "ANAT-DP",
+                "start_ix": 81,
+                "end_ix": 81,
+                "relations": []
+            },
+            {
+                "tokens": "bubble",
+                "label": "OBS-DP",
+                "start_ix": 82,
+                "end_ix": 82,
+                "relations": [
+                    [
+                        "located_at",
+                        "81"
+                    ]
+                ]
+            },
+            {
+                "tokens": "subpulmonic",
+                "label": "ANAT-DP",
+                "start_ix": 85,
+                "end_ix": 85,
+                "relations": []
+            },
+            {
+                "tokens": "effusion",
+                "label": "OBS-DP",
+                "start_ix": 86,
+                "end_ix": 86,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "68"
+                    ],
+                    [
+                        "located_at",
+                        "85"
+                    ]
+                ]
+            },
+            {
+                "tokens": "post - operative",
+                "label": "OBS-DP",
+                "start_ix": 95,
+                "end_ix": 97,
+                "relations": [
+                    [
+                        "located_at",
+                        "98"
+                    ]
+                ]
+            },
+            {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 98,
+                "end_ix": 98,
+                "relations": []
+            },
+            {
+                "tokens": "contour",
+                "label": "ANAT-DP",
+                "start_ix": 99,
+                "end_ix": 99,
+                "relations": [
+                    [
+                        "modify",
+                        "98"
+                    ]
+                ]
+            },
+            {
+                "tokens": "stable",
+                "label": "OBS-DP",
+                "start_ix": 101,
+                "end_ix": 101,
+                "relations": [
+                    [
+                        "located_at",
+                        "98"
+                    ]
+                ]
+            },
+            {
+                "tokens": "Right",
+                "label": "ANAT-DP",
+                "start_ix": 103,
+                "end_ix": 103,
+                "relations": [
+                    [
+                        "modify",
+                        "104"
+                    ]
+                ]
+            },
+            {
+                "tokens": "IJ",
+                "label": "ANAT-DP",
+                "start_ix": 104,
+                "end_ix": 104,
+                "relations": []
+            },
+            {
+                "tokens": "line",
+                "label": "OBS-DP",
+                "start_ix": 105,
+                "end_ix": 105,
+                "relations": [
+                    [
+                        "located_at",
+                        "104"
+                    ],
+                    [
+                        "located_at",
+                        "107"
+                    ]
+                ]
+            },
+            {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 109,
+                "end_ix": 109,
+                "relations": [
+                    [
+                        "modify",
+                        "110"
+                    ]
+                ]
+            },
+            {
+                "tokens": "atrium",
+                "label": "ANAT-DP",
+                "start_ix": 110,
+                "end_ix": 110,
+                "relations": []
+            },
+            {
+                "tokens": "left",
+                "label": "ANAT-DP",
+                "start_ix": 117,
+                "end_ix": 117,
+                "relations": [
+                    [
+                        "modify",
+                        "118"
+                    ]
+                ]
+            },
+            {
+                "tokens": "hemidiaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 118,
+                "end_ix": 118,
+                "relations": []
+            },
+            {
+                "tokens": "elevation",
+                "label": "OBS-DP",
+                "start_ix": 119,
+                "end_ix": 119,
+                "relations": [
+                    [
+                        "located_at",
+                        "118"
+                    ]
+                ]
+            },
+            {
+                "tokens": "subpulmonic",
+                "label": "ANAT-DP",
+                "start_ix": 127,
+                "end_ix": 127,
+                "relations": []
+            },
+            {
+                "tokens": "effusion",
+                "label": "OBS-U",
+                "start_ix": 128,
+                "end_ix": 128,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "119"
+                    ],
+                    [
+                        "located_at",
+                        "127"
+                    ]
+                ]
+            },
+            {
+                "tokens": "pneumothoraces",
+                "label": "OBS-DP",
+                "start_ix": 142,
+                "end_ix": 142,
+                "relations": []
+            }
+        ],
+        "Report": "There is a possible subpulmonic effusion on the left hemidiaphragm, and the post-operative cardiomediastinal contour is stable. The right IJ line is in the right atrium. The pneumothoraces appear to be resolving."
+    }]
+[{
+    "Annotations": {
+        "1": {
+            "tokens": "heart",
+            "label": "ANAT-DP",
+            "start_ix": 41,
+            "end_ix": 41,
+            "relations": []
+        },
+        "2": {
+            "tokens": "aorta",
+            "label": "ANAT-DP",
+            "start_ix": 45,
+            "end_ix": 45,
+            "relations": []
+        }
+    },
+    "Report": "The heart and aorta are present."
+},
+{
+    "Annotations": {
+        "1": {
+            "tokens": "heart",
+            "label": "ANAT-DP",
+            "start_ix": 44,
+            "end_ix": 44,
+            "relations": []
+        },
+        "2": {
+            "tokens": "left",
+            "label": "ANAT-DP",
+            "start_ix": 47,
+            "end_ix": 47,
+            "relations": [
+                [
+                    "modify",
+                    "1"
+                ]
+            ]
+        },
+        "3": {
+            "tokens": "ventricular",
+            "label": "ANAT-DP",
+            "start_ix": 48,
+            "end_ix": 48,
+            "relations": []
+        },
+        "4": {
+            "tokens": "configuration",
+            "label": "ANAT-DP",
+            "start_ix": 49,
+            "end_ix": 49,
+            "relations": [
+                [
+                    "modify",
+                    "1"
+                ],
+                [
+                    "modify",
+                    "3"
+                ]
+            ]
+        },
+        "5": {
+            "tokens": "similar to prior",
+            "label": "OBS-DP",
+            "start_ix": 51,
+            "end_ix": 53,
+            "relations": [
+                [
+                    "located_at",
+                    "1"
+                ]
+            ]
+        },
+        "6": {
+            "tokens": "Mediastinal",
+            "label": "ANAT-DP",
+            "start_ix": 55,
+            "end_ix": 55,
+            "relations": []
+        },
+        "7": {
+            "tokens": "contours",
+            "label": "ANAT-DP",
+            "start_ix": 56,
+            "end_ix": 56,
+            "relations": [
+                [
+                    "modify",
+                    "6"
+                ]
+            ]
+        },
+        "8": {
+            "tokens": "tortuosity",
+            "label": "OBS-DP",
+            "start_ix": 58,
+            "end_ix": 58,
+            "relations": [
+                [
+                    "located_at",
+                    "9"
+                ]
+            ]
+        },
+        "9": {
+            "tokens": "aorta",
+            "label": "ANAT-DP",
+            "start_ix": 61,
+            "end_ix": 61,
+            "relations": []
+        },
+        "10": {
+            "tokens": "similar to prior",
+            "label": "OBS-DP",
+            "start_ix": 63,
+            "end_ix": 65,
+            "relations": [
+                [
+                    "located_at",
+                    "6"
+                ],
+                [
+                    "located_at",
+                    "9"
+                ]
+            ]
+        }
+    },
+    "Report": "The left ventricular configuration of the heart and the tortuosity of the aorta are similar to prior."
+},
+{
+    "Annotations": {
+        "1": {
+            "tokens": "right",
+            "label": "ANAT-DP",
+            "start_ix": 38,
+            "end_ix": 38,
+            "relations": [
+                [
+                    "modify",
+                    "2"
+                ]
+            ]
+        },
+        "2": {
+            "tokens": "perihilar",
+            "label": "ANAT-DP",
+            "start_ix": 39,
+            "end_ix": 39,
+            "relations": []
+        },
+        "3": {
+            "tokens": "opacities",
+            "label": "OBS-DP",
+            "start_ix": 40,
+            "end_ix": 40,
+            "relations": [
+                [
+                    "located_at",
+                    "2"
+                ]
+            ]
+        },
+        "4": {
+            "tokens": "new",
+            "label": "OBS-DA",
+            "start_ix": 48,
+            "end_ix": 48,
+            "relations": [
+                [
+                    "modify",
+                    "5"
+                ]
+            ]
+        },
+        "5": {
+            "tokens": "areas",
+            "label": "OBS-DA",
+            "start_ix": 49,
+            "end_ix": 49,
+            "relations": [
+                [
+                    "modify",
+                    "6"
+                ]
+            ]
+        },
+        "6": {
+            "tokens": "consolidation",
+            "label": "OBS-DA",
+            "start_ix": 51,
+            "end_ix": 51,
+            "relations": [
+                [
+                    "suggestive_of",
+                    "8"
+                ]
+            ]
+        },
+        "7": {
+            "tokens": "worrisome",
+            "label": "OBS-DA",
+            "start_ix": 52,
+            "end_ix": 52,
+            "relations": [
+                [
+                    "modify",
+                    "8"
+                ]
+            ]
+        },
+        "8": {
+            "tokens": "infection",
+            "label": "OBS-DA",
+            "start_ix": 54,
+            "end_ix": 54,
+            "relations": []
+        }
+    },
+    "Report": "There are no new areas of consolidation worrisome for infection in the right perihilar opacities."
+},
+{
+    "Annotations": {
+        "1": {
+            "tokens": "right",
+            "label": "ANAT-DP",
+            "start_ix": 38,
+            "end_ix": 38,
+            "relations": [
+                [
+                    "modify",
+                    "2"
+                ]
+            ]
+        },
+        "2": {
+            "tokens": "perihilar",
+            "label": "ANAT-DP",
+            "start_ix": 39,
+            "end_ix": 39,
+            "relations": []
+        },
+        "3": {
+            "tokens": "opacities",
+            "label": "OBS-DP",
+            "start_ix": 40,
+            "end_ix": 40,
+            "relations": [
+                [
+                    "located_at",
+                    "2"
+                ]
+            ]
+        },
+        "4": {
+            "tokens": "Resolving",
+            "label": "OBS-DP",
+            "start_ix": 52,
+            "end_ix": 52,
+            "relations": [
+                [
+                    "modify",
+                    "6"
+                ]
+            ]
+        },
+        "5": {
+            "tokens": "right",
+            "label": "ANAT-DP",
+            "start_ix": 54,
+            "end_ix": 54,
+            "relations": []
+        },
+        "6": {
+            "tokens": "perihilar",
+            "label": "ANAT-DP",
+            "start_ix": 55,
+            "end_ix": 55,
+            "relations": []
+        },
+        "7": {
+            "tokens": "opacities",
+            "label": "OBS-DP",
+            "start_ix": 56,
+            "end_ix": 56,
+            "relations": [
+                [
+                    "located_at",
+                    "6"
+                ]
+            ]
+        },
+        "8": {
+            "tokens": "without",
+            "label": "OBS-DP",
+            "start_ix": 57,
+            "end_ix": 57,
+            "relations": [
+                [
+                    "modify",
+                    "7"
+                ]
+            ]
+        },
+        "9": {
+            "tokens": "new",
+            "label": "OBS-DA",
+            "start_ix": 58,
+            "end_ix": 58,
+            "relations": [
+                [
+                    "modify",
+                    "10"
+                ]
+            ]
+        },
+        "10": {
+            "tokens": "areas",
+            "label": "OBS-DA",
+            "start_ix": 59,
+            "end_ix": 59,
+            "relations": [
+                [
+                    "modify",
+                    "11"
+                ]
+            ]
+        },
+        "11": {
+            "tokens": "consolidation",
+            "label": "OBS-DA",
+            "start_ix": 61,
+            "end_ix": 61,
+            "relations": []
+        }
+    },
+    "Report": "The right perihilar opacities are resolving without new areas of consolidation."
+}
+]

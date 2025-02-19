@@ -1,20 +1,14 @@
-from mistral_inference.transformer import Transformer
-from mistral_inference.generate import generate
-from mistral_common.tokens.tokenizers.mistral import MistralTokenizer
-from mistral_common.protocol.instruct.messages import UserMessage
-from mistral_common.protocol.instruct.request import ChatCompletionRequest
+import ollama
 import json
 import os
-tokenizer = MistralTokenizer.from_file("/home/spshetty/RadAnnotate/data_generation/mixtral/mixtral-model/tokenizer.model.v3")
-model = Transformer.from_folder('/home/spshetty/RadAnnotate/data_generation/mixtral/mixtral-model')
+import re
 
-def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/relation_testing.json"):
-    
+def deepseek_generate_data(total_samples=1, batch_size=1, output_file="/home/spshetty/RadAnnotate/data_generation/outputs/synthetic_data_1.0.json", temperature=0.6):
     if not os.path.exists(output_file):
         with open(output_file, "w") as file:
-            pass  
+            pass 
 
-    total_results = 0  
+    total_results = 0
 
     for batch_start in range(0, total_samples, batch_size):
         remaining_samples = min(batch_size, total_samples - batch_start)
@@ -30,16 +24,10 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                     - OBS-DA: Observation - Definitely Absent (e.g., "no edema").
                 2. Using these annotations to generate realistic, diverse synthetic clinical reports related to chest radiology.
 
-
+                
                 [User]
                 Generate synthetic clinical reports related to the chest that can be helpful to find different diverse data for our model.
-                Use single-token annotations for the following categories:
-                    - ANAT-DP: Anatomy - Definitely Present
-                    - ANAT-DA: Anatomy - Definitely Absent
-                    - OBS-DP: Observation - Definitely Present
-                    - OBS-DA: Observation - Definitely Absent
-
-                Two examples of a report and its annotations is:
+                A few examples of such reports are:
                 {
                 "Annotations": {
                         "1": {
@@ -330,241 +318,12 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                     } 
                 "Report": "Patient has been extubated . Lungs are clear . Normal cardiomediastinal and hilar silhouettes and pleural surfaces ."
                 },
-                {
-                "Annotations": {
-                    "1": {
-                        "tokens": "Lung",
-                        "label": "ANAT-DP",
-                        "start_ix": 39,
-                        "end_ix": 39,
-                        "relations": []
-                    },
-                    "2": {
-                        "tokens": "volumes",
-                        "label": "ANAT-DP",
-                        "start_ix": 40,
-                        "end_ix": 40,
-                        "relations": [
-                        [
-                            "modify",
-                            "1"
-                        ]
-                        ]
-                    },
-                    "3": {
-                        "tokens": "low",
-                        "label": "OBS-DP",
-                        "start_ix": 42,
-                        "end_ix": 42,
-                        "relations": [
-                        [
-                            "located_at",
-                            "1"
-                        ]
-                        ]
-                    },
-                    "4": {
-                        "tokens": "pneumonia",
-                        "label": "OBS-DA",
-                        "start_ix": 52,
-                        "end_ix": 52,
-                        "relations": []
-                    },
-                    "5": {
-                        "tokens": "overt",
-                        "label": "OBS-DA",
-                        "start_ix": 54,
-                        "end_ix": 54,
-                        "relations": [
-                        [
-                            "modify",
-                            "6"
-                        ]
-                        ]
-                    },
-                    "6": {
-                        "tokens": "CHF",
-                        "label": "OBS-DA",
-                        "start_ix": 55,
-                        "end_ix": 55,
-                        "relations": []
-                    },
-                    "7": {
-                        "tokens": "effusion",
-                        "label": "OBS-DA",
-                        "start_ix": 61,
-                        "end_ix": 61,
-                        "relations": []
-                    },
-                    "8": {
-                        "tokens": "pneumothorax",
-                        "label": "OBS-DA",
-                        "start_ix": 63,
-                        "end_ix": 63,
-                        "relations": []
-                    },
-                    "9": {
-                        "tokens": "cardiomediastinal",
-                        "label": "ANAT-DP",
-                        "start_ix": 66,
-                        "end_ix": 66,
-                        "relations": []
-                    },
-                    "10": {
-                        "tokens": "silhouette",
-                        "label": "ANAT-DP",
-                        "start_ix": 67,
-                        "end_ix": 67,
-                        "relations": [
-                        [
-                            "modify",
-                            "9"
-                        ]
-                        ]
-                    },
-                    "11": {
-                        "tokens": "normal",
-                        "label": "OBS-DP",
-                        "start_ix": 69,
-                        "end_ix": 69,
-                        "relations": [
-                        [
-                            "located_at",
-                            "9"
-                        ]
-                        ]
-                    },
-                    "12": {
-                        "tokens": "osseous",
-                        "label": "ANAT-DP",
-                        "start_ix": 72,
-                        "end_ix": 72,
-                        "relations": []
-                    },
-                    "13": {
-                        "tokens": "structures",
-                        "label": "ANAT-DP",
-                        "start_ix": 73,
-                        "end_ix": 73,
-                        "relations": [
-                        [
-                            "modify",
-                            "12"
-                        ]
-                        ]
-                    },
-                    "14": {
-                        "tokens": "intact",
-                        "label": "OBS-DP",
-                        "start_ix": 75,
-                        "end_ix": 75,
-                        "relations": [
-                        [
-                            "located_at",
-                            "12"
-                        ]
-                        ]
-                    },
-                    "15": {
-                        "tokens": "Limited",
-                        "label": "OBS-DP",
-                        "start_ix": 79,
-                        "end_ix": 79,
-                        "relations": []
-                    },
-                    "16": {
-                        "tokens": "negative",
-                        "label": "OBS-DP",
-                        "start_ix": 81,
-                        "end_ix": 81,
-                        "relations": []
-                    }
-                "Report": "Lung volumes are low . Allowing for this , no definite evidence of pneumonia or overt CHF . No supine evidence for effusion or pneumothorax . The cardiomediastinal silhouette is normal . Imaged osseous structures are intact "
-                },
-                "Annotations":{
-                    "1": {
-                        "tokens": "Borderline",
-                        "label": "OBS-DP",
-                        "start_ix": 34,
-                        "end_ix": 34,
-                        "relations": [
-                        [
-                            "located_at",
-                            "3"
-                        ]
-                        ]
-                    },
-                    "2": {
-                        "tokens": "size",
-                        "label": "ANAT-DP",
-                        "start_ix": 35,
-                        "end_ix": 35,
-                        "relations": [
-                        [
-                            "modify",
-                            "3"
-                        ]
-                        ]
-                    },
-                    "3": {
-                        "tokens": "cardiac",
-                        "label": "ANAT-DP",
-                        "start_ix": 38,
-                        "end_ix": 38,
-                        "relations": []
-                    },
-                    "4": {
-                        "tokens": "silhouette",
-                        "label": "ANAT-DP",
-                        "start_ix": 39,
-                        "end_ix": 39,
-                        "relations": [
-                        [
-                            "modify",
-                            "3"
-                        ]
-                        ]
-                    },
-                    "5": {
-                        "tokens": "pneumonia",
-                        "label": "OBS-DA",
-                        "start_ix": 42,
-                        "end_ix": 42,
-                        "relations": []
-                    },
-                    "6": {
-                        "tokens": "pulmonary",
-                        "label": "ANAT-DP",
-                        "start_ix": 45,
-                        "end_ix": 45,
-                        "relations": []
-                    },
-                    "7": {
-                        "tokens": "edema",
-                        "label": "OBS-DA",
-                        "start_ix": 46,
-                        "end_ix": 46,
-                        "relations": [
-                        [
-                            "located_at",
-                            "6"
-                        ]
-                        ]
-                    },
-                    "8": {
-                        "tokens": "pneumothorax",
-                        "label": "OBS-DA",
-                        "start_ix": 53,
-                        "end_ix": 53,
-                        "relations": []
-                    }
-                "Report": "As compared to the previous radiograph , there is no relevant change . Borderline size of the cardiac silhouette . No pneumonia , no pulmonary edema. No pneumothorax."
-                },
+                
                 [/User]
-
-                Generate the synthetic annotations and report by following the instructions in order:
+                Follow the instructions in order:
                 1. **Generate a List of Tokens:**
                     - Create between 20 and 30 tokens per report.
+                    - Prioritize generating more OBS-DA tokens.
                     - Include at least 3 different anatomical structures and 3 different observations.
                     - Make sure to not assume adjectives as a part of the anatomy. (Example - "pulmonary" is not an anatomy)
                     - Make sure not to annotate auxiliary words or modifiers as entities. (Example - in the sentence "No pleural effusion," the word "No" is not an annotation. Instead, only "effusion" should be labeled as OBS-DA. Apply this principle to similar cases. )
@@ -585,9 +344,7 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                         
                     3. **`modify (Observation → Observation)` or `(Anatomy → Anatomy):`**  Annotate when one entity modifies, specifies, or quantifies the degree of another entity.  
                         - **Example 1 (**Observation → Observation**):**  In the sentence "The endotracheal tube tip terminates approximately 4.6 cm from the carina.",  "Endotracheal" is modify at "tube".
-                        - **Example 2 (Anatomy → Anatomy): In the sentence "The left apex is slightly obscured.", "left" is modify at "apex". 
-
-                    *Important* All directional terms in a report should have a modify relation with the corresponding anatomy.
+                        - **Example 1 (**Anatomy → Anatomy**):**  In the sentence "The right apex is slightly obscured.",  "right" is modify at "apex".
 
                     **Note**An annotation may be linked to one or more annotations through defined relations, but this is not mandatory.
 
@@ -606,35 +363,34 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                 6. **Realism in the Report:**
                     - Ensure every observation token has a logical anatomical location.
                     - Avoid creating reports with illogical relationships or ambiguous contexts.
-                
-                7. **Validation:**
-                    - Ensure that all the annotations produced are used in generating the report. They should logically fit.
-
 
                 [/System]
-                **Important** Your output must strictly start with `{` and end with `}` only. Do not include any text, explanations, or descriptions outside the JSON structure. If you fail to comply, the output will be considered invalid. After every report generated add a ','[/INST]
+                **Important** Your output must strictly start with `{` and end with `}`. In batches you can start with '[' but do not end with ']'. Do not include any text, explanations, or descriptions outside the JSON structure. If you fail to comply, the output will be considered invalid. After every report generated add a ','[/INST]
                 """
-                
-        completion_request = ChatCompletionRequest(messages=[UserMessage(content = prompt)])
 
-        tokens = tokenizer.encode_chat_completion(completion_request).tokens
+        # Query DeepSeek-R1 14B via Ollama with strict JSON enforcement + stop tokens
+        response = ollama.chat(
+            model="mixtral:8x22b",
+            messages=[{"role": "user", "content": prompt}],
+            options={"temperature": temperature}  
+        )
 
-        out_tokens, _ = generate([tokens], model, max_tokens=32000, temperature=0.6, eos_id=tokenizer.instruct_tokenizer.tokenizer.eos_id)
-        result = tokenizer.instruct_tokenizer.tokenizer.decode(out_tokens[0])
-        #parsed_res = json.loads(result) 
+
+        # Extract response text
+        result = response['message']['content'].strip()
         print(result)
-        parsed_res = json.loads(result)  
-        print(parsed_res)
 
-        with open(output_file, "a") as file:
-            json.dump(parsed_res, file, indent=4)  # Saves the entire parsed_res instead of the current obj
-            file.write(",\n")
+        # Ensure it's valid JSON before saving
+        try:
+            parsed_res = json.loads(result)
+            with open(output_file, "a") as file:
+                json.dump(parsed_res, file, indent=4)
+                file.write(",\n")  
 
-        total_results += len(parsed_res)  # Update total results counter"""
+            total_results += len(parsed_res)  
+        except json.JSONDecodeError:
+            print("Warning: Failed to parse response as JSON. Skipping entry.")
 
     print(f"Generated {total_results} reports and saved to {output_file}")
 
-
-mixtral_generate_data(total_samples=5, batch_size=1, output_file="/home/spshetty/RadAnnotate/data_generation/outputs/synthetic_data_1.1.json")
-
-##40,10
+deepseek_generate_data(total_samples=1, batch_size=1, output_file = 'llama.json',temperature=0.2)

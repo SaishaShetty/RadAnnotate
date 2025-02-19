@@ -5,186 +5,517 @@
             "1": {
                 "tokens": "heart",
                 "label": "ANAT-DP",
-                "start_ix": 48,
-                "end_ix": 48,
+                "start_ix": 0,
+                "end_ix": 4,
                 "relations": []
             },
             "2": {
                 "tokens": "aorta",
                 "label": "ANAT-DP",
-                "start_ix": 49,
-                "end_ix": 49,
+                "start_ix": 5,
+                "end_ix": 9,
                 "relations": []
             },
             "3": {
                 "tokens": "pulmonary",
                 "label": "ANAT-DP",
-                "start_ix": 50,
-                "end_ix": 50,
+                "start_ix": 10,
+                "end_ix": 15,
                 "relations": []
             },
             "4": {
                 "tokens": "arteries",
                 "label": "ANAT-DP",
-                "start_ix": 51,
-                "end_ix": 51,
+                "start_ix": 16,
+                "end_ix": 21,
                 "relations": []
             },
             "5": {
-                "tokens": "effusion",
+                "tokens": "opacities",
                 "label": "OBS-DA",
-                "start_ix": 52,
-                "end_ix": 52,
-                "relations": []
-            },
-            "6": {
-                "tokens": "edema",
-                "label": "OBS-DA",
-                "start_ix": 53,
-                "end_ix": 53,
-                "relations": []
-            }
-        },
-        "Report": "The heart, aorta, and pulmonary arteries are all present. There is no evidence of effusion or edema."
-    },
-    {
-        "Annotations": {
-            "1": {
-                "tokens": "heart",
-                "label": "ANAT-DP",
-                "start_ix": 48,
-                "end_ix": 48,
-                "relations": []
-            },
-            "2": {
-                "tokens": "aorta",
-                "label": "ANAT-DP",
-                "start_ix": 49,
-                "end_ix": 49,
-                "relations": []
-            },
-            "3": {
-                "tokens": "pulmonary",
-                "label": "ANAT-DP",
-                "start_ix": 50,
-                "end_ix": 50,
-                "relations": []
-            },
-            "4": {
-                "tokens": "veins",
-                "label": "ANAT-DP",
-                "start_ix": 51,
-                "end_ix": 51,
-                "relations": []
-            },
-            "5": {
-                "tokens": "effusion",
-                "label": "OBS-DA",
-                "start_ix": 52,
-                "end_ix": 52,
-                "relations": []
-            },
-            "6": {
-                "tokens": "edema",
-                "label": "OBS-DA",
-                "start_ix": 53,
-                "end_ix": 53,
-                "relations": []
-            }
-        },
-        "Report": "The heart, aorta, and pulmonary veins are all present. There is no evidence of effusion or edema."
-    },
-    {
-        "Annotations": {
-            "1": {
-                "tokens": "heart",
-                "label": "ANAT-DP",
-                "start_ix": 48,
-                "end_ix": 48,
-                "relations": []
-            },
-            "2": {
-                "tokens": "aorta",
-                "label": "ANAT-DP",
-                "start_ix": 49,
-                "end_ix": 49,
-                "relations": []
-            },
-            "3": {
-                "tokens": "pulmonary",
-                "label": "ANAT-DP",
-                "start_ix": 50,
-                "end_ix": 50,
-                "relations": []
-            },
-            "4": {
-                "tokens": "arteries",
-                "label": "ANAT-DP",
-                "start_ix": 51,
-                "end_ix": 51,
-                "relations": []
-            },
-            "5": {
-                "tokens": "veins",
-                "label": "ANAT-DP",
-                "start_ix": 52,
-                "end_ix": 52,
-                "relations": []
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
             },
             "6": {
                 "tokens": "effusion",
                 "label": "OBS-DA",
-                "start_ix": 53,
-                "end_ix": 53,
-                "relations": []
+                "start_ix": 29,
+                "end_ix": 30,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
             },
             "7": {
                 "tokens": "edema",
                 "label": "OBS-DA",
-                "start_ix": 54,
-                "end_ix": 54,
+                "start_ix": 36,
+                "end_ix": 37,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "Moderate",
+                "label": "OBS-DP",
+                "start_ix": 38,
+                "end_ix": 39,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "scoliosis",
+                "label": "OBS-DP",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "10"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "asymmetry",
+                "label": "OBS-DP",
+                "start_ix": 43,
+                "end_ix": 43,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "ribcage",
+                "label": "ANAT-DP",
+                "start_ix": 44,
+                "end_ix": 44,
+                "relations": []
+            }
+        },
+        "Report": "The heart and aorta appear normal. There are no definite pulmonary arterial opacities. No pleural effusion or pulmonary edema are noted. Moderate scoliosis is present, causing slight asymmetry of the ribcage."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 4,
+                "relations": []
+            },
+            "2": {
+                "tokens": "aorta",
+                "label": "ANAT-DP",
+                "start_ix": 5,
+                "end_ix": 9,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "ANAT-DP",
+                "start_ix": 10,
+                "end_ix": 15,
+                "relations": []
+            },
+            "4": {
+                "tokens": "arteries",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 21,
+                "relations": []
+            },
+            "5": {
+                "tokens": "opacity",
+                "label": "OBS-DA",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "remnant",
+                "label": "OBS-DA",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "opacities",
+                "label": "OBS-DA",
+                "start_ix": 29,
+                "end_ix": 29,
                 "relations": []
             },
             "8": {
-                "tokens": "pneumonia",
+                "tokens": "complications",
                 "label": "OBS-DA",
-                "start_ix": 55,
-                "end_ix": 55,
+                "start_ix": 30,
+                "end_ix": 30,
                 "relations": []
             },
             "9": {
-                "tokens": "CHF",
-                "label": "OBS-DA",
-                "start_ix": 56,
-                "end_ix": 56,
-                "relations": []
+                "tokens": "frontal",
+                "label": "OBS-DP",
+                "start_ix": 34,
+                "end_ix": 34,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
             },
             "10": {
-                "tokens": "effusion",
-                "label": "OBS-DA",
-                "start_ix": 61,
-                "end_ix": 61,
-                "relations": []
+                "tokens": "lateral",
+                "label": "OBS-DP",
+                "start_ix": 37,
+                "end_ix": 37,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
             },
             "11": {
-                "tokens": "pneumothorax",
-                "label": "OBS-DA",
-                "start_ix": 63,
-                "end_ix": 63,
+                "tokens": "radiograph",
+                "label": "OBS-DP",
+                "start_ix": 38,
+                "end_ix": 38,
                 "relations": []
             },
             "12": {
+                "tokens": "unremarkable",
+                "label": "OBS-DP",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 43,
+                "end_ix": 43,
+                "relations": []
+            },
+            "14": {
+                "tokens": "effusions",
+                "label": "OBS-DA",
+                "start_ix": 44,
+                "end_ix": 44,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "pulmonary",
+                "label": "ANAT-DP",
+                "start_ix": 46,
+                "end_ix": 46,
+                "relations": []
+            },
+            "16": {
+                "tokens": "edema",
+                "label": "OBS-DA",
+                "start_ix": 47,
+                "end_ix": 47,
+                "relations": [
+                    [
+                        "located_at",
+                        "15"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "Moderate",
+                "label": "OBS-DP",
+                "start_ix": 49,
+                "end_ix": 50,
+                "relations": [
+                    [
+                        "modify",
+                        "18"
+                    ]
+                ]
+            },
+            "18": {
+                "tokens": "scoliosis",
+                "label": "OBS-DP",
+                "start_ix": 51,
+                "end_ix": 51,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "19"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "asymmetry",
+                "label": "OBS-DP",
+                "start_ix": 54,
+                "end_ix": 54,
+                "relations": [
+                    [
+                        "located_at",
+                        "20"
+                    ]
+                ]
+            },
+            "20": {
+                "tokens": "ribcage",
+                "label": "ANAT-DP",
+                "start_ix": 55,
+                "end_ix": 55,
+                "relations": []
+            }
+        },
+        "Report": "The heart and aorta appear normal. There is no definite evidence of pulmonary arterial opacities. No pleural effusions or pulmonary edema are noted. Moderate scoliosis is present, causing asymmetry of the ribcage."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Lungs",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 4,
+                "relations": []
+            },
+            "2": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 6,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "Normal",
+                "label": "OBS-DP",
+                "start_ix": 8,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "located_at",
+                        "4"
+                    ],
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
                 "tokens": "cardiomediastinal",
                 "label": "ANAT-DP",
-                "start_ix": 66,
-                "end_ix": 66,
+                "start_ix": 10,
+                "end_ix": 14,
+                "relations": []
+            },
+            "5": {
+                "tokens": "hilar",
+                "label": "ANAT-DP",
+                "start_ix": 15,
+                "end_ix": 18,
+                "relations": []
+            },
+            "6": {
+                "tokens": "silhouettes",
+                "label": "ANAT-DP",
+                "start_ix": 19,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ],
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": []
+            },
+            "8": {
+                "tokens": "surfaces",
+                "label": "ANAT-DP",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            }
+        },
+        "Report": "The lungs are clear. The cardiomediastinal and hilar silhouettes and pleural surfaces are normal."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Lung",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 4,
+                "relations": []
+            },
+            "2": {
+                "tokens": "volumes",
+                "label": "ANAT-DP",
+                "start_ix": 5,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "low",
+                "label": "OBS-DP",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pneumonia",
+                "label": "OBS-DA",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "5": {
+                "tokens": "overt",
+                "label": "OBS-DA",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "CHF",
+                "label": "OBS-DA",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": []
+            },
+            "7": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": []
+            },
+            "8": {
+                "tokens": "pneumothorax",
+                "label": "OBS-DA",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": []
+            },
+            "9": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 31,
+                "end_ix": 35,
+                "relations": []
+            },
+            "10": {
+                "tokens": "silhouette",
+                "label": "ANAT-DP",
+                "start_ix": 36,
+                "end_ix": 36,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 38,
+                "end_ix": 38,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "osseous",
+                "label": "ANAT-DP",
+                "start_ix": 41,
+                "end_ix": 41,
                 "relations": []
             },
             "13": {
-                "tokens": "silhouette",
+                "tokens": "structures",
                 "label": "ANAT-DP",
-                "start_ix": 67,
-                "end_ix": 67,
+                "start_ix": 42,
+                "end_ix": 42,
                 "relations": [
                     [
                         "modify",
@@ -193,10 +524,10 @@
                 ]
             },
             "14": {
-                "tokens": "normal",
+                "tokens": "intact",
                 "label": "OBS-DP",
-                "start_ix": 69,
-                "end_ix": 69,
+                "start_ix": 44,
+                "end_ix": 44,
                 "relations": [
                     [
                         "located_at",
@@ -205,52 +536,21 @@
                 ]
             },
             "15": {
-                "tokens": "osseous",
-                "label": "ANAT-DP",
-                "start_ix": 72,
-                "end_ix": 72,
+                "tokens": "Limited",
+                "label": "OBS-DP",
+                "start_ix": 46,
+                "end_ix": 46,
                 "relations": []
             },
             "16": {
-                "tokens": "structures",
-                "label": "ANAT-DP",
-                "start_ix": 73,
-                "end_ix": 73,
-                "relations": [
-                    [
-                        "modify",
-                        "15"
-                    ]
-                ]
-            },
-            "17": {
-                "tokens": "intact",
-                "label": "OBS-DP",
-                "start_ix": 75,
-                "end_ix": 75,
-                "relations": [
-                    [
-                        "located_at",
-                        "15"
-                    ]
-                ]
-            },
-            "18": {
-                "tokens": "Limited",
-                "label": "OBS-DP",
-                "start_ix": 79,
-                "end_ix": 79,
-                "relations": []
-            },
-            "19": {
                 "tokens": "negative",
                 "label": "OBS-DP",
-                "start_ix": 81,
-                "end_ix": 81,
+                "start_ix": 48,
+                "end_ix": 48,
                 "relations": []
             }
         },
-        "Report": "The heart, aorta, and pulmonary arteries and veins are all present. There is no evidence of effusion, edema, pneumonia, CHF, or pneumothorax. The cardiomediastinal silhouette is normal. Imaged osseous structures are intact. Limited negative findings."
+        "Report": "The lung volumes are low. Allowing for this, no definite evidence of pneumonia or overt CHF is present. No supine evidence for effusion or pneumothorax is noted. The cardiomediastinal silhouette is normal. Imaged osseous structures are intact."
     }
 ]
 ]

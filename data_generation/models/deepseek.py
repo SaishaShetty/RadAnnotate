@@ -312,13 +312,17 @@ def deepseek_generate_data(total_samples=1, batch_size=1, output_file="/home/sps
                         }
                     } 
                 "Report": "Patient has been extubated . Lungs are clear . Normal cardiomediastinal and hilar silhouettes and pleural surfaces ."
-                },[/User]
-                Do not generate exact reports as the examples.
+                }
+                [/User]
 
-                Follow the instructions in order:
+                Generate similar Reports and annotations by Following the instructions in the given order:
                 1. **Generate a List of Tokens:**
                     - Create between 20 and 30 tokens per report.
-                    - The annotations can be only from the following: ANAT-DP,ANAT-DA,OBS-DP and OBS-DA.
+                    - The annotations can be only from the following:
+                        - ANAT-DP: Anatomy - Definitely Present (e.g., "heart," "aorta").
+                        - ANAT-DA: Anatomy - Definitely Absent (e.g., "no pericardium").
+                        - OBS-DP: Observation - Definitely Present (e.g., "effusion").
+                        - OBS-DA: Observation - Definitely Absent (e.g., "no edema").
                     - Include at least 3 different anatomical structures and 3 different observations.
                     - Make sure to not assume adjectives as a part of the anatomy. (Example - "pulmonary" is not an anatomy)
                     - Make sure not to annotate auxiliary words or modifiers as entities. (Example - in the sentence "No pleural effusion," the word "No" is not an annotation. Instead, only "effusion" should be labeled as OBS-DA. Apply this principle to similar cases. )
@@ -330,6 +334,7 @@ def deepseek_generate_data(total_samples=1, batch_size=1, output_file="/home/sps
                     - Ensure every annotation is included in the report without omission, and all tokens align with their label definitions.
                     - Strictly avoid generating or using any tokens not provided in the annotations.
                     - Ensure the report strictly follows the provided annotations without introducing unannotated tokens that fit the annotation criteria.
+                    - If an OBS-DA (Observation - Definitely Absent) annotation is present, the report must explicitly state the absence of that observation while ensuring that words like 'No' are not annotated..
 
                 3. **Incorporate Relations into the Report:**
                     1. **`suggestive_of (Observation → Observation):`** Link `Observation` entities where the second logically depends on or is inferred from the first.  
@@ -360,7 +365,7 @@ def deepseek_generate_data(total_samples=1, batch_size=1, output_file="/home/sps
                     - Ensure every observation token has a logical anatomical location.
                     - Avoid creating reports with illogical relationships or ambiguous contexts.
                 [/System]
-                **Important** Your output must strictly start with `{` and end with `}`. Do not include any text, explanations, or descriptions outside the JSON structure. If you fail to comply, the output will be considered invalid. After every report generated add a ','[/INST]
+                **Important** Your output must strictly start with `[` and end with `]`. Do not include any text, explanations, or descriptions outside the JSON structure. If you fail to comply, the output will be considered invalid. After every report generated add a ','[/INST]
         """
 
         # Query DeepSeek-R1 14B via Ollama with strict JSON enforcement + stop tokens
@@ -390,4 +395,4 @@ def deepseek_generate_data(total_samples=1, batch_size=1, output_file="/home/sps
     print(f"Generated {total_results} reports and saved to {output_file}")
 
 # Run function with DeepSeek-R1 14B via Ollama
-deepseek_generate_data(total_samples=1, batch_size=1, output_file = 'deepseek_r1_json.json',temperature=0.6)
+deepseek_generate_data(total_samples=1, batch_size=1, output_file = 'deepseek_r1_json.json',temperature=0.2)

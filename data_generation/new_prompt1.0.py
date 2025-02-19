@@ -5,20 +5,28 @@ from mistral_common.protocol.instruct.messages import UserMessage
 from mistral_common.protocol.instruct.request import ChatCompletionRequest
 import json
 import os
-tokenizer = MistralTokenizer.from_file("/home/spshetty/RadAnnotate/data_generation/mixtral/mixtral-model/tokenizer.model.v3")
-model = Transformer.from_folder('/home/spshetty/RadAnnotate/data_generation/mixtral/mixtral-model')
+import torch
 
-def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/relation_testing.json"):
-    
-    if not os.path.exists(output_file):
-        with open(output_file, "w") as file:
-            pass  
+tokenizer = MistralTokenizer.from_file("/home/spshetty/RadAnnotate/data_generation/mixtral/mixtral-model/tokenizer.model.v3")
+
+def mixtral_generate_data(total_samples=1, batch_size=1, output_file="/home/spshetty/RadAnnotate/data_generation/outputs/check.json"):
+    global model
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+    with open(output_file, "w") as file:
+        file.write("[\n")
 
     total_results = 0  
 
     for batch_start in range(0, total_samples, batch_size):
-        remaining_samples = min(batch_size, total_samples - batch_start)
+        torch.cuda.empty_cache()  # Clear GPU memory before every run
 
+        # Reload model to avoid cache issues
+        if "model" in globals():
+            del model  # Delete model if it exists to avoid memory issues
+
+        model = Transformer.from_folder('/home/spshetty/RadAnnotate/data_generation/mixtral/mixtral-model')
+        
         prompt = """
             <s><INST>
             [System]
@@ -574,7 +582,7 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                 2. **Construct a Report:**
                     - Stricly construct the report using only the tokens provided in the annotations. Do not add, modify, or interpret tokens beyond what is defined.
                     - Ensure every annotation is included in the report without omission, and all tokens align with their label definitions.
-                    - Strictly avoid generating or using any tokens not provided in the annotations.
+                    - Make sure to not generate or use any tokens not provided in the annotations.
 
                 3. **Incorporate Relations into the Report:**
                     1. **`suggestive_of (Observation → Observation):`** Link `Observation` entities where the second logically depends on or is inferred from the first.  
@@ -587,7 +595,7 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                         - **Example 1 (**Observation → Observation**):**  In the sentence "The endotracheal tube tip terminates approximately 4.6 cm from the carina.",  "Endotracheal" is modify at "tube".
                         - **Example 2 (Anatomy → Anatomy): In the sentence "The left apex is slightly obscured.", "left" is modify at "apex". 
 
-                    *Important* All directional terms in a report should have a modify relation with the corresponding anatomy.
+                    *Important* Ensure directional terms (eg. left, right,etc) in a report should have a "modify" relation with the corresponding anatomy.
 
                     **Note**An annotation may be linked to one or more annotations through defined relations, but this is not mandatory.
 
@@ -609,32 +617,47 @@ def mixtral_generate_data(total_samples=1, batch_size=1, output_file="outputs/re
                 
                 7. **Validation:**
                     - Ensure that all the annotations produced are used in generating the report. They should logically fit.
+                
+                Important Note : Generate the current reports using "heart, aorta, pulmonary, arteries,etc" these tokens.
 
 
                 [/System]
                 **Important** Your output must strictly start with `{` and end with `}` only. Do not include any text, explanations, or descriptions outside the JSON structure. If you fail to comply, the output will be considered invalid. After every report generated add a ','[/INST]
                 """
                 
-        completion_request = ChatCompletionRequest(messages=[UserMessage(content = prompt)])
-
+        completion_request = ChatCompletionRequest(messages=[UserMessage(content=prompt)])
         tokens = tokenizer.encode_chat_completion(completion_request).tokens
 
-        out_tokens, _ = generate([tokens], model, max_tokens=32000, temperature=0.6, eos_id=tokenizer.instruct_tokenizer.tokenizer.eos_id)
+        try:
+            out_tokens, _ = generate(
+                [tokens], 
+                model, 
+                max_tokens=32000,  
+                temperature=0.6, 
+                eos_id=tokenizer.instruct_tokenizer.tokenizer.eos_id
+            )
+        except RuntimeError as e:
+            print(f"Runtime Error: {e}")
+            torch.cuda.empty_cache()
+            continue  
+
         result = tokenizer.instruct_tokenizer.tokenizer.decode(out_tokens[0])
-        #parsed_res = json.loads(result) 
-        print(result)
-        parsed_res = json.loads(result)  
-        print(parsed_res)
+
+        try:
+            parsed_res = json.loads(result)
+        except json.JSONDecodeError as e:
+            print(f"JSON Error: {e}")
+            parsed_res = {"error": "Invalid JSON output"}
 
         with open(output_file, "a") as file:
-            json.dump(parsed_res, file, indent=4)  # Saves the entire parsed_res instead of the current obj
-            file.write(",\n")
+            json.dump(parsed_res, file, indent=4)
+            if batch_start + batch_size < total_samples:
+                file.write(",\n")
 
-        total_results += len(parsed_res)  # Update total results counter"""
+        total_results += len(parsed_res) if isinstance(parsed_res, list) else 1
+
+    with open(output_file, "a") as file:
+        file.write("\n]")
 
     print(f"Generated {total_results} reports and saved to {output_file}")
-
-
-mixtral_generate_data(total_samples=5, batch_size=1, output_file="/home/spshetty/RadAnnotate/data_generation/outputs/synthetic_data_1.1.json")
-
-##40,10
+mixtral_generate_data(total_samples=1, batch_size=1, output_file="/home/spshetty/RadAnnotate/data_generation/outputs/check.json")
