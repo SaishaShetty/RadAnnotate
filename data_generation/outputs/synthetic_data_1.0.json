@@ -9021,8 +9021,7 @@
         },
         "Report": "The left basal parenchymal region demonstrates a focal infiltrate. No pleural effusion or rib fracture is observed. The medial lobar region shows collapse. There is no evidence of calcification or rib displacement. The medial clavicle shows a sclerotic and dense opacity, likely representing an incomplete healing fracture with a medial scapula head shadow. The lateral scapula head also shows an incomplete sclerotic and dense opacity."
     }
-]
-[
+,
     {
         "Annotations": {
             "1": {
@@ -9553,7 +9552,7 @@
         },
         "Report": "The lungs are clear. The cardiomediastinal and hilar silhouettes are normal. The aortic arch has a small calcification. The pulmonary arteries are normal. The diaphragm is normal. The right hemi-diaphragm dome is elevated, with the right hemi-liver edge blunted. The left hemi-diaphragm is flat, and there is air in the stomach."
     }
-],
+,
 {
     "Annotations": {
         "1": {
@@ -10174,3 +10173,4 @@
     },
     "Report": "There is a subtle left lower lobe opacity. No focal infiltrates or consolidation are present. There is no pleural effusion or posterior lobe opacity. There is a small apical calcification. Moderate scoliosis is present, causing asymmetry of the ribcage."
 }
+]

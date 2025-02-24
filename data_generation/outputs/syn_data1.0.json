@@ -1,0 +1,1269 @@
+[
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Lungs",
+                "label": "ANAT-DP",
+                "start_ix": 36,
+                "end_ix": 36,
+                "relations": []
+            },
+            "2": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 38,
+                "end_ix": 38,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "Normal",
+                "label": "OBS-DP",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ],
+                    [
+                        "located_at",
+                        "5"
+                    ],
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 41,
+                "end_ix": 41,
+                "relations": []
+            },
+            "5": {
+                "tokens": "hilar",
+                "label": "ANAT-DP",
+                "start_ix": 43,
+                "end_ix": 43,
+                "relations": []
+            },
+            "6": {
+                "tokens": "silhouettes",
+                "label": "ANAT-DP",
+                "start_ix": 44,
+                "end_ix": 44,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ],
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 46,
+                "end_ix": 46,
+                "relations": []
+            },
+            "8": {
+                "tokens": "surfaces",
+                "label": "ANAT-DP",
+                "start_ix": 47,
+                "end_ix": 47,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            }
+        },
+        "Report": "Patient has been extubated. Lungs are clear. Normal cardiomediastinal and hilar silhouettes and pleural surfaces."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Lungs",
+                "label": "ANAT-DP",
+                "start_ix": 36,
+                "end_ix": 36,
+                "relations": []
+            },
+            "2": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "prominent",
+                "label": "OBS-DP",
+                "start_ix": 42,
+                "end_ix": 42,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 44,
+                "end_ix": 44,
+                "relations": []
+            },
+            "5": {
+                "tokens": "obscured",
+                "label": "OBS-DP",
+                "start_ix": 46,
+                "end_ix": 46,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": []
+            },
+            "7": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": []
+            }
+        },
+        "Report": "Lungs show prominent alveoli, with some bronchi obscured. The lobes and pleura appear normal."
+    }
+],
+{
+    "error": "Invalid JSON output"
+},
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 12,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 13,
+                "end_ix": 16,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 21,
+                "relations": []
+            }
+        },
+        "Report": "The patient's lungs show clear alveoli, well-defined bronchi, distinct lobes, and intact pleura."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 12,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 13,
+                "end_ix": 16,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 21,
+                "relations": []
+            },
+            "5": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ],
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "located_at",
+                        "3"
+                    ],
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's lungs demonstrate normal alveoli, bronchi, lobes, and pleura."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 12,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 13,
+                "end_ix": 16,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 20,
+                "relations": []
+            }
+        },
+        "Report": "The patient's alveoli, bronchi, lobes, and pleura appear normal."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 12,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 13,
+                "end_ix": 16,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 20,
+                "relations": []
+            },
+            "5": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 21,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ],
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "located_at",
+                        "3"
+                    ],
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's alveoli, bronchi, lobes, and pleura are normal."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Lungs",
+                "label": "ANAT-DP",
+                "start_ix": 36,
+                "end_ix": 36,
+                "relations": []
+            },
+            "2": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 38,
+                "end_ix": 38,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "Normal",
+                "label": "OBS-DP",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ],
+                    [
+                        "located_at",
+                        "5"
+                    ],
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "cardiomediastinal",
+                "label": "ANAT-DP",
+                "start_ix": 41,
+                "end_ix": 41,
+                "relations": []
+            },
+            "5": {
+                "tokens": "hilar",
+                "label": "ANAT-DP",
+                "start_ix": 43,
+                "end_ix": 43,
+                "relations": []
+            },
+            "6": {
+                "tokens": "silhouettes",
+                "label": "ANAT-DP",
+                "start_ix": 44,
+                "end_ix": 44,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ],
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 46,
+                "end_ix": 46,
+                "relations": []
+            },
+            "8": {
+                "tokens": "surfaces",
+                "label": "ANAT-DP",
+                "start_ix": 47,
+                "end_ix": 47,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            }
+        },
+        "Report": "Patient has been extubated. Lungs are clear. Normal cardiomediastinal and hilar silhouettes and pleural surfaces."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 52,
+                "end_ix": 52,
+                "relations": []
+            },
+            "2": {
+                "tokens": "prominent",
+                "label": "OBS-DP",
+                "start_ix": 53,
+                "end_ix": 53,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 54,
+                "end_ix": 54,
+                "relations": []
+            },
+            "4": {
+                "tokens": "narrowed",
+                "label": "OBS-DP",
+                "start_ix": 55,
+                "end_ix": 55,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 56,
+                "end_ix": 56,
+                "relations": []
+            },
+            "6": {
+                "tokens": "thickened",
+                "label": "OBS-DP",
+                "start_ix": 57,
+                "end_ix": 57,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            }
+        },
+        "Report": "Alveoli are prominent. Bronchi are narrowed. Pleura is thickened."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Lobes",
+                "label": "ANAT-DP",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": []
+            },
+            "2": {
+                "tokens": "irregular",
+                "label": "OBS-DP",
+                "start_ix": 64,
+                "end_ix": 64,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "interlobular",
+                "label": "ANAT-DP",
+                "start_ix": 65,
+                "end_ix": 65,
+                "relations": []
+            },
+            "4": {
+                "tokens": "septa",
+                "label": "ANAT-DP",
+                "start_ix": 66,
+                "end_ix": 66,
+                "relations": []
+            },
+            "5": {
+                "tokens": "thickened",
+                "label": "OBS-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            }
+        },
+        "Report": "Lobes are irregular. Interlobular septa are thickened."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 11,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 12,
+                "end_ix": 15,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 19,
+                "relations": []
+            }
+        },
+        "Report": "The patient's lungs show clear alveoli, bronchi, distinct lobes, and a smooth pleura."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 11,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 12,
+                "end_ix": 15,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 19,
+                "relations": []
+            },
+            "5": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ],
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "located_at",
+                        "3"
+                    ],
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's lungs show normal alveoli, bronchi, distinct lobes, and a smooth pleura."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 11,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 12,
+                "end_ix": 15,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 19,
+                "relations": []
+            },
+            "5": {
+                "tokens": "abnormal",
+                "label": "OBS-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ],
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "located_at",
+                        "3"
+                    ],
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "consolidation",
+                "label": "OBS-DA",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's lungs show abnormal alveoli, bronchi, distinct lobes, and a smooth pleura without consolidation."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 12,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 13,
+                "end_ix": 16,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 20,
+                "relations": []
+            }
+        },
+        "Report": "The patient's lungs consist of alveoli, bronchi, lobes, and pleura."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "bronchioles",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 15,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 19,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            }
+        },
+        "Report": "The lungs are composed of alveoli, bronchioles, lobes, and pleura."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 12,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 13,
+                "end_ix": 16,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 21,
+                "relations": []
+            }
+        },
+        "Report": "The patient's lungs consist of alveoli, bronchi, lobes, and pleura."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "bronchioles",
+                "label": "ANAT-DP",
+                "start_ix": 13,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 20,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 24,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            }
+        },
+        "Report": "The lungs are composed of alveoli, bronchioles, lobes, and pleura."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 12,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 13,
+                "end_ix": 16,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 21,
+                "relations": []
+            }
+        },
+        "Report": "The patient's lungs consist of alveoli, bronchi, lobes, and pleura."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "lungs",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 12,
+                "relations": []
+            },
+            "3": {
+                "tokens": "prominent",
+                "label": "OBS-DP",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "interstitium",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 20,
+                "relations": []
+            },
+            "5": {
+                "tokens": "mild",
+                "label": "OBS-DP",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "decreased",
+                "label": "OBS-DP",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "volumes",
+                "label": "ANAT-DP",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": []
+            },
+            "8": {
+                "tokens": "unchanged",
+                "label": "OBS-U",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's lungs have mildly prominent interstitium with decreased volumes, but unchanged compared to previous examinations."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "bronchial",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "wall",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 11,
+                "relations": []
+            },
+            "3": {
+                "tokens": "thickening",
+                "label": "OBS-DP",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ],
+                    [
+                        "suggestive_of",
+                        "4"
+                    ],
+                    [
+                        "suggestive_of",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "infectious",
+                "label": "OBS-U",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": []
+            },
+            "5": {
+                "tokens": "inflammatory",
+                "label": "OBS-U",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": []
+            },
+            "6": {
+                "tokens": "secondary",
+                "label": "OBS-U",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "aspiration",
+                "label": "OBS-U",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            },
+            "8": {
+                "tokens": "focal",
+                "label": "OBS-DA",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "consolidation",
+                "label": "OBS-DA",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ],
+                    [
+                        "suggestive_of",
+                        "10"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "pneumonia",
+                "label": "OBS-DA",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": []
+            }
+        },
+        "Report": "The patient has bronchial wall thickening, which could be infectious, inflammatory, or secondary to aspiration. No focal consolidation concerning for pneumonia is present."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "small",
+                "label": "OBS-DP",
+                "start_ix": 0,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 5,
+                "end_ix": 9,
+                "relations": []
+            },
+            "3": {
+                "tokens": "effusion",
+                "label": "OBS-DP",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "left",
+                "label": "ANAT-DP",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient has a small left pleural effusion."
+    }
+],
+[
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": []
+            },
+            "2": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 11,
+                "relations": []
+            },
+            "3": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 12,
+                "end_ix": 14,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 15,
+                "end_ix": 18,
+                "relations": []
+            }
+        },
+        "Report": "The patient's lungs consist of alveoli, bronchi, lobes, and pleura."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "alveoli",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "lungs",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 9,
+                "relations": []
+            },
+            "3": {
+                "tokens": "bronchi",
+                "label": "ANAT-DP",
+                "start_ix": 10,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "lobes",
+                "label": "ANAT-DP",
+                "start_ix": 14,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "pleura",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            }
+        },
+        "Report": "The lungs contain alveoli, bronchi, lobes, and pleura."
+    }
+]
+]
+]
