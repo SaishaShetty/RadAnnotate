@@ -16,47 +16,38 @@ tokenizer = MistralTokenizer.from_file("/home/spshetty/RadAnnotate/data_generati
 
 json_file_path = "/home/spshetty/RadAnnotate/data_generation/mixtral/dataset/finetune_train.json"
 
-# ✅ Ensure JSON File Exists
 if not os.path.exists(json_file_path):
-    print(f"⚠️ Warning: {json_file_path} not found! Creating an empty dataset.")
+    print(f"Warning: {json_file_path} not found! Creating an empty dataset.")
     with open(json_file_path, "w") as file:
         json.dump([], file)
 
-# ✅ Load JSON Dataset
 try:
     with open(json_file_path, "r") as file:
         stored_reports_with_annotations = json.load(file)
 except json.JSONDecodeError as e:
-    print(f"❌ JSON Parsing Error: {e}")
+    print(f"JSON Parsing Error: {e}")
     exit(1)
 
-# ✅ Extract "Report" Texts Safely
 stored_texts = [item["Report"] for item in stored_reports_with_annotations if "Report" in item]
 
 if not stored_texts:
-    print("❌ No valid 'Report' entries found in the JSON file! Exiting.")
+    print("No valid 'Report' entries found in the JSON file! Exiting.")
     exit(1)
 
-# ✅ Convert reports into FAISS embeddings
-report_embeddings = np.array(embedding_model.encode(stored_texts), dtype="float32")
 
-# ✅ Ensure FAISS uses CPU (to prevent CUDA OOM)
+report_embeddings = np.array(embedding_model.encode(stored_texts), dtype="float32")
 dimension = report_embeddings.shape[1]
-index = faiss.IndexFlatL2(dimension)  # ✅ FAISS in CPU mode
+index = faiss.IndexFlatL2(dimension)  
 index.add(report_embeddings)
 
 stored_reports_dict = {i: stored_reports_with_annotations[i] for i in range(len(stored_reports_with_annotations))}
 
-print(f"✅ FAISS index built with {len(stored_reports_with_annotations)} reports.")
-
-
-def retrieve_similar_reports(user_terms, k=4):
+def retrieve_similar_reports(user_terms, k=5):
     """Retrieve relevant reports based on key terms."""
-    query_text = " ".join(user_terms)  # Create a query from user-defined terms
+    query_text = " ".join(user_terms) 
     query_embedding = embedding_model.encode([query_text])
     _, indices = index.search(np.array(query_embedding, dtype="float32"), k)
-    
-    # ✅ Ensure valid indices (no negative or out-of-range values)
+
     valid_indices = [idx for idx in indices[0] if idx >= 0 and idx < len(stored_reports_with_annotations)]
     
     return [stored_reports_dict[idx] for idx in valid_indices]
@@ -66,22 +57,30 @@ def mixtral_generate_data(user_terms, total_samples=1, batch_size=1, output_file
     global model
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-    with open(output_file, "w") as file:
-        file.write("[\n")
+    # **Read existing JSON content to avoid overwriting**
+    if os.path.exists(output_file) and os.path.getsize(output_file) > 0:
+        try:
+            with open(output_file, "r") as file:
+                existing_data = json.load(file)
+                if not isinstance(existing_data, list):  
+                    existing_data = []
+        except json.JSONDecodeError:
+            existing_data = []  # If JSON is corrupted, start fresh
+    else:
+        existing_data = []
 
     total_results = 0  
 
     for batch_start in range(0, total_samples, batch_size):
-        torch.cuda.empty_cache()  # Clear GPU memory before every run
+        torch.cuda.empty_cache() 
 
-        # Reload model to avoid cache issues
         if "model" in globals():
-            del model  # Delete model if it exists to avoid memory issues
+            del model  
 
         model = Transformer.from_folder('/home/spshetty/RadAnnotate/data_generation/mixtral/mixtral-model',dtype=torch.float16)
 
-        # **Retrieve 4 Relevant Reports Based on User Key Terms**
-        retrieved_reports = retrieve_similar_reports(user_terms, k=4)
+        # Retrieve 3 Relevant Reports Based on User Key Terms
+        retrieved_reports = retrieve_similar_reports(user_terms, k=3)
 
         prompt = f"""
         <s><INST>
@@ -247,12 +246,11 @@ def mixtral_generate_data(user_terms, total_samples=1, batch_size=1, output_file
         **Important**: Your output **must strictly start with `{{` and end with `}}`** only.  
         Do **not** include extra text, explanations, or descriptions outside the JSON structure.  
         If you fail to comply, the output will be considered **invalid**.  
-        After every report generated, add a `,` to separate entries.  
+        After every report generated, add a `,` to separate entries. 
+        Output only the json file '[]'. Start the response with '[' and end with ']' 
 
         [/INST]
         """
-
-
         completion_request = ChatCompletionRequest(messages=[UserMessage(content=prompt)])
         tokens = tokenizer.encode_chat_completion(completion_request).tokens
 
@@ -279,18 +277,15 @@ def mixtral_generate_data(user_terms, total_samples=1, batch_size=1, output_file
             print(f"JSON Error: {e}")
             parsed_res = {"error": "Invalid JSON output"}
 
-        with open(output_file, "a") as file:
-            json.dump(parsed_res, file, indent=4)
-            if batch_start + batch_size < total_samples:
-                file.write(",\n")
+        existing_data.append(parsed_res)
+
+        # **Save the updated data back to the JSON file**
+        with open(output_file, "w") as file:
+            json.dump(existing_data, file, indent=4)
 
         total_results += len(parsed_res) if isinstance(parsed_res, list) else 1
 
-    with open(output_file, "a") as file:
-        file.write("\n]")
-
     print(f"Generated {total_results} reports and saved to {output_file}")
 
-# ✅ Run the synthetic report generation with RAG, user provides key terms
-user_terms = ["heart", "aorta"]  
-mixtral_generate_data(user_terms, total_samples=1, batch_size=1, output_file="/home/spshetty/RadAnnotate/data_generation/outputs/test.json")
+user_terms = ["ribs", "sternum", "clavicle", "diaphragm"]  
+mixtral_generate_data(user_terms, total_samples=2, batch_size=1, output_file="/home/spshetty/RadAnnotate/data_generation/outputs/syn_data1.1.json")
