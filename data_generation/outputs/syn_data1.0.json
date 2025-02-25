@@ -1,5 +1,5 @@
 [
-[
+
     {
         "Annotations": {
             "1": {
@@ -162,12 +162,7 @@
         },
         "Report": "Lungs show prominent alveoli, with some bronchi obscured. The lobes and pleura appear normal."
     }
-],
-{
-    "error": "Invalid JSON output"
-},
-[
-    {
+,  {
         "Annotations": {
             "1": {
                 "tokens": "alveoli",
@@ -257,8 +252,7 @@
         },
         "Report": "The patient's lungs demonstrate normal alveoli, bronchi, lobes, and pleura."
     }
-],
-[
+,
     {
         "Annotations": {
             "1": {
@@ -349,8 +343,7 @@
         },
         "Report": "The patient's alveoli, bronchi, lobes, and pleura are normal."
     }
-],
-[
+,
     {
         "Annotations": {
             "1": {
@@ -556,8 +549,7 @@
         },
         "Report": "Lobes are irregular. Interlobular septa are thickened."
     }
-],
-[
+,
     {
         "Annotations": {
             "1": {
@@ -717,8 +709,7 @@
         },
         "Report": "The patient's lungs show abnormal alveoli, bronchi, distinct lobes, and a smooth pleura without consolidation."
     }
-],
-[
+,
     {
         "Annotations": {
             "1": {
@@ -2887,4 +2878,2907 @@
                 },
                 "Report": "Patient has healed fractures of the posterior left second rib, with chronic mild pleural thickening."
             }
-        ]]    
+,
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "2": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 3,
+                "end_ix": 6,
+                "relations": []
+            },
+            "3": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 10,
+                "relations": []
+            },
+            "4": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 11,
+                "end_ix": 13,
+                "relations": []
+            },
+            "5": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "6": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "displaced",
+                "label": "OBS-DP",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "healed",
+                "label": "OBS-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "injury",
+                "label": "OBS-DP",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "hernia",
+                "label": "OBS-DP",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            }
+        },
+        "Report": "Patient has rib, sternum, and clavicle fractures, with some healed and others still displaced. There is no diaphragm injury or hernia."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "2": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 3,
+                "end_ix": 6,
+                "relations": []
+            },
+            "3": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 10,
+                "relations": []
+            },
+            "4": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 11,
+                "end_ix": 13,
+                "relations": []
+            },
+            "5": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "6": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "displaced",
+                "label": "OBS-DP",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "healed",
+                "label": "OBS-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "injury",
+                "label": "OBS-DP",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "hernia",
+                "label": "OBS-DP",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "lungs",
+                "label": "ANAT-DP",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": []
+            },
+            "15": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": [
+                    [
+                        "located_at",
+                        "14"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": []
+            },
+            "17": {
+                "tokens": "size",
+                "label": "ANAT-DP",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": [
+                    [
+                        "modify",
+                        "16"
+                    ]
+                ]
+            },
+            "18": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "located_at",
+                        "17"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "no",
+                "label": "OBS-DA",
+                "start_ix": 29,
+                "end_ix": 29,
+                "relations": [
+                    [
+                        "modify",
+                        "20"
+                    ]
+                ]
+            },
+            "20": {
+                "tokens": "abnormalities",
+                "label": "OBS-DA",
+                "start_ix": 30,
+                "end_ix": 30,
+                "relations": [
+                    [
+                        "located_at",
+                        "14"
+                    ]
+                ]
+            }
+        },
+        "Report": "Patient has rib, sternum, and clavicle fractures, with some healed and others still displaced. There is no diaphragm injury or hernia. Lungs are clear, heart size is normal, and no abnormalities are present."
+    }
+,
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 1,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 4,
+                "end_ix": 7,
+                "relations": []
+            },
+            "3": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 8,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 12,
+                "end_ix": 15,
+                "relations": []
+            }
+        },
+        "Report": "The patient's ribs, sternum, clavicle, and diaphragm are intact."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 1,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "fractured",
+                "label": "OBS-DP",
+                "start_ix": 4,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 8,
+                "end_ix": 10,
+                "relations": []
+            },
+            "4": {
+                "tokens": "intact",
+                "label": "OBS-DP",
+                "start_ix": 11,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 14,
+                "end_ix": 16,
+                "relations": []
+            },
+            "6": {
+                "tokens": "broken",
+                "label": "OBS-DA",
+                "start_ix": 17,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 20,
+                "end_ix": 23,
+                "relations": []
+            },
+            "8": {
+                "tokens": "contracted",
+                "label": "OBS-DP",
+                "start_ix": 24,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's ribs are fractured, but the sternum and diaphragm are intact. The clavicle is broken, and the diaphragm is contracted."
+    }
+,
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "2": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "3": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "5": {
+                "tokens": "fractured",
+                "label": "OBS-DA",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "6": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "multiple",
+                "label": "ANAT-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "healed",
+                "label": "OBS-DP",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "displaced",
+                "label": "OBS-DA",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            },
+            "11": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "fracture",
+                "label": "OBS-DP",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "fracture",
+                "label": "OBS-DP",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 30,
+                "end_ix": 30,
+                "relations": []
+            },
+            "16": {
+                "tokens": "herniation",
+                "label": "OBS-DA",
+                "start_ix": 31,
+                "end_ix": 31,
+                "relations": []
+            },
+            "17": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 32,
+                "end_ix": 32,
+                "relations": [
+                    [
+                        "modify",
+                        "18"
+                    ]
+                ]
+            },
+            "18": {
+                "tokens": "diaphragmatic",
+                "label": "ANAT-DP",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": [
+                    [
+                        "modify",
+                        "15"
+                    ]
+                ]
+            },
+            "19": {
+                "tokens": "hernia",
+                "label": "OBS-DP",
+                "start_ix": 34,
+                "end_ix": 34,
+                "relations": [
+                    [
+                        "located_at",
+                        "18"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's ribs, sternum, clavicle, and diaphragm appear to be intact. There are no signs of recent fractures. However, there are multiple healed rib fractures, including one in the sternum and another in the clavicle. There is no evidence of a diaphragmatic hernia or right diaphragmatic hernia."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "2": {
+                "tokens": "fractured",
+                "label": "OBS-DA",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "3": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "multiple",
+                "label": "ANAT-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "displaced",
+                "label": "OBS-DA",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            },
+            "7": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "fracture",
+                "label": "OBS-DP",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "fracture",
+                "label": "OBS-DP",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 30,
+                "end_ix": 30,
+                "relations": []
+            },
+            "12": {
+                "tokens": "herniation",
+                "label": "OBS-DA",
+                "start_ix": 31,
+                "end_ix": 31,
+                "relations": []
+            },
+            "13": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 32,
+                "end_ix": 32,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "diaphragmatic",
+                "label": "ANAT-DP",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "hernia",
+                "label": "OBS-DP",
+                "start_ix": 34,
+                "end_ix": 34,
+                "relations": [
+                    [
+                        "located_at",
+                        "14"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "healed",
+                "label": "OBS-DP",
+                "start_ix": 35,
+                "end_ix": 35,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "chronic",
+                "label": "OBS-DP",
+                "start_ix": 37,
+                "end_ix": 37,
+                "relations": [
+                    [
+                        "modify",
+                        "16"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's ribs show multiple healed fractures, including some that are displaced. There is no evidence of a recent sternum or clavicle fracture, but there is a healed right diaphragmatic hernia. The hernia appears to be chronic."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "2": {
+                "tokens": "fractured",
+                "label": "OBS-DA",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "3": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "multiple",
+                "label": "ANAT-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "displaced",
+                "label": "OBS-DA",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            },
+            "7": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "fracture",
+                "label": "OBS-DP",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "fracture",
+                "label": "OBS-DP",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 30,
+                "end_ix": 30,
+                "relations": []
+            },
+            "12": {
+                "tokens": "herniation",
+                "label": "OBS-DA",
+                "start_ix": 31,
+                "end_ix": 31,
+                "relations": []
+            },
+            "13": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 32,
+                "end_ix": 32,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "diaphragmatic",
+                "label": "ANAT-DP",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "hernia",
+                "label": "OBS-DP",
+                "start_ix": 34,
+                "end_ix": 34,
+                "relations": [
+                    [
+                        "located_at",
+                        "14"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "healed",
+                "label": "OBS-DP",
+                "start_ix": 35,
+                "end_ix": 35,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "17": {
+                "tokens": "chronic",
+                "label": "OBS-DP",
+                "start_ix": 37,
+                "end_ix": 37,
+                "relations": [
+                    [
+                        "modify",
+                        "16"
+                    ]
+                ]
+            },
+            "18": {
+                "tokens": "acute",
+                "label": "OBS-DA",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": []
+            },
+            "19": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 41,
+                "end_ix": 41,
+                "relations": []
+            },
+            "20": {
+                "tokens": "thickening",
+                "label": "OBS-DP",
+                "start_ix": 42,
+                "end_ix": 42,
+                "relations": [
+                    [
+                        "located_at",
+                        "19"
+                    ]
+                ]
+            },
+            "21": {
+                "tokens": "effusion",
+                "label": "OBS-DA",
+                "start_ix": 45,
+                "end_ix": 45,
+                "relations": []
+            },
+            "22": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 47,
+                "end_ix": 47,
+                "relations": []
+            },
+            "23": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": [
+                    [
+                        "located_at",
+                        "22"
+                    ]
+                ]
+            },
+            "24": {
+                "tokens": "size",
+                "label": "ANAT-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": [
+                    [
+                        "modify",
+                        "22"
+                    ]
+                ]
+            },
+            "25": {
+                "tokens": "focal",
+                "label": "OBS-U",
+                "start_ix": 53,
+                "end_ix": 53,
+                "relations": [
+                    [
+                        "modify",
+                        "26"
+                    ]
+                ]
+            },
+            "26": {
+                "tokens": "findings",
+                "label": "OBS-U",
+                "start_ix": 54,
+                "end_ix": 54,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "28"
+                    ]
+                ]
+            },
+            "27": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 56,
+                "end_ix": 56,
+                "relations": []
+            },
+            "28": {
+                "tokens": "cage",
+                "label": "ANAT-DP",
+                "start_ix": 57,
+                "end_ix": 57,
+                "relations": [
+                    [
+                        "modify",
+                        "27"
+                    ]
+                ]
+            },
+            "29": {
+                "tokens": "trauma",
+                "label": "OBS-U",
+                "start_ix": 58,
+                "end_ix": 58,
+                "relations": [
+                    [
+                        "located_at",
+                        "28"
+                    ]
+                ]
+            },
+            "30": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 60,
+                "end_ix": 60,
+                "relations": []
+            },
+            "31": {
+                "tokens": "size",
+                "label": "ANAT-DP",
+                "start_ix": 61,
+                "end_ix": 61,
+                "relations": [
+                    [
+                        "modify",
+                        "30"
+                    ]
+                ]
+            },
+            "32": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 63,
+                "end_ix": 63,
+                "relations": [
+                    [
+                        "located_at",
+                        "30"
+                    ]
+                ]
+            },
+            "33": {
+                "tokens": "atelectasis",
+                "label": "OBS-DP",
+                "start_ix": 65,
+                "end_ix": 65,
+                "relations": []
+            },
+            "34": {
+                "tokens": "lung",
+                "label": "ANAT-DP",
+                "start_ix": 67,
+                "end_ix": 67,
+                "relations": []
+            },
+            "35": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 69,
+                "end_ix": 69,
+                "relations": [
+                    [
+                        "located_at",
+                        "34"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's ribs show multiple healed fractures, including some that are displaced. There is no evidence of a recent sternum or clavicle fracture, but there is a healed right diaphragmatic hernia. The hernia appears to be chronic. There are no signs of acute pleural thickening, effusion, or rib cage trauma. The heart size is normal, and the lungs are clear."
+    }
+,
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 4,
+                "end_ix": 8,
+                "relations": []
+            },
+            "3": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 9,
+                "end_ix": 13,
+                "relations": []
+            },
+            "4": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 14,
+                "end_ix": 18,
+                "relations": []
+            }
+        },
+        "Report": "The patient's ribs, sternum, clavicle, and diaphragm are present."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "fractured",
+                "label": "OBS-DP",
+                "start_ix": 4,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 8,
+                "end_ix": 12,
+                "relations": []
+            },
+            "4": {
+                "tokens": "intact",
+                "label": "OBS-DP",
+                "start_ix": 13,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 20,
+                "relations": []
+            },
+            "6": {
+                "tokens": "dislocated",
+                "label": "OBS-DP",
+                "start_ix": 21,
+                "end_ix": 24,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 25,
+                "end_ix": 29,
+                "relations": []
+            },
+            "8": {
+                "tokens": "paralyzed",
+                "label": "OBS-DP",
+                "start_ix": 30,
+                "end_ix": 33,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's ribs are fractured, the sternum is intact, the clavicle is dislocated, and the diaphragm is paralyzed."
+    }
+,
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 4,
+                "end_ix": 9,
+                "relations": []
+            },
+            "3": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 10,
+                "end_ix": 15,
+                "relations": []
+            },
+            "4": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 21,
+                "relations": []
+            },
+            "5": {
+                "tokens": "Normal",
+                "label": "OBS-DP",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ],
+                    [
+                        "located_at",
+                        "7"
+                    ],
+                    [
+                        "located_at",
+                        "8"
+                    ],
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "anatomy",
+                "label": "ANAT-DP",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": []
+            },
+            "7": {
+                "tokens": "structure",
+                "label": "ANAT-DP",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": []
+            },
+            "8": {
+                "tokens": "intact",
+                "label": "OBS-DP",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "osseous",
+                "label": "ANAT-DP",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": []
+            },
+            "10": {
+                "tokens": "framework",
+                "label": "ANAT-DP",
+                "start_ix": 29,
+                "end_ix": 30,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "uninjured",
+                "label": "OBS-DP",
+                "start_ix": 31,
+                "end_ix": 31,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "respiratory",
+                "label": "ANAT-DP",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": []
+            },
+            "13": {
+                "tokens": "system",
+                "label": "ANAT-DP",
+                "start_ix": 34,
+                "end_ix": 34,
+                "relations": []
+            },
+            "14": {
+                "tokens": "function",
+                "label": "ANAT-DP",
+                "start_ix": 35,
+                "end_ix": 35,
+                "relations": []
+            },
+            "15": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 37,
+                "end_ix": 37,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ],
+                    [
+                        "located_at",
+                        "13"
+                    ],
+                    [
+                        "located_at",
+                        "14"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's ribs, sternum, clavicle, and diaphragm are intact, with an uninjured osseous framework. The respiratory system function is normal."
+    }
+, {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "2": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "3": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "4": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            },
+            "5": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "displaced",
+                "label": "OBS-DP",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "multiple",
+                "label": "ANAT-DP",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "13"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": []
+            },
+            "15": {
+                "tokens": "hernia",
+                "label": "OBS-DP",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "located_at",
+                        "14"
+                    ]
+                ]
+            }
+        },
+        "Report": "Patient has multiple rib fractures, displaced fractures of the ribs, fractures of the sternum, and fractures of the clavicle. Additionally, there is a diaphragmatic hernia."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "2": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "multiple",
+                "label": "ANAT-DP",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "displaced",
+                "label": "OBS-DP",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "displaced",
+                "label": "OBS-DP",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "13": {
+                "tokens": "hernia",
+                "label": "OBS-DP",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient has multiple rib fractures, displaced fractures of the ribs, fractures of the sternum, and displaced fractures of the clavicle. Additionally, there is a diaphragmatic hernia."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "2": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "displaced",
+                "label": "OBS-DP",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "displaced",
+                "label": "OBS-DP",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            },
+            "10": {
+                "tokens": "hernia",
+                "label": "OBS-DP",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient has rib fractures, displaced fractures of the sternum, fractures of the clavicle, and displaced fractures of the diaphragm, with a diaphragmatic hernia."
+    }
+,
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "ribs",
+                "label": "ANAT-DP",
+                "start_ix": 1,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "sternum",
+                "label": "ANAT-DP",
+                "start_ix": 4,
+                "end_ix": 7,
+                "relations": []
+            },
+            "3": {
+                "tokens": "clavicle",
+                "label": "ANAT-DP",
+                "start_ix": 8,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "diaphragm",
+                "label": "ANAT-DP",
+                "start_ix": 12,
+                "end_ix": 15,
+                "relations": []
+            },
+            "5": {
+                "tokens": "healed",
+                "label": "OBS-DP",
+                "start_ix": 36,
+                "end_ix": 36,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "fractures",
+                "label": "OBS-DP",
+                "start_ix": 37,
+                "end_ix": 37,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "posterior",
+                "label": "ANAT-DP",
+                "start_ix": 39,
+                "end_ix": 39,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 40,
+                "end_ix": 40,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "middle",
+                "label": "ANAT-DP",
+                "start_ix": 41,
+                "end_ix": 41,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "chronic",
+                "label": "OBS-DP",
+                "start_ix": 44,
+                "end_ix": 44,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "mild",
+                "label": "OBS-DP",
+                "start_ix": 48,
+                "end_ix": 48,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "pleural",
+                "label": "ANAT-DP",
+                "start_ix": 49,
+                "end_ix": 49,
+                "relations": []
+            },
+            "13": {
+                "tokens": "thickening",
+                "label": "OBS-DP",
+                "start_ix": 50,
+                "end_ix": 50,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "displaced",
+                "label": "OBS-DA",
+                "start_ix": 55,
+                "end_ix": 55,
+                "relations": [
+                    [
+                        "modify",
+                        "16"
+                    ]
+                ]
+            },
+            "15": {
+                "tokens": "acute",
+                "label": "OBS-DA",
+                "start_ix": 56,
+                "end_ix": 56,
+                "relations": [
+                    [
+                        "modify",
+                        "16"
+                    ]
+                ]
+            },
+            "16": {
+                "tokens": "fractures",
+                "label": "OBS-DA",
+                "start_ix": 57,
+                "end_ix": 57,
+                "relations": []
+            },
+            "17": {
+                "tokens": "pneumothorax",
+                "label": "OBS-DA",
+                "start_ix": 59,
+                "end_ix": 59,
+                "relations": []
+            },
+            "18": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 66,
+                "end_ix": 66,
+                "relations": []
+            },
+            "19": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 68,
+                "end_ix": 68,
+                "relations": [
+                    [
+                        "located_at",
+                        "18"
+                    ]
+                ]
+            },
+            "20": {
+                "tokens": "focal",
+                "label": "OBS-U",
+                "start_ix": 74,
+                "end_ix": 74,
+                "relations": [
+                    [
+                        "modify",
+                        "21"
+                    ]
+                ]
+            },
+            "21": {
+                "tokens": "findings",
+                "label": "OBS-U",
+                "start_ix": 75,
+                "end_ix": 75,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "25"
+                    ]
+                ]
+            },
+            "22": {
+                "tokens": "rib",
+                "label": "ANAT-DP",
+                "start_ix": 77,
+                "end_ix": 77,
+                "relations": []
+            },
+            "23": {
+                "tokens": "chest",
+                "label": "ANAT-DP",
+                "start_ix": 80,
+                "end_ix": 80,
+                "relations": []
+            },
+            "24": {
+                "tokens": "cage",
+                "label": "ANAT-DP",
+                "start_ix": 81,
+                "end_ix": 81,
+                "relations": [
+                    [
+                        "modify",
+                        "23"
+                    ]
+                ]
+            },
+            "25": {
+                "tokens": "trauma",
+                "label": "OBS-U",
+                "start_ix": 82,
+                "end_ix": 82,
+                "relations": [
+                    [
+                        "located_at",
+                        "22"
+                    ],
+                    [
+                        "located_at",
+                        "23"
+                    ]
+                ]
+            },
+            "26": {
+                "tokens": "heart",
+                "label": "ANAT-DP",
+                "start_ix": 99,
+                "end_ix": 99,
+                "relations": []
+            },
+            "27": {
+                "tokens": "size",
+                "label": "ANAT-DP",
+                "start_ix": 100,
+                "end_ix": 100,
+                "relations": [
+                    [
+                        "modify",
+                        "26"
+                    ]
+                ]
+            },
+            "28": {
+                "tokens": "normal",
+                "label": "OBS-DP",
+                "start_ix": 102,
+                "end_ix": 102,
+                "relations": [
+                    [
+                        "located_at",
+                        "26"
+                    ]
+                ]
+            },
+            "29": {
+                "tokens": "Atelectasis",
+                "label": "OBS-DP",
+                "start_ix": 104,
+                "end_ix": 104,
+                "relations": [
+                    [
+                        "located_at",
+                        "32"
+                    ]
+                ]
+            },
+            "30": {
+                "tokens": "right",
+                "label": "ANAT-DP",
+                "start_ix": 107,
+                "end_ix": 107,
+                "relations": [
+                    [
+                        "modify",
+                        "32"
+                    ]
+                ]
+            },
+            "31": {
+                "tokens": "upper",
+                "label": "ANAT-DP",
+                "start_ix": 108,
+                "end_ix": 108,
+                "relations": [
+                    [
+                        "modify",
+                        "32"
+                    ]
+                ]
+            },
+            "32": {
+                "tokens": "lobe",
+                "label": "ANAT-DP",
+                "start_ix": 109,
+                "end_ix": 109,
+                "relations": []
+            },
+            "33": {
+                "tokens": "new",
+                "label": "OBS-DP",
+                "start_ix": 111,
+                "end_ix": 111,
+                "relations": [
+                    [
+                        "modify",
+                        "29"
+                    ]
+                ]
+            },
+            "34": {
+                "tokens": "Lungs",
+                "label": "ANAT-DP",
+                "start_ix": 113,
+                "end_ix": 113,
+                "relations": []
+            },
+            "35": {
+                "tokens": "clear",
+                "label": "OBS-DP",
+                "start_ix": 116,
+                "end_ix": 116,
+                "relations": [
+                    [
+                        "located_at",
+                        "34"
+                    ]
+                ]
+            }
+        },
+        "Report": "The patient's ribs, sternum, clavicle, and diaphragm show no acute fractures or pneumothorax. The healed fractures of the posterior right middle ribs are chronic, accompanied by mild pleural thickening. The heart size is normal, and there are no focal findings suggesting rib or other chest cage trauma. However, a new atelectasis is found in the right upper lobe, and the lungs are otherwise clear."
+    }
+,
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Esophagus",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 8,
+                "relations": []
+            },
+            "2": {
+                "tokens": "Reflux",
+                "label": "OBS-DP",
+                "start_ix": 9,
+                "end_ix": 14,
+                "relations": []
+            },
+            "3": {
+                "tokens": "Gastroesophageal",
+                "label": "ANAT-DP",
+                "start_ix": 15,
+                "end_ix": 20,
+                "relations": []
+            },
+            "4": {
+                "tokens": "Hiatus",
+                "label": "ANAT-DP",
+                "start_ix": 21,
+                "end_ix": 24,
+                "relations": []
+            },
+            "5": {
+                "tokens": "Stomach",
+                "label": "ANAT-DP",
+                "start_ix": 25,
+                "end_ix": 28,
+                "relations": []
+            }
+        },
+        "Report": "The esophagus shows signs of reflux. The gastroesophageal hiatus and stomach are within normal limits."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Esophagus",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 8,
+                "relations": []
+            },
+            "2": {
+                "tokens": "Reflux",
+                "label": "OBS-DP",
+                "start_ix": 9,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "Gastroesophageal",
+                "label": "ANAT-DP",
+                "start_ix": 15,
+                "end_ix": 20,
+                "relations": []
+            },
+            "4": {
+                "tokens": "Hiatus",
+                "label": "ANAT-DP",
+                "start_ix": 21,
+                "end_ix": 24,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "Stomach",
+                "label": "ANAT-DP",
+                "start_ix": 25,
+                "end_ix": 28,
+                "relations": []
+            }
+        },
+        "Report": "The esophagus, specifically the gastroesophageal hiatus, shows signs of reflux. The stomach is within normal limits."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Esophagus",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 8,
+                "relations": []
+            },
+            "2": {
+                "tokens": "Reflux",
+                "label": "OBS-DP",
+                "start_ix": 9,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "Gastroesophageal",
+                "label": "ANAT-DP",
+                "start_ix": 14,
+                "end_ix": 20,
+                "relations": []
+            },
+            "4": {
+                "tokens": "Hiatus",
+                "label": "ANAT-DP",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": []
+            },
+            "5": {
+                "tokens": "Stomach",
+                "label": "ANAT-DP",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            }
+        },
+        "Report": "Esophagus presents with reflux. Gastroesophageal hiatus and stomach are also present."
+    },
+    {
+        "Annotations": {
+            "1": {
+                "tokens": "Esophagus",
+                "label": "ANAT-DP",
+                "start_ix": 0,
+                "end_ix": 8,
+                "relations": []
+            },
+            "2": {
+                "tokens": "Reflux",
+                "label": "OBS-DP",
+                "start_ix": 9,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "2"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "Gastroesophageal",
+                "label": "ANAT-DP",
+                "start_ix": 14,
+                "end_ix": 20,
+                "relations": []
+            },
+            "4": {
+                "tokens": "Hiatus",
+                "label": "ANAT-DP",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "Stomach",
+                "label": "ANAT-DP",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "Esophageal",
+                "label": "OBS-DP",
+                "start_ix": 23,
+                "end_ix": 27,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "2"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "Reflux",
+                "label": "OBS-DP",
+                "start_ix": 28,
+                "end_ix": 32,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "6"
+                    ]
+                ]
+            }
+        },
+        "Report": "Esophagus shows signs of reflux. Gastroesophageal hiatus, stomach, and esophageal reflux are present."
+    }
+]
+    [
+        {
+            "Annotations": {
+                "1": {
+                    "tokens": "Esophagus",
+                    "label": "ANAT-DP",
+                    "start_ix": 0,
+                    "end_ix": 8,
+                    "relations": []
+                },
+                "2": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 9,
+                    "end_ix": 13,
+                    "relations": []
+                },
+                "3": {
+                    "tokens": "Gastroesophageal",
+                    "label": "ANAT-DP",
+                    "start_ix": 14,
+                    "end_ix": 20,
+                    "relations": []
+                },
+                "4": {
+                    "tokens": "Hiatus",
+                    "label": "ANAT-DP",
+                    "start_ix": 21,
+                    "end_ix": 24,
+                    "relations": []
+                },
+                "5": {
+                    "tokens": "Stomach",
+                    "label": "ANAT-DP",
+                    "start_ix": 25,
+                    "end_ix": 25,
+                    "relations": []
+                }
+            },
+            "Report": "The esophagus demonstrates signs of reflux. The gastroesophageal junction is located at the hiatus, and the stomach is present."
+        },
+        {
+            "Annotations": {
+                "1": {
+                    "tokens": "Esophagus",
+                    "label": "ANAT-DP",
+                    "start_ix": 0,
+                    "end_ix": 8,
+                    "relations": []
+                },
+                "2": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 9,
+                    "end_ix": 13,
+                    "relations": [
+                        [
+                            "located_at",
+                            "1"
+                        ]
+                    ]
+                },
+                "3": {
+                    "tokens": "Gastroesophageal",
+                    "label": "ANAT-DP",
+                    "start_ix": 14,
+                    "end_ix": 20,
+                    "relations": []
+                },
+                "4": {
+                    "tokens": "Hiatus",
+                    "label": "ANAT-DP",
+                    "start_ix": 21,
+                    "end_ix": 24,
+                    "relations": [
+                        [
+                            "modify",
+                            "3"
+                        ]
+                    ]
+                },
+                "5": {
+                    "tokens": "Stomach",
+                    "label": "ANAT-DP",
+                    "start_ix": 25,
+                    "end_ix": 25,
+                    "relations": []
+                }
+            },
+            "Report": "The esophagus is experiencing reflux, which is located at the gastroesophageal junction within the hiatus, and the stomach is present."
+        },
+        {
+            "Annotations": {
+                "1": {
+                    "tokens": "Esophagus",
+                    "label": "ANAT-DP",
+                    "start_ix": 0,
+                    "end_ix": 8,
+                    "relations": []
+                },
+                "2": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 9,
+                    "end_ix": 13,
+                    "relations": [
+                        [
+                            "suggestive_of",
+                            "2"
+                        ]
+                    ]
+                },
+                "3": {
+                    "tokens": "Gastroesophageal",
+                    "label": "ANAT-DP",
+                    "start_ix": 14,
+                    "end_ix": 20,
+                    "relations": []
+                },
+                "4": {
+                    "tokens": "Hiatus",
+                    "label": "ANAT-DP",
+                    "start_ix": 21,
+                    "end_ix": 24,
+                    "relations": [
+                        [
+                            "modify",
+                            "3"
+                        ]
+                    ]
+                },
+                "5": {
+                    "tokens": "Stomach",
+                    "label": "ANAT-DP",
+                    "start_ix": 25,
+                    "end_ix": 25,
+                    "relations": []
+                }
+            },
+            "Report": "The esophagus is showing signs of reflux, which may be indicative of gastroesophageal reflux disease, located at the hiatus, and the stomach is present."
+        }
+    ],
+    [
+        {
+            "Annotations": {
+                "1": {
+                    "tokens": "Esophagus",
+                    "label": "ANAT-DP",
+                    "start_ix": 0,
+                    "end_ix": 8,
+                    "relations": []
+                },
+                "2": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 9,
+                    "end_ix": 15,
+                    "relations": [
+                        [
+                            "located_at",
+                            "1"
+                        ]
+                    ]
+                },
+                "3": {
+                    "tokens": "Gastroesophageal",
+                    "label": "ANAT-DP",
+                    "start_ix": 16,
+                    "end_ix": 23,
+                    "relations": []
+                },
+                "4": {
+                    "tokens": "Hiatus",
+                    "label": "ANAT-DP",
+                    "start_ix": 24,
+                    "end_ix": 26,
+                    "relations": []
+                },
+                "5": {
+                    "tokens": "Stomach",
+                    "label": "ANAT-DP",
+                    "start_ix": 27,
+                    "end_ix": 27,
+                    "relations": []
+                }
+            },
+            "Report": "The esophagus shows evidence of reflux, with the gastroesophageal junction and stomach being within the field of view."
+        },
+        {
+            "Annotations": {
+                "1": {
+                    "tokens": "Esophagus",
+                    "label": "ANAT-DP",
+                    "start_ix": 0,
+                    "end_ix": 8,
+                    "relations": []
+                },
+                "2": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 9,
+                    "end_ix": 15,
+                    "relations": [
+                        [
+                            "located_at",
+                            "1"
+                        ]
+                    ]
+                },
+                "3": {
+                    "tokens": "Gastroesophageal",
+                    "label": "ANAT-DP",
+                    "start_ix": 16,
+                    "end_ix": 23,
+                    "relations": []
+                },
+                "4": {
+                    "tokens": "Hiatus",
+                    "label": "ANAT-DP",
+                    "start_ix": 24,
+                    "end_ix": 26,
+                    "relations": []
+                },
+                "5": {
+                    "tokens": "Stomach",
+                    "label": "ANAT-DP",
+                    "start_ix": 27,
+                    "end_ix": 27,
+                    "relations": []
+                },
+                "6": {
+                    "tokens": "Dilated",
+                    "label": "OBS-DP",
+                    "start_ix": 28,
+                    "end_ix": 28,
+                    "relations": [
+                        [
+                            "modify",
+                            "5"
+                        ]
+                    ]
+                }
+            },
+            "Report": "The esophagus shows evidence of reflux, with the gastroesophageal junction and dilated stomach being within the field of view."
+        },
+        {
+            "Annotations": {
+                "1": {
+                    "tokens": "Esophagus",
+                    "label": "ANAT-DP",
+                    "start_ix": 0,
+                    "end_ix": 8,
+                    "relations": []
+                },
+                "2": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 9,
+                    "end_ix": 15,
+                    "relations": [
+                        [
+                            "located_at",
+                            "1"
+                        ]
+                    ]
+                },
+                "3": {
+                    "tokens": "Gastroesophageal",
+                    "label": "ANAT-DP",
+                    "start_ix": 16,
+                    "end_ix": 23,
+                    "relations": []
+                },
+                "4": {
+                    "tokens": "Hiatus",
+                    "label": "ANAT-DP",
+                    "start_ix": 24,
+                    "end_ix": 26,
+                    "relations": []
+                },
+                "5": {
+                    "tokens": "Stomach",
+                    "label": "ANAT-DP",
+                    "start_ix": 27,
+                    "end_ix": 27,
+                    "relations": []
+                },
+                "6": {
+                    "tokens": "Dilated",
+                    "label": "OBS-DP",
+                    "start_ix": 28,
+                    "end_ix": 28,
+                    "relations": [
+                        [
+                            "modify",
+                            "5"
+                        ]
+                    ]
+                },
+                "7": {
+                    "tokens": "Barrett's",
+                    "label": "OBS-DP",
+                    "start_ix": 29,
+                    "end_ix": 32,
+                    "relations": [
+                        [
+                            "suggestive_of",
+                            "2"
+                        ]
+                    ]
+                }
+            },
+            "Report": "The esophagus shows evidence of reflux, with the gastroesophageal junction and dilated, Barrett's esophagus being within the field of view."
+        }
+    ],
+    [
+        {
+            "Annotations": {
+                "1": {
+                    "tokens": "Esophagus",
+                    "label": "ANAT-DP",
+                    "start_ix": 0,
+                    "end_ix": 8,
+                    "relations": []
+                },
+                "2": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 9,
+                    "end_ix": 13,
+                    "relations": [
+                        [
+                            "located_at",
+                            "1"
+                        ]
+                    ]
+                },
+                "3": {
+                    "tokens": "Gastroesophageal",
+                    "label": "ANAT-DP",
+                    "start_ix": 14,
+                    "end_ix": 21,
+                    "relations": []
+                },
+                "4": {
+                    "tokens": "Hiatus",
+                    "label": "ANAT-DP",
+                    "start_ix": 22,
+                    "end_ix": 22,
+                    "relations": []
+                },
+                "5": {
+                    "tokens": "Stomach",
+                    "label": "ANAT-DP",
+                    "start_ix": 23,
+                    "end_ix": 27,
+                    "relations": []
+                }
+            },
+            "Report": "The esophagus presents with reflux, involving the gastroesophageal hiatus and the stomach."
+        },
+        [
+        {
+            "Annotations": {
+                "1": {
+                    "tokens": "Esophagus",
+                    "label": "ANAT-DP",
+                    "start_ix": 0,
+                    "end_ix": 8,
+                    "relations": []
+                },
+                "2": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 9,
+                    "end_ix": 13,
+                    "relations": [
+                        [
+                            "located_at",
+                            "1"
+                        ]
+                    ]
+                },
+                "3": {
+                    "tokens": "Gastroesophageal",
+                    "label": "ANAT-DP",
+                    "start_ix": 14,
+                    "end_ix": 21,
+                    "relations": []
+                },
+                "4": {
+                    "tokens": "Hiatus",
+                    "label": "ANAT-DP",
+                    "start_ix": 22,
+                    "end_ix": 22,
+                    "relations": []
+                },
+                "5": {
+                    "tokens": "Stomach",
+                    "label": "ANAT-DP",
+                    "start_ix": 23,
+                    "end_ix": 27,
+                    "relations": []
+                },
+                "6": {
+                    "tokens": "Reflux",
+                    "label": "OBS-DP",
+                    "start_ix": 28,
+                    "end_ix": 32,
+                    "relations": [
+                        [
+                            "suggestive_of",
+                            "2"
+                        ]
+                    ]
+                }
+            },
+            "Report": "The esophagus exhibits reflux, which is suggestive of gastroesophageal reflux at the hiatus and the stomach."
+        }
+    ]
+]
