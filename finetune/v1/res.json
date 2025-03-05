@@ -1,0 +1,152 @@
+
+[
+    {
+      "word": "lungs",
+      "type": "ANAT-DP",
+      "relations": []
+    },
+    {
+      "word": "clear",
+      "type": "OBS-DP",
+      "relations": [
+        {
+          "head": "lungs",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "focal",
+      "type": "OBS-DA",
+      "relations": [
+        {
+          "head": "consolidation",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "consolidation",
+      "type": "OBS-DP",
+      "relations": [
+        {
+          "head": "focal",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "edema",
+      "type": "OBS-DA",
+      "relations": [
+        {
+          "head": "lungs",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "cardiomediastinal",
+      "type": "ANAT-DP",
+      "relations": []
+    },
+    {
+      "word": "silhouette",
+      "type": "ANAT-DP",
+      "relations": [
+        {
+          "head": "cardiomediastinal",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "within",
+      "type": "OBS-DP",
+      "relations": [
+        {
+          "head": "cardiomediastinal",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "normal",
+      "type": "OBS-DP",
+      "relations": [
+        {
+          "head": "limits",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "acute",
+      "type": "OBS-DA",
+      "relations": [
+        {
+          "head": "osseous",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "osseous",
+      "type": "ANAT-DP",
+      "relations": []
+    },
+    {
+      "word": "abnormalities",
+      "type": "OBS-DA",
+      "relations": [
+        {
+          "head": "acute",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "IMPRESSION",
+      "type": "ANAT-DP",
+      "relations": []
+    },
+    {
+      "word": "No",
+      "type": "OBS-DA",
+      "relations": [
+        {
+          "head": "acute",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    },
+    {
+      "word": "cardiopulmonary",
+      "type": "ANAT-DP",
+      "relations": []
+    },
+    {
+      "word": "process",
+      "type": "ANAT-DP",
+      "relations": [
+        {
+          "head": "cardiopulmonary",
+          "modifier": "modify",
+          "tail": null
+        }
+      ]
+    }
+  ]
+
+
+  {"1": {"tokens": "lungs", "label": "ANAT-DP", "start_ix": 0, "end_ix": 1, "relations": [["modify", "2"]]}, "2": {"tokens": "clear", "label": "OBS-DP", "start_ix": 2, "end_ix": 3, "relations": [["located_at", "1"]]}, "3": {"tokens": "focal", "label": "OBS-DA", "start_ix": 4, "end_ix": 4, "relations": [["modify", "4"]]}, "4": {"tokens": "consolidation", "label": "OBS-DA", "start_ix": 5, "end_ix": 5, "relations": [["located_at", "1"]]}, "5": {"tokens": "edema", "label": "OBS-DA", "start_ix": 6, "end_ix": 6, "relations": [["located_at", "1"]]}, "6": {"tokens": "Cardiomediastinal", "label": "ANAT-DP", "start_ix": 7, "end_ix": 7, "relations": []}, "7": {"tokens": "silhouette", "label": "ANAT-DP", "start_ix": 8, "end_ix": 8, "relations": [["modify", "6"]]}, "8": {"tokens": "within", "label": "OBS-DP", "start_ix": 9, "end_ix": 10, "relations": [["modify", "9"]]}, "9": {"tokens": "normal", "label": "OBS-DP", "start_ix": 11, "end_ix": 11, "relations": [["modify", "10"]]}, "10": {"tokens": "limits", "label": "OBS-DP", "start_ix": 12, "end_ix": 12, "relations": [["modify", "11"]]}, "11": {"tokens": "size", "label": "OBS-DP", "start_ix": 13, "end_ix": 13, "relations": [["located_at", "6"]]}, "12": {"tokens": "Diffuse", "label": "OBS-DP", "start_ix": 14, "end_ix": 14, "relations": [["modify", "13"]]}, "13": {"tokens": "osteopenia", "label": "OBS-DP", "start_ix": 15, "end_ix": 15, "relations": []}, "14": {"tokens": "acute", "label": "OBS-DA", "start_ix": 16, "end_ix": 16, "relations": [["modify", "17"]]}, "15": {"tokens": "cardiopulmonary", "label": "ANAT-DP", "start_ix": 17, "end_ix": 17, "relations": []}, "16": {"tokens": "process", "label": "OBS-DA", "start_ix": 18, "end_ix": 18, "relations": [["located_at", "15"]]}}
