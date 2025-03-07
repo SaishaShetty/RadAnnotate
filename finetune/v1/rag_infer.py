@@ -105,7 +105,7 @@ def generate_annotation(report):
 
     ### Step 2: Identify Relations Between Entities:
     - **suggestive_of (Observation → Observation)**: e.g., "scoliosis" suggestive_of "asymmetry".
-    - **located_at (Observation → Anatomy)**: e.g., "Normal" located_at "cardiomediastinal".
+    - **located_at (Observation → Anatomy)**: Whene.g., "Normal" located_at "cardiomediastinal".
     - **modify (Observation → Observation or Anatomy → Anatomy)**: e.g., "left" modify "apex".
 
     *Important:* All directional terms should have a modify relation with their corresponding anatomy.
@@ -141,6 +141,7 @@ def generate_annotation(report):
 
     # Step 3: Tokenize and Generate
     inputs = tokenizer(prompt, return_tensors="pt").to("cuda" if torch.cuda.is_available() else "cpu")
+
     with torch.no_grad():  
         outputs = model.generate(
             **inputs,
@@ -150,6 +151,7 @@ def generate_annotation(report):
         )
 
     # Step 4: Extract and Parse JSON Output
+    
     response = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
     try:
         start = response.find("{")
@@ -165,7 +167,7 @@ def generate_annotation(report):
         return {}
 
 if __name__ == "__main__":
-    test_report = "There is mild - to - moderate cardiomegaly . Bilateral pleural effusions are small . Aside from atelectasis in the left lower lobe , the lungs are grossly clear . Almost complete resolution of atelectasis in the left upper lobe . Sternal wires are aligned . Widened mediastinum has improved . A small air - fluid level in the retrosternal region suggests the presence of a tiny pneumothorax and small effusion . These are most likely located in the left side ."
+    test_report = " The lungs are grossly clear . There is no focal consolidation , large effusion or edema . The cardiomediastinal silhouette is within normal limits . No acute osseous abnormalities . IMPRESSION : No acute cardiopulmonary process"
     print("Running fine-tuned Mistral model test with RAG...")
     annotated_report = generate_annotation(test_report)
     
