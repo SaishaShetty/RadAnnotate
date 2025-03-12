@@ -1,0 +1,5075 @@
+[
+    {
+        "sentence": "FINAL REPORT EXAMINATION : Chest : Frontal and lateral views INDICATION : History : ___ M with dyspnea / / infiltrate TECHNIQUE : Chest : Frontal and Lateral COMPARISON : None .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : The lungs are clear without focal consolidation .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP",
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pleural effusion or pneumothorax is seen .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The cardiac and mediastinal silhouettes are unremarkable .",
+        "labels": {
+            "cardiac": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "silhouettes": "ANAT-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Partially imaged hardware in the lumbar spine .",
+        "labels": {
+            "hardware": "OBS-DP",
+            "lumbar": "ANAT-DP",
+            "spine": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute cardiopulmonary process .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : Chest pain , dyspnea .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : None available .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Chest , PA and lateral .",
+        "labels": {}
+    },
+    {
+        "sentence": "Lung volumes are low .",
+        "labels": {
+            "Lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "low": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The hilar and cardiomediastinal contours are within normal limits .",
+        "labels": {
+            "hilar": "ANAT-DP",
+            "cardiomediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "within": "OBS-DP",
+            "normal": "OBS-DP",
+            "limits": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No chf , focal infiltrate , effusion or pneumothorax is detected .",
+        "labels": {
+            "chf": "OBS-DA",
+            "focal": "OBS-DA",
+            "infiltrate": "OBS-DA",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute pulmonary process identified .",
+        "labels": {
+            "acute": "OBS-DA",
+            "pulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH INDICATION : Status post rib fracture , status post extubation .",
+        "labels": {
+            "rib": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : As compared to the previous radiograph , there is no relevant change .",
+        "labels": {}
+    },
+    {
+        "sentence": "Bilateral basal parenchymal opacities .",
+        "labels": {
+            "Bilateral": "ANAT-DP",
+            "basal": "ANAT-DP",
+            "parenchymal": "ANAT-DP",
+            "opacities": "OBS-DP",
+            "bilateral": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Small bilateral pleural effusions , slightly more extensive on the left than on the right .",
+        "labels": {
+            "Small": "OBS-DP",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-DP",
+            "extensive": "OBS-DP",
+            "left": "ANAT-DP",
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "At the right lung bases , in the region of the known displaced rib fractures , there are subtle parenchymal opacities that might represent areas of lung contusion .",
+        "labels": {
+            "lung": "ANAT-DP",
+            "bases": "ANAT-DP",
+            "region": "ANAT-DP",
+            "known": "OBS-DP",
+            "displaced": "OBS-DP",
+            "fractures": "OBS-DP",
+            "subtle": "OBS-DP",
+            "contusion": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Minimal fluid overload .",
+        "labels": {
+            "Minimal": "OBS-DP",
+            "fluid": "OBS-DP",
+            "overload": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Borderline size of the cardiac silhouette .",
+        "labels": {
+            "Borderline": "OBS-DP",
+            "size": "ANAT-DP",
+            "cardiac": "ANAT-DP",
+            "silhouette": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Unchanged position and course of the PICC line .",
+        "labels": {
+            "Unchanged": "OBS-DP",
+            "position": "OBS-DP",
+            "course": "OBS-DP",
+            "PICC": "OBS-DP",
+            "line": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH INDICATION : Status post motor vehicle accident , difficult extubation .",
+        "labels": {
+            "chest": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "COMPARISON : ___ , 5:53a.m.",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : As compared to the previous radiograph , the patient has been extubated .",
+        "labels": {}
+    },
+    {
+        "sentence": "In addition , the right chest tube has been removed .",
+        "labels": {
+            "right": "ANAT-DP",
+            "tube": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "There is currently no evidence of pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The lung volumes have slightly increased .",
+        "labels": {
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "slightly": "OBS-DP",
+            "increased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Moderate cardiomegaly and bilateral areas of atelectasis , the presence of small bilateral pleural effusions cannot be excluded .",
+        "labels": {
+            "Moderate": "OBS-DP",
+            "cardiomegaly": "OBS-DP",
+            "bilateral": "ANAT-DP",
+            "areas": "OBS-DP",
+            "atelectasis": "OBS-DP",
+            "small": "OBS-U",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-U"
+        }
+    },
+    {
+        "sentence": "No newly appeared opacities , no pneumonia , no pulmonary edema .",
+        "labels": {
+            "newly": "OBS-DA",
+            "opacities": "OBS-DA",
+            "pneumonia": "OBS-DA",
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT CLINICAL INFORMATION : ___ - year - old male with right - sided rib fractures and pneumothorax status post chest tube placement .",
+        "labels": {
+            "placement": "OBS-DP",
+            "right - sided": "ANAT-DP",
+            "chest": "ANAT-DP",
+            "tube": "OBS-DP",
+            "pneumothorax": "OBS-DP",
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "COMPARISON : ___ at ___ hours .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Portable chest radiograph demonstrates interval placement of a right - sided chest tube , the tip of which approaches the midline mediastinum .",
+        "labels": {
+            "interval": "OBS-DP",
+            "tip": "OBS-DP",
+            "midline": "ANAT-DP",
+            "mediastinum": "ANAT-DP",
+            "Interval": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The sidehole marker is not appreciated on this study .",
+        "labels": {
+            "sidehole": "OBS-DA",
+            "marker": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Bibasilar opacities remain , there appears to have been interval improvement in pneumothorax , though the evaluation of lung markings is limited on this study due to overlying soft tissue gas .",
+        "labels": {
+            "Bibasilar": "ANAT-DP",
+            "opacities": "OBS-DP",
+            "improvement": "OBS-DP",
+            "overlying": "OBS-DP",
+            "soft tissue": "ANAT-DP",
+            "gas": "OBS-DP",
+            "in": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There remains extensive soft tissue gas outlining the pectoralis muscles bilaterally , as well as right subcutaneous tissues .",
+        "labels": {
+            "extensive": "OBS-DP",
+            "pectoralis": "ANAT-DP",
+            "muscles": "ANAT-DP",
+            "bilaterally": "ANAT-DP",
+            "subcutaneous": "ANAT-DP",
+            "tissues": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The remainder of support lines and tubes are stable in appearance .",
+        "labels": {
+            "support": "OBS-DP",
+            "lines": "OBS-DP",
+            "tubes": "OBS-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Interval placement of a right chest tube , with apparent improvement in right - sided pneumothorax .",
+        "labels": {
+            "apparent": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Slight interval improvement in widespread airspace opacities .",
+        "labels": {
+            "Slight": "OBS-DP",
+            "widespread": "OBS-DP",
+            "airspace": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH TECHNIQUE : AP semi - erect upright chest view was read in comparison to prior radiograph from ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Endotracheal tube ends approximately 7.4 cm from the carina positioned at the level of the clavicular head .",
+        "labels": {
+            "Endotracheal": "OBS-DP",
+            "tube": "OBS-DP",
+            "7.4 cm": "ANAT-DP",
+            "carina": "ANAT-DP",
+            "clavicular": "ANAT-DP",
+            "head": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Consider advancing the ETT by 2 cm for better seating .",
+        "labels": {}
+    },
+    {
+        "sentence": "Bilateral lung volumes remain low .",
+        "labels": {
+            "Bilateral": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "low": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "An orogastric tube is seen coursing below the diaphragm into the stomach ; however , the distal end is beyond radiographic review .",
+        "labels": {
+            "below": "ANAT-DP",
+            "diaphragm": "ANAT-DP",
+            "stomach": "ANAT-DP",
+            "distal": "OBS-DA",
+            "end": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Lower lung atelectasis and presumed small pleural effusions are unchanged .",
+        "labels": {
+            "Lower": "ANAT-DP",
+            "atelectasis": "OBS-DP",
+            "presumed": "OBS-U",
+            "small": "OBS-U",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-U",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There are no other new interval changes .",
+        "labels": {}
+    },
+    {
+        "sentence": "Heart size , mediastinal and hilar contours are stable .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Multiple rib fractures are redemonstrated .",
+        "labels": {
+            "Multiple": "OBS-DP",
+            "rib": "ANAT-DP",
+            "fractures": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : Status post surgery , intubated , please evaluate for pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "COMPARISON : Chest radiograph and CT torso on ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : One portable semi - erect AP view of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "Compared to most recent chest radiograph , the mediastinum is more widened .",
+        "labels": {
+            "mediastinum": "ANAT-DP",
+            "more": "OBS-DP",
+            "widened": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Given the patient 's manubrium fracture , this is concerning for a mediastinal bleed .",
+        "labels": {
+            "manubrium": "ANAT-DP",
+            "fracture": "OBS-DP",
+            "mediastinal": "ANAT-DP",
+            "bleed": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Endotracheal tube ends 5 cm from the carina .",
+        "labels": {
+            "Endotracheal": "OBS-DP",
+            "tube": "OBS-DP",
+            "5 cm": "ANAT-DP",
+            "carina": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There are low lung volumes and new right mid lung linear opacity probably representing atelectasis .",
+        "labels": {
+            "low": "OBS-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "new": "OBS-DP",
+            "right": "ANAT-DP",
+            "mid": "ANAT-DP",
+            "linear": "OBS-DP",
+            "opacity": "OBS-DP",
+            "atelectasis": "OBS-DP",
+            "New": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No evidence of pneumonia .",
+        "labels": {
+            "pneumonia": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pleural effusions .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pneumothorax .",
+        "labels": {}
+    },
+    {
+        "sentence": "Increased vascular congestion .",
+        "labels": {
+            "Increased": "OBS-DP",
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : 1 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Increased widening of mediastinum is concerning for mediastinal bleed given the patient 's history of trauma and manubrium fracture .",
+        "labels": {
+            "widening": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "2 .",
+        "labels": {}
+    },
+    {
+        "sentence": "New right mid lung atelectasis .",
+        "labels": {}
+    },
+    {
+        "sentence": "These findings were discussed with Dr .",
+        "labels": {}
+    },
+    {
+        "sentence": "___ ___ at 1p.m.",
+        "labels": {}
+    },
+    {
+        "sentence": "on ___ by telephone .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT SINGLE FRONTAL VIEW OF THE CHEST REASON FOR EXAM : MVC with multiple rib fractures .",
+        "labels": {
+            "chest": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "ET tube is in standard position .",
+        "labels": {
+            "ET": "OBS-DP",
+            "tube": "OBS-DP",
+            "standard": "OBS-DP",
+            "position": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "NG tube tip is out of view below the diaphragm .",
+        "labels": {
+            "NG": "OBS-DP",
+            "tip": "OBS-DA",
+            "below": "ANAT-DP",
+            "diaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Right basal chest tube is in place in unchanged position .",
+        "labels": {
+            "Right": "ANAT-DP",
+            "basal": "ANAT-DP",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no evident pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Small - to - mild left pleural effusion is unchanged with unchanged adjacent atelectasis .",
+        "labels": {
+            "Small": "OBS-DP",
+            "mild": "OBS-DP",
+            "left": "ANAT-DP",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DP",
+            "adjacent": "ANAT-DP",
+            "atelectasis": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Right lower lobe opacities have increased , could be due to atelectasis or pneumonia in the appropriate clinical setting .",
+        "labels": {
+            "lower": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "opacities": "OBS-DP",
+            "increased": "OBS-DP",
+            "pneumonia": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Pulmonary edema has minimally increased .",
+        "labels": {
+            "Pulmonary": "ANAT-DP",
+            "edema": "OBS-DP",
+            "minimally": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Subcutaneous emphysema has decreased .",
+        "labels": {
+            "Subcutaneous": "ANAT-DP",
+            "emphysema": "OBS-DP",
+            "decreased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Increase in widened mediastinum could be just due to positioning or rotation , but attention should be paid in followup studies .",
+        "labels": {
+            "Increase": "OBS-DP",
+            "widened": "OBS-DP",
+            "mediastinum": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There are persistent low lung volumes .",
+        "labels": {
+            "low": "OBS-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomegaly is stable .",
+        "labels": {
+            "Cardiomegaly": "OBS-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT PA AND LATERAL CHEST RADIOGRAPH ___ COMPARISON : Chest radiographs dating between ___ and ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : The ribs are ideally assessed on this conventional chest radiograph examination .",
+        "labels": {}
+    },
+    {
+        "sentence": "With this limitation in mind , known right - sided rib fractures are healing , and several remain mildly displaced .",
+        "labels": {
+            "right - sided": "ANAT-DP",
+            "rib": "ANAT-DP",
+            "fractures": "OBS-DP",
+            "healing": "OBS-DP",
+            "several": "ANAT-DP",
+            "mildly": "OBS-DP",
+            "displaced": "OBS-DP",
+            "Right": "ANAT-DP",
+            "Healing": "OBS-DP",
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No pneumothorax is identified , but there are persistent bilateral small pleural effusions present .",
+        "labels": {
+            "pneumothorax": "OBS-DA",
+            "bilateral": "ANAT-DP",
+            "small": "OBS-DP",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-DP",
+            "Small": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal contours are within normal limits for technique .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "within": "OBS-DP",
+            "normal": "OBS-DP",
+            "limits": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Right hemidiaphragm is elevated anteriorly without change .",
+        "labels": {
+            "hemidiaphragm": "ANAT-DP",
+            "elevated": "OBS-DP",
+            "anteriorly": "OBS-DP",
+            "change": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Lucency through the manubrium on the lateral chest radiograph corresponds to a fracture on the prior outside chest CT of ___ .",
+        "labels": {
+            "Lucency": "OBS-DP",
+            "manubrium": "ANAT-DP",
+            "fracture": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : 1 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Healing right rib fractures .",
+        "labels": {}
+    },
+    {
+        "sentence": "Note that the ribs are not ideally assessed by chest radiography .",
+        "labels": {}
+    },
+    {
+        "sentence": "If there is a clinical concern regarding new or displaced fractures , dedicated rib films may be considered .",
+        "labels": {}
+    },
+    {
+        "sentence": "2 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Healing manubrial fracture .",
+        "labels": {
+            "manubrial": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "3 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Small bilateral pleural effusions .",
+        "labels": {}
+    },
+    {
+        "sentence": "4 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Persistent eventration right hemidiaphragm .",
+        "labels": {
+            "eventration": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Multiple injuries , to assess for change .",
+        "labels": {
+            "Multiple": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINDINGS : In comparison with study of ___ , there are again low lung volumes .",
+        "labels": {
+            "low": "OBS-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Monitoring and support devices remain in place .",
+        "labels": {
+            "Monitoring": "OBS-DP",
+            "support": "OBS-DP",
+            "devices": "OBS-DP",
+            "in place": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bilateral pulmonary opacifications again are consistent with pulmonary edema .",
+        "labels": {
+            "Bilateral": "ANAT-DP",
+            "pulmonary": "ANAT-DP",
+            "opacifications": "OBS-DP",
+            "edema": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Right chest tube remains in place without evidence of pneumothorax .",
+        "labels": {
+            "Right": "ANAT-DP",
+            "chest": "ANAT-DP",
+            "tube": "OBS-DP",
+            "pneumothorax": "OBS-DA",
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Multiple right rib fractures are again present .",
+        "labels": {
+            "rib": "ANAT-DP",
+            "fractures": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "An area of increased opacification at the left base is consistent with atelectasis and effusion .",
+        "labels": {
+            "increased": "OBS-DP",
+            "opacification": "OBS-DP",
+            "left": "ANAT-DP",
+            "base": "ANAT-DP",
+            "atelectasis": "OBS-DP",
+            "effusion": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Dense streak of atelectasis is seen at the right base .",
+        "labels": {
+            "Dense": "OBS-DP",
+            "streak": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT CLINICAL INFORMATION : ___ - year - old male with multiple rib fractures and new subcutaneous gas in the right chest wall , question pneumothorax .",
+        "labels": {
+            "gas": "OBS-DP",
+            "subcutaneous": "ANAT-DP",
+            "right": "ANAT-DP",
+            "pneumothorax": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Semi - erect portable chest radiograph demonstrates extensive soft tissue gas outlining the pectoral muscles bilaterally , and in the subcutaneous tissues on the right .",
+        "labels": {
+            "extensive": "OBS-DP",
+            "soft tissue": "ANAT-DP",
+            "pectoral": "ANAT-DP",
+            "muscles": "ANAT-DP",
+            "bilaterally": "ANAT-DP",
+            "tissues": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is a moderate right - sided pneumothorax .",
+        "labels": {
+            "moderate": "OBS-DP",
+            "right - sided": "ANAT-DP",
+            "Right - sided": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Lung markings are not well appreciated due to overlying subcutaneous gas , there is a left base opacity .",
+        "labels": {
+            "Lung": "ANAT-DP",
+            "markings": "OBS-U",
+            "not well appreciated": "OBS-DP",
+            "overlying": "OBS-DP",
+            "left": "ANAT-DP",
+            "base": "ANAT-DP",
+            "opacity": "OBS-DP",
+            "lung": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is a discrepancy between the size of the lungs , with the right lung appearing larger .",
+        "labels": {
+            "discrepancy": "OBS-DP",
+            "size": "ANAT-DP",
+            "lungs": "ANAT-DP",
+            "larger": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The trachea is midline , there is no shift of the cardiomediastinal silhouette to suggest tension .",
+        "labels": {
+            "trachea": "ANAT-DP",
+            "midline": "OBS-DP",
+            "shift": "OBS-DA",
+            "cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "tension": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "An endotracheal tube is in place , with its tip approximately 5 cm from the level of the carina .",
+        "labels": {
+            "endotracheal": "OBS-DP",
+            "tube": "OBS-DP",
+            "in place": "OBS-DP",
+            "tip": "OBS-DP",
+            "5 cm": "ANAT-DP",
+            "carina": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "An orogastric tube is noted , the tip is not seen though it is below the level of the diaphragm .",
+        "labels": {
+            "orogastric": "OBS-DP",
+            "it": "OBS-U",
+            "below": "ANAT-DP",
+            "diaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is a left subclavian catheter , with its tip in the lower SVC .",
+        "labels": {
+            "subclavian": "ANAT-DP",
+            "catheter": "OBS-DP",
+            "lower": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Right - sided pneumothorax with extensive subcutaneous gas .",
+        "labels": {}
+    },
+    {
+        "sentence": "Findings were discussed with Dr .",
+        "labels": {}
+    },
+    {
+        "sentence": "___ at 10:20p.m.",
+        "labels": {}
+    },
+    {
+        "sentence": "in person .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT SINGLE FRONTAL VIEW OF THE CHEST REASON FOR EXAM : Followup pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA",
+            "chest": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Patient with rib fractures .",
+        "labels": {}
+    },
+    {
+        "sentence": "Lung contusion , right pneumothorax .",
+        "labels": {
+            "lung": "ANAT-DP",
+            "right": "ANAT-DP",
+            "Right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Comparison is made to prior study performed the day before .",
+        "labels": {}
+    },
+    {
+        "sentence": "ET tube tip is 6.6 cm above the carina .",
+        "labels": {
+            "ET": "OBS-DP",
+            "tube": "OBS-DP",
+            "tip": "OBS-DP",
+            "6.6 cm above": "ANAT-DP",
+            "carina": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Left subclavian catheter tip is in the mid to lower SVC .",
+        "labels": {
+            "Left": "ANAT-DP",
+            "subclavian": "ANAT-DP",
+            "catheter": "OBS-DP",
+            "mid": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "SVC": "ANAT-DP",
+            "left": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "NG tube tip is in the stomach .",
+        "labels": {
+            "NG": "OBS-DP",
+            "stomach": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There are persistent low lung volumes .",
+        "labels": {
+            "low": "OBS-DP",
+            "volumes": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal contours are unchanged .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bibasilar opacities have increased due to worsening atelectasis , left greater than right .",
+        "labels": {
+            "Bibasilar": "ANAT-DP",
+            "opacities": "OBS-DP",
+            "increased": "OBS-DP",
+            "worsening": "OBS-DP",
+            "atelectasis": "OBS-DP",
+            "greater than": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Small left pleural effusion has increased .",
+        "labels": {
+            "Small": "OBS-DP",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Previously seen right pneumothorax is no longer visualized .",
+        "labels": {}
+    },
+    {
+        "sentence": "Right basal chest tube is in place .",
+        "labels": {
+            "basal": "ANAT-DP",
+            "in place": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Widespread lung opacities otherwise have improved .",
+        "labels": {
+            "Widespread": "OBS-DP",
+            "otherwise": "OBS-DP",
+            "improved": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Extensive subcutaneous gas in the chest wall bilaterally is unchanged .",
+        "labels": {
+            "Extensive": "OBS-DP",
+            "subcutaneous": "ANAT-DP",
+            "gas": "OBS-DP",
+            "wall": "ANAT-DP",
+            "bilaterally": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH TECHNIQUE : Semi - erect portable chest view was read in comparison with prior chest radiographs through ___ with the most recent from ___ .",
+        "labels": {
+            "chest": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINDINGS : Bilateral lung volumes are very low .",
+        "labels": {
+            "Bilateral": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "very": "OBS-DP",
+            "low": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "An endotracheal tube terminates at the level of the clavicle approximately 6 cm above the carina .",
+        "labels": {
+            "endotracheal": "OBS-DP",
+            "tube": "OBS-DP",
+            "clavicle": "ANAT-DP",
+            "6 cm above": "ANAT-DP",
+            "carina": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Consider advancing ET tube by additional 2-3 cm for better seating .",
+        "labels": {}
+    },
+    {
+        "sentence": "Left subclavian line ends at the right upper or mid atrium .",
+        "labels": {
+            "Left": "ANAT-DP",
+            "subclavian": "ANAT-DP",
+            "line": "OBS-DP",
+            "right": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "mid": "ANAT-DP",
+            "atrium": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Bilateral lung opacity may reflect pulmonary edema ; however , given the low lung volumes , this appearance may be exaggerated .",
+        "labels": {
+            "opacity": "OBS-DP",
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "A single right chest tube ends at right lung base .",
+        "labels": {
+            "single": "OBS-DP",
+            "base": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Multiple rib fractures on the right side are seen .",
+        "labels": {
+            "Multiple": "OBS-DP",
+            "rib": "ANAT-DP",
+            "fractures": "OBS-DP",
+            "right side": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal silhouette is stable .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Subcutaneous emphysema persists along the right chest and in the axillary region , minimally improve 3 d .",
+        "labels": {
+            "Subcutaneous": "ANAT-DP",
+            "emphysema": "OBS-U",
+            "along": "OBS-DP",
+            "axillary": "ANAT-DP",
+            "region": "ANAT-DP",
+            "minimally": "OBS-DP",
+            "improve": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bibasilar atelectasis are similar .",
+        "labels": {
+            "Bibasilar": "ANAT-DP",
+            "atelectasis": "OBS-DP",
+            "similar": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT SINGLE FRONTAL VIEW OF THE CHEST REASON FOR EXAM : Patient with history of trauma , multiple rib fractures and pulmonary contusion , in followup .",
+        "labels": {
+            "pulmonary": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Comparison is made with prior study performed a day earlier .",
+        "labels": {}
+    },
+    {
+        "sentence": "Lines and tubes are in place in standard position , unchanged .",
+        "labels": {
+            "Lines": "OBS-DP",
+            "tubes": "OBS-DP",
+            "standard": "OBS-DP",
+            "position": "OBS-DP",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There are persistent low lung volumes .",
+        "labels": {
+            "low": "OBS-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Bibasilar opacities have increased .",
+        "labels": {
+            "Bibasilar": "ANAT-DP",
+            "opacities": "OBS-DP",
+            "increased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "This could be due to worsening atelectasis and / or worsening still mild - to - moderate pulmonary edema and increasing small left and right pleural effusions .",
+        "labels": {
+            "worsening": "OBS-U",
+            "atelectasis": "OBS-U",
+            "mild": "OBS-U",
+            "moderate": "OBS-U",
+            "edema": "OBS-U",
+            "increasing": "OBS-DP",
+            "small": "OBS-DP",
+            "left": "ANAT-DP",
+            "right": "ANAT-DP",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Extensive subcutaneous bilateral gas has decreased .",
+        "labels": {
+            "Extensive": "OBS-DP",
+            "subcutaneous": "ANAT-DP",
+            "bilateral": "ANAT-DP",
+            "gas": "OBS-DP",
+            "decreased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal contours are unchanged allowing the difference in positioning of the patient .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "contours": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT REASON FOR EXAMINATION : Evaluation of the patient with extremity fracture , pneumothorax and chest tube placement , followup .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Portable AP radiograph of the chest was reviewed in comparison to prior studies obtained day before .",
+        "labels": {}
+    },
+    {
+        "sentence": "There is interval development of pulmonary edema .",
+        "labels": {
+            "interval": "OBS-DP",
+            "development": "OBS-DP",
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Subcutaneous air is redemonstrated .",
+        "labels": {
+            "Subcutaneous": "ANAT-DP",
+            "air": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bibasilar areas of atelectasis have deteriorated in the interim in particular in the left lower lung .",
+        "labels": {
+            "Bibasilar": "ANAT-DP",
+            "areas": "OBS-DP",
+            "atelectasis": "OBS-DP",
+            "deteriorated": "OBS-DP",
+            "interim": "OBS-DP",
+            "left": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lung": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No definitive evidence of pneumothorax is demonstrated .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : Multiple rib fractures , questionable pneumothorax , evaluation for interval change .",
+        "labels": {
+            "multiple": "OBS-DP",
+            "rib": "ANAT-DP",
+            "fractures": "OBS-DP",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : As compared to the previous radiograph , there is no relevant change .",
+        "labels": {}
+    },
+    {
+        "sentence": "Known multiple partially displaced right rib fractures .",
+        "labels": {
+            "partially": "OBS-DP",
+            "displaced": "OBS-DP",
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No evidence of right pneumothorax .",
+        "labels": {}
+    },
+    {
+        "sentence": "Unchanged right basal opacities .",
+        "labels": {
+            "Unchanged": "OBS-DP",
+            "basal": "ANAT-DP",
+            "opacities": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Low lung volumes with borderline diameter of the vascular structures .",
+        "labels": {
+            "Low": "OBS-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "borderline": "OBS-DP",
+            "diameter": "ANAT-DP",
+            "vascular": "ANAT-DP",
+            "structures": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Normal size of the cardiac silhouette .",
+        "labels": {
+            "Normal": "OBS-DP",
+            "size": "ANAT-DP",
+            "cardiac": "ANAT-DP",
+            "silhouette": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Normal course of a right PICC line .",
+        "labels": {
+            "course": "OBS-DP",
+            "PICC": "OBS-DP",
+            "line": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT REASON FOR EXAMINATION : NG tube placement .",
+        "labels": {
+            "NG": "OBS-DP",
+            "tube": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "AP radiograph of the lung bases in the abdomen demonstrates the NG tube tip terminating in the stomach .",
+        "labels": {
+            "tip": "OBS-DP",
+            "stomach": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Subcutaneous air is partially seen on the current study .",
+        "labels": {
+            "Subcutaneous": "ANAT-DP",
+            "air": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bibasilar atelectasis is noted .",
+        "labels": {
+            "Bibasilar": "ANAT-DP",
+            "atelectasis": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Overall , the study is extremely limited and designed for evaluation of NG tube placement .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT REASON FOR EXAMINATION : Respiratory failure , evaluation of the chest tube placement .",
+        "labels": {
+            "chest": "ANAT-DP",
+            "tube": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Portable AP radiograph of the chest was reviewed in comparison to ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "The current study is suboptimal from a technical standpoint .",
+        "labels": {}
+    },
+    {
+        "sentence": "Within those limitations note is made of the presence of substantial subcutaneous air projecting over the entire chest .",
+        "labels": {
+            "substantial": "OBS-DP",
+            "subcutaneous": "ANAT-DP",
+            "air": "OBS-DP",
+            "entire": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The right chest tube is in unchanged position at the lower right hemithorax .",
+        "labels": {
+            "right": "ANAT-DP",
+            "unchanged": "OBS-DP",
+            "position": "OBS-DP",
+            "lower": "ANAT-DP",
+            "hemithorax": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The left central venous line is projecting over the mid low SVC .",
+        "labels": {
+            "left": "ANAT-DP",
+            "central": "ANAT-DP",
+            "venous": "ANAT-DP",
+            "line": "OBS-DP",
+            "mid": "ANAT-DP",
+            "low": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal silhouette is unchanged as well as there is no change in bibasal areas of atelectasis .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "bibasal": "ANAT-DP",
+            "areas": "ANAT-DP",
+            "atelectasis": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Pneumothorax cannot be assessed on this suboptimal study .",
+        "labels": {
+            "Pneumothorax": "OBS-U",
+            "cannot be assessed": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The NG tube tip is in the stomach .",
+        "labels": {
+            "NG": "OBS-DP",
+            "tip": "OBS-DP",
+            "stomach": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Shortness of breath , inability to walk , not taking lasix .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Portable upright AP view of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : None .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Study is limited due to patient rotation .",
+        "labels": {}
+    },
+    {
+        "sentence": "Heart size is likely mildly enlarged .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "mildly": "OBS-DP",
+            "enlarged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Mediastinal contours are difficult to assess given patient rotation .",
+        "labels": {
+            "Mediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "difficult to assess": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no pulmonary vascular congestion .",
+        "labels": {
+            "pulmonary": "ANAT-DP",
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Mild streaky left basilar opacity likely reflects atelectasis .",
+        "labels": {
+            "Mild": "OBS-DP",
+            "streaky": "OBS-DP",
+            "left": "ANAT-DP",
+            "basilar": "ANAT-DP",
+            "opacity": "OBS-DP",
+            "atelectasis": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No focal consolidation , pleural effusion or pneumothorax is identified .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No acute osseous abnormality is seen .",
+        "labels": {
+            "acute": "OBS-DA",
+            "osseous": "ANAT-DP",
+            "abnormality": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Minimal left basilar atelectasis .",
+        "labels": {
+            "Minimal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH INDICATION : Morbid obesity , evaluation for CHF exacerbation .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : As compared to the previous radiograph , there is no relevant change .",
+        "labels": {
+            "relevant": "OBS-DA",
+            "change": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Moderate cardiomegaly with marked tortuosity of the thoracic aorta but without evidence of fluid overload or pulmonary edema .",
+        "labels": {
+            "Moderate": "OBS-DP",
+            "cardiomegaly": "OBS-DP",
+            "marked": "OBS-DP",
+            "tortuosity": "OBS-DP",
+            "thoracic": "ANAT-DP",
+            "aorta": "ANAT-DP",
+            "fluid": "OBS-DA",
+            "overload": "OBS-DA",
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pleural effusions .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No areas of atelectasis .",
+        "labels": {
+            "atelectasis": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT REASON FOR EXAMINATION : Morbid obesity , pulmonary hypertension , intubated .",
+        "labels": {
+            "pulmonary": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Portable AP radiograph of the chest was compared to ___ , ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "The ET tube tip is 2.5 cm above the carina .",
+        "labels": {
+            "ET": "OBS-DP",
+            "tube": "OBS-DP",
+            "tip": "OBS-DP",
+            "2.5 cm above": "ANAT-DP",
+            "carina": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The heart size and mediastinum are unchanged including cardiomegaly .",
+        "labels": {
+            "heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "mediastinum": "ANAT-DP",
+            "unchanged": "OBS-DP",
+            "cardiomegaly": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is interval improvement of interstitial pulmonary edema .",
+        "labels": {
+            "interval": "OBS-DP",
+            "improvement": "OBS-DP",
+            "interstitial": "ANAT-DP",
+            "edema": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No new consolidations have been developed in the interim .",
+        "labels": {
+            "new": "OBS-DA",
+            "consolidations": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH INDICATION : Evaluation for endotracheal tube position .",
+        "labels": {
+            "endotracheal": "OBS-DP",
+            "tube": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : As compared to the previous radiograph , the patient has been intubated .",
+        "labels": {}
+    },
+    {
+        "sentence": "The tip of the endotracheal tube projects 2.5 cm above the carina .",
+        "labels": {
+            "tip": "OBS-DP",
+            "2.5 cm above": "ANAT-DP",
+            "carina": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The right central venous access line projects over the inferior vena cava with its tip , there is no evidence of complications , notably no pneumothorax .",
+        "labels": {
+            "right": "ANAT-DP",
+            "central": "OBS-DP",
+            "venous": "OBS-DP",
+            "line": "OBS-DP",
+            "inferior vena cava": "ANAT-DP",
+            "complications": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The heart continues to be enlarged , with signs of mild fluid overload but without pleural effusions .",
+        "labels": {
+            "heart": "ANAT-DP",
+            "enlarged": "OBS-DP",
+            "mild": "OBS-DP",
+            "fluid": "OBS-DP",
+            "overload": "OBS-DP",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Partial small - bowel obstruction , to assess for NG tube placement .",
+        "labels": {
+            "tube": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINDINGS : In comparison with the earlier study of this date , there has been placement of a nasogastric tube that extends to the upper body of the stomach where it crosses the lower margin of the image .",
+        "labels": {
+            "nasogastric": "OBS-DP",
+            "upper": "ANAT-DP",
+            "body": "ANAT-DP",
+            "stomach": "ANAT-DP",
+            "crosses the lower margin of the image": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Otherwise , little change .",
+        "labels": {
+            "little": "OBS-DP",
+            "change": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "WET READ : ___ ___ 7:46PM Endotracheal tube 2.3 cm above carina .",
+        "labels": {
+            "Endotracheal": "OBS-DP",
+            "tube": "OBS-DP",
+            "2.3 cm above": "ANAT-DP",
+            "carina": "ANAT-DP",
+            "endotracheal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Enteric tube within the stomach .",
+        "labels": {
+            "Enteric": "OBS-DP",
+            "stomach": "ANAT-DP",
+            "enteric": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Right IJ catheter within central SVC .",
+        "labels": {
+            "Right": "ANAT-DP",
+            "IJ": "OBS-DP",
+            "catheter": "OBS-DP",
+            "central": "ANAT-DP",
+            "SVC": "ANAT-DP",
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No pleural effusion or pneumothorax .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Mediastinum and cardiomegaly unchanged .",
+        "labels": {
+            "Mediastinum": "ANAT-DP",
+            "cardiomegaly": "OBS-DP",
+            "unchanged": "OBS-DP",
+            "mediastinum": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Mild pulmonary edema stable .",
+        "labels": {
+            "Mild": "OBS-DP",
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "______________________________________________________________________________ FINAL REPORT REASON FOR EXAMINATION : Evaluation of the patient after exploratory laparotomy and ventral hernia repair .",
+        "labels": {}
+    },
+    {
+        "sentence": "AP radiograph of the chest was reviewed in comparison to ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "The endotracheal tube tip is 2.3 cm above the carina .",
+        "labels": {
+            "tip": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The enteric tube tip is in the stomach .",
+        "labels": {}
+    },
+    {
+        "sentence": "Right internal jugular line tip is at the level of mid SVC .",
+        "labels": {
+            "internal jugular": "OBS-DP",
+            "line": "OBS-DP",
+            "mid": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is no interval development of pleural effusion or pneumothorax .",
+        "labels": {}
+    },
+    {
+        "sentence": "Heart size and mediastinum are unchanged including cardiomegaly and mediastinal widening .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "widening": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Interstitial pulmonary edema is moderate , unchanged .",
+        "labels": {
+            "Interstitial": "ANAT-DP",
+            "moderate": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Lucency projecting over the right upper quadrant most likely represents free intraperitoneal air related to recent surgery .",
+        "labels": {
+            "Lucency": "OBS-DP",
+            "upper": "ANAT-DP",
+            "quadrant": "ANAT-DP",
+            "free": "OBS-U",
+            "intraperitoneal": "ANAT-DP",
+            "air": "OBS-U",
+            "recent": "OBS-DP",
+            "surgery": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "WET READ : ___ ___ ___ 10:17PM Pneumomediastinum with subcutaneous gas in the right chest wall and neck as wall .",
+        "labels": {
+            "Pneumomediastinum": "OBS-DP",
+            "subcutaneous": "ANAT-DP",
+            "gas": "OBS-DP",
+            "right": "ANAT-DP",
+            "chest": "ANAT-DP",
+            "wall": "ANAT-DP",
+            "neck": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "______________________________________________________________________________ FINAL REPORT HISTORY : ___ - year - old female with shortness of breath .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : None .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : PA and lateral views of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "The lungs are clear of focal consolidation , effusion or pneumothorax .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP",
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "There are linear lucencies projecting over the mediastinum , neck and right chest wall .",
+        "labels": {
+            "linear": "OBS-DP",
+            "lucencies": "OBS-DP",
+            "mediastinum": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal silhouette is otherwise unremarkable .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No acute osseous abnormalities detected .",
+        "labels": {
+            "acute": "OBS-DA",
+            "osseous": "ANAT-DP",
+            "abnormalities": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Pneumomediastinum with subcutaneous gas in the right chest wall and neck as wall .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : Cough and chills , evaluate for pneumonia .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "Chest CT on ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : PA and lateral views of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "Moderate cardiomegaly is increased compared to ___ .",
+        "labels": {
+            "Moderate": "OBS-DP",
+            "cardiomegaly": "OBS-DP",
+            "increased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No focal consolidation or pneumothorax .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "There is slight blunting of the costophrenic angles which may indicate small pleural effusion or scarring .",
+        "labels": {
+            "slight": "OBS-DP",
+            "blunting": "OBS-DP",
+            "costophrenic": "ANAT-DP",
+            "angles": "ANAT-DP",
+            "small": "OBS-U",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-U",
+            "scarring": "OBS-U"
+        }
+    },
+    {
+        "sentence": "There is increased density at the perihilar regions which may indicate pulmonary vascular congestion .",
+        "labels": {
+            "density": "OBS-DP",
+            "perihilar": "ANAT-DP",
+            "regions": "ANAT-DP",
+            "pulmonary": "ANAT-DP",
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Moderate cardiomegaly and mild pulmonary vascular congestion but no edema .",
+        "labels": {
+            "mild": "OBS-DP",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Possible tiny small pleural effusions .",
+        "labels": {
+            "tiny": "OBS-U",
+            "effusions": "OBS-U"
+        }
+    },
+    {
+        "sentence": "No focal consolidation .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : Possible CVA , evaluate for pneumonia .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Chest PA and lateral COMPARISON : Chest radiograph ___ and ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : The lung volumes are hyperinflated and the lungs are clear .",
+        "labels": {
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "hyperinflated": "OBS-DP",
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no pneumothorax or focal airspace consolidation .",
+        "labels": {
+            "pneumothorax": "OBS-DA",
+            "focal": "OBS-DA",
+            "airspace": "ANAT-DP",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The heart is mild to moderately enlarged but unchanged from at least ___ .",
+        "labels": {
+            "heart": "ANAT-DP",
+            "mild": "OBS-DP",
+            "moderately": "OBS-DP",
+            "enlarged": "OBS-DP",
+            "unchanged": "OBS-DP",
+            "Unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no evidence for pulmonary edema .",
+        "labels": {
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Slight blunting of the costophrenic angles may reflect trace pleural effusions , unchanged .",
+        "labels": {
+            "Slight": "OBS-DP",
+            "blunting": "OBS-DP",
+            "costophrenic": "ANAT-DP",
+            "angles": "ANAT-DP",
+            "trace": "OBS-U",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-U"
+        }
+    },
+    {
+        "sentence": "The mediastinal hilar structures are unremarkable .",
+        "labels": {
+            "mediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "structures": "ANAT-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Unchanged , mild to moderate cardiomegaly without a superimposed acute intrathoracic process .",
+        "labels": {
+            "moderate": "OBS-DP",
+            "cardiomegaly": "OBS-DP",
+            "superimposed": "OBS-DA",
+            "acute": "OBS-DA",
+            "intrathoracic": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Cough and fever .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : No relevant comparisons available .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Frontal and lateral views of the chest were obtained .",
+        "labels": {
+            "chest": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The lungs are well expanded and clear without focal consolidation , pleural effusion or pneumothorax .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "well": "OBS-DP",
+            "expanded": "OBS-DP",
+            "clear": "OBS-DP",
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Heart size is normal .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "normal": "OBS-DP",
+            "Normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Mediastinal silhouette and hilar contours are normal .",
+        "labels": {
+            "Mediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "contours": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Normal chest radiographs .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( AP AND LAT ) INDICATION : ___ F with AD , falls / / ?",
+        "labels": {}
+    },
+    {
+        "sentence": "cpd COMPARISON : None FINDINGS : AP upright and lateral views of the chest provided .",
+        "labels": {}
+    },
+    {
+        "sentence": "The lungs appear hyperinflated .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "hyperinflated": "OBS-DP",
+            "Hyperinflated": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No focal consolidation , effusion or pneumothorax .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No signs of congestion or edema .",
+        "labels": {
+            "congestion": "OBS-DA",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Heart size is mildly prominent .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "mildly": "OBS-DP",
+            "prominent": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Mediastinal contour is normal .",
+        "labels": {
+            "Mediastinal": "ANAT-DP",
+            "contour": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No acute osseous abnormality .",
+        "labels": {
+            "acute": "OBS-DA",
+            "osseous": "ANAT-DP",
+            "abnormality": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Widened right AC joint likely reflects old injury .",
+        "labels": {
+            "Widened": "ANAT-DP",
+            "right": "ANAT-DP",
+            "AC": "ANAT-DP",
+            "joint": "ANAT-DP",
+            "old": "OBS-U",
+            "injury": "OBS-U"
+        }
+    },
+    {
+        "sentence": "No displaced rib fracture seen .",
+        "labels": {
+            "displaced": "OBS-DA",
+            "rib": "ANAT-DP",
+            "fracture": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No free air below the right hemidiaphragm .",
+        "labels": {
+            "free": "OBS-DA",
+            "air": "OBS-DA",
+            "below": "ANAT-DP",
+            "hemidiaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Hyperinflated lungs , mild cardiomegaly .",
+        "labels": {
+            "mild": "OBS-DP",
+            "cardiomegaly": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PA AND LAT ) INDICATION : ___ year old man with cough for 3 weeks .",
+        "labels": {}
+    },
+    {
+        "sentence": "Smoker .",
+        "labels": {}
+    },
+    {
+        "sentence": "/ / assess lungs assess lungs IMPRESSION : Compared to chest radiographs since ___ , most recently ___ .",
+        "labels": {
+            "lungs": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Aside from the long - standing calcified granuloma , right lower lobe , lungs are clear .",
+        "labels": {
+            "long": "OBS-DP",
+            "standing": "OBS-DP",
+            "calcified": "OBS-DP",
+            "granuloma": "OBS-DP",
+            "right": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal and hilar silhouettes and pleural surfaces are normal .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "silhouettes": "ANAT-DP",
+            "pleural": "ANAT-DP",
+            "surfaces": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Smoker with cough , to assess for pneumonia .",
+        "labels": {
+            "pneumonia": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINDINGS : In comparison with the study of ___ , there is no interval change or evidence of acute cardiopulmonary disease .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "disease": "OBS-U"
+        }
+    },
+    {
+        "sentence": "There is some hyperexpansion of the lungs suggesting chronic pulmonary disease , but no evidence of acute pneumonia , vascular congestion , or pleural effusion .",
+        "labels": {
+            "some": "OBS-DP",
+            "hyperexpansion": "OBS-DP",
+            "lungs": "ANAT-DP",
+            "chronic": "OBS-U",
+            "pulmonary": "ANAT-DP",
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : History : ___ M with epigastric pain / / evaluate for pleural effusion or pneumonia TECHNIQUE : Chest PA and lateral COMPARISON : ___ dating back to ___ FINDINGS : Unchanged heart size , mediastinal and hilar contours .",
+        "labels": {
+            "Unchanged": "OBS-DP",
+            "heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No focal consolidation , pleural effusion or pneumothorax .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "A 5 mm dense nodule in the left lower lung is unchanged dating back to ___ compatible with a benign nodule .",
+        "labels": {
+            "5 mm": "OBS-DP",
+            "dense": "OBS-DP",
+            "nodule": "OBS-U",
+            "left": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "benign": "OBS-U"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute process .",
+        "labels": {
+            "acute": "OBS-DA",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Multiple sclerosis , chronic Foley , hypothermia , fatigue , lethargy , question pneumonia .",
+        "labels": {
+            "pneumonia": "OBS-U"
+        }
+    },
+    {
+        "sentence": "CHEST , TWO VIEWS .",
+        "labels": {}
+    },
+    {
+        "sentence": "There is patchy opacity in the left lower lobe seen on both frontal and lateral views , consistent with left lower lobe pneumonia .",
+        "labels": {
+            "patchy": "OBS-DP",
+            "opacity": "OBS-DP",
+            "left": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lobe": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Aspiration is considered less likely .",
+        "labels": {
+            "Aspiration": "OBS-U"
+        }
+    },
+    {
+        "sentence": "A small left effusion is present .",
+        "labels": {
+            "small": "OBS-DP",
+            "effusion": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Compared with ___ , 13:21p.m.",
+        "labels": {}
+    },
+    {
+        "sentence": "and allowing for technical differences , the appearance is similar .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT SINGLE AP PORTABLE VIEW OF THE CHEST REASON FOR EXAM : Hypothermia and urosepsis .",
+        "labels": {}
+    },
+    {
+        "sentence": "Comparison is made with prior study of ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "There are low lung volumes .",
+        "labels": {
+            "low": "OBS-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Worsening left perihilar , left lower lobe opacities are consistent with pneumonia .",
+        "labels": {
+            "Worsening": "OBS-DP",
+            "left": "ANAT-DP",
+            "perihilar": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "opacities": "OBS-DP",
+            "pneumonia": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Right lower lobe opacities have improved .",
+        "labels": {
+            "Right": "ANAT-DP",
+            "improved": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no pneumothorax or pleural effusion .",
+        "labels": {
+            "pneumothorax": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : ___ - year - old male with altered mental status .",
+        "labels": {}
+    },
+    {
+        "sentence": "STUDY : AP and lateral upright chest radiographs .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : The heart size is within normal limits .",
+        "labels": {
+            "heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "within": "OBS-DP",
+            "normal": "OBS-DP",
+            "limits": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The mediastinal and hilar contours are unremarkable .",
+        "labels": {
+            "mediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The lungs show improvement of the previously described retrocardiac consolidation .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "improvement": "OBS-DP",
+            "retrocardiac": "ANAT-DP",
+            "consolidation": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no large pleural effusion or pneumothorax .",
+        "labels": {
+            "large": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "A prominent gas and stool distended loop of colon is present in the region of the splenic flexure .",
+        "labels": {
+            "gas": "OBS-DP",
+            "stool": "OBS-DP",
+            "distended": "OBS-DP",
+            "loop": "ANAT-DP",
+            "colon": "ANAT-DP",
+            "splenic": "ANAT-DP",
+            "flexure": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Near - complete improvement of previous left lower lobe pneumonia .",
+        "labels": {
+            "Near - complete": "OBS-DP",
+            "left": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "pneumonia": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ - year - old man with change in mental status .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : PA and lateral chest radiograph , ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "PA AND LATERAL CHEST RADIOGRAPH : The cardiac , mediastinal and hilar contours are normal .",
+        "labels": {
+            "cardiac": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "An opacity projecting over the right mid to upper lung on the frontal view may represent focal consolidation , unchanged from ___ .",
+        "labels": {
+            "opacity": "OBS-DP",
+            "right": "ANAT-DP",
+            "mid": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "focal": "OBS-DP",
+            "consolidation": "OBS-DP",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Interposition of bowel accounts for the lucency below the right hemidiaphragm .",
+        "labels": {
+            "Interposition": "ANAT-DP",
+            "bowel": "ANAT-DP",
+            "lucency": "OBS-DP",
+            "below": "ANAT-DP",
+            "hemidiaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ - year - old male with MS and hypotension .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Single frontal chest radiograph was obtained portably with the patient in a semi - erect position .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : There are low lung volumes .",
+        "labels": {
+            "low": "OBS-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No focal consolidation is appreciated on this limited view .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "A small left pleural effusion would be difficult to exclude .",
+        "labels": {
+            "small": "OBS-U",
+            "left": "ANAT-DP",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Compared to prior exam , there is decreased prominence of the pulmonary vasculature .",
+        "labels": {
+            "decreased": "OBS-DP",
+            "prominence": "OBS-DP",
+            "pulmonary": "ANAT-DP",
+            "vasculature": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There has been interval removal of a left - sided PICC .",
+        "labels": {
+            "left - sided": "ANAT-DP",
+            "PICC": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Exam is otherwise unchanged .",
+        "labels": {
+            "otherwise": "OBS-DP",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Slightly prominent loops of air - filled colon are again noted under the right hemidiaphragm .",
+        "labels": {
+            "Slightly": "OBS-DP",
+            "prominent": "OBS-DP",
+            "loops": "ANAT-DP",
+            "air - filled": "OBS-DP",
+            "colon": "ANAT-DP",
+            "under": "ANAT-DP",
+            "right": "ANAT-DP",
+            "hemidiaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : ___ - year - old male with hypothermia , confusion , and lethargy .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : Chest radiograph from ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "AP PORTABLE FRONTAL CHEST RADIOGRAPH : There is new vague increased density within the left lung base .",
+        "labels": {
+            "new": "OBS-DP",
+            "vague": "OBS-DP",
+            "increased": "OBS-DP",
+            "density": "OBS-DP",
+            "left": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "base": "ANAT-DP",
+            "within": "OBS-DP",
+            "New": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The remainder of the lungs appear clear .",
+        "labels": {
+            "remainder": "ANAT-DP",
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no vascular congestion , edema , or large pleural effusions .",
+        "labels": {
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DA",
+            "edema": "OBS-DA",
+            "large": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal and hilar contours are within normal limits .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "normal": "OBS-DP",
+            "limits": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "A PICC line terminates in the upper superior vena cava .",
+        "labels": {
+            "PICC": "OBS-DP",
+            "line": "OBS-DP",
+            "upper": "ANAT-DP",
+            "superior vena cava": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : New vague patchy left basilar opacity which could be seen with atelectasis or potentially pneumonia in the appropriate setting .",
+        "labels": {
+            "patchy": "OBS-DP",
+            "basilar": "ANAT-DP",
+            "opacity": "OBS-DP",
+            "atelectasis": "OBS-U",
+            "pneumonia": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Follow - up radiographs including PA and lateral views are recommended for further clarification .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH PERFORMED ON ___ COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "CLINICAL HISTORY : Lethargy , assess for pneumonia .",
+        "labels": {
+            "pneumonia": "OBS-U"
+        }
+    },
+    {
+        "sentence": "FINDINGS : AP upright and lateral views of the chest were obtained .",
+        "labels": {}
+    },
+    {
+        "sentence": "A vague opacity projects over the right mid - to - upper lung on the frontal view only and is more conspicuous compared with the prior exam , differential considerations include pneumonia versus overlying artifact .",
+        "labels": {
+            "vague": "OBS-DP",
+            "opacity": "OBS-DP",
+            "right": "ANAT-DP",
+            "mid - to - upper": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "on the frontal view only": "OBS-DP",
+            "more conspicuous compared with the prior exam": "OBS-DP",
+            "overlying": "OBS-U",
+            "artifact": "OBS-U",
+            "Vague": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Otherwise , no definite consolidation , effusion , pneumothorax .",
+        "labels": {
+            "consolidation": "OBS-DA",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal silhouette is normal .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bony structures are intact .",
+        "labels": {
+            "Bony": "ANAT-DP",
+            "structures": "ANAT-DP",
+            "intact": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Interposition of bowel accounts for the lucency below the right hemidiaphragm .",
+        "labels": {
+            "Interposition": "OBS-DP",
+            "bowel": "ANAT-DP",
+            "lucency": "OBS-DP",
+            "below": "ANAT-DP",
+            "hemidiaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Vague opacity in the right mid - to - upper lung , question early pneumonia .",
+        "labels": {
+            "early": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Recommend followup to resolution .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PA AND LAT ) INDICATION : ___ year old man with Hx of lymphoma , smoker , now cough / / Lung infiltrate , lymphadenopathy Lung infiltrate , lymphadenopathy IMPRESSION : In comparison with the study of ___ , there is little change and no evidence of acute cardiopulmonary disease .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "disease": "OBS-DA",
+            "lymphadenopathy": "OBS-U"
+        }
+    },
+    {
+        "sentence": "The Port - A - Cath tip again scans in the lower portion of the SVC .",
+        "labels": {
+            "Port - A - Cath": "OBS-DP",
+            "tip": "OBS-DP",
+            "lower": "ANAT-DP",
+            "portion": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No pneumonia , vascular congestion , or pleural effusion .",
+        "labels": {
+            "pneumonia": "OBS-DA",
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No convincing evidence of lymphadenopathy .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH .",
+        "labels": {}
+    },
+    {
+        "sentence": "INDICATION : Bone marrow transplant .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : As compared to the previous radiograph , there is no relevant change .",
+        "labels": {
+            "relevant": "OBS-DA",
+            "change": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The lung volumes are normal .",
+        "labels": {
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "normal": "OBS-DP",
+            "Normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Normal size of the cardiac silhouette .",
+        "labels": {
+            "size": "ANAT-DP",
+            "cardiac": "ANAT-DP",
+            "silhouette": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Normal appearance of the lung parenchyma .",
+        "labels": {
+            "appearance": "OBS-DP",
+            "parenchyma": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pleural effusions , no focal parenchymal opacity suggesting pneumonia .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-DA",
+            "focal": "OBS-DA",
+            "parenchymal": "ANAT-DP",
+            "opacity": "OBS-DA",
+            "pneumonia": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pulmonary edema .",
+        "labels": {
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "A right pectoral Port - A - Cath system is in unchanged position .",
+        "labels": {
+            "right": "ANAT-DP",
+            "pectoral": "ANAT-DP",
+            "Port - A - Cath system": "OBS-DP",
+            "unchanged": "OBS-DP",
+            "position": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "WET READ : ___ ___ 6:20PM No focal consolidation , pleural effusion , or pneumothorax .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Stable positioning of right - sided Port - A - Cath and left - sided subclavian vein catheter .",
+        "labels": {
+            "Stable": "OBS-DP",
+            "positioning": "OBS-DP",
+            "right - sided": "ANAT-DP",
+            "Port - A - Cath": "OBS-DP",
+            "left - sided": "ANAT-DP",
+            "subclavian": "ANAT-DP",
+            "vein": "ANAT-DP",
+            "catheter": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "______________________________________________________________________________ FINAL REPORT PORTABLE CHEST , ___ COMPARISON : Radiograph , ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Overall similar appearance of the chest when allowances are made for slight patient rotation on the current study .",
+        "labels": {}
+    },
+    {
+        "sentence": "No new areas of consolidation are identified within the lungs to suggest the presence of pneumonia .",
+        "labels": {
+            "new": "OBS-DA",
+            "areas": "OBS-DA",
+            "lungs": "ANAT-DP",
+            "pneumonia": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAM : Chest frontal and lateral views .",
+        "labels": {}
+    },
+    {
+        "sentence": "CLINICAL INFORMATION : Low - grade lymphoma and Waldenstrom , currently receiving chemotherapy , has rub and wheezing in left lower lobe .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : None .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Frontal and lateral views of the chest were obtained .",
+        "labels": {}
+    },
+    {
+        "sentence": "A right - sided Port - A - Cath is seen , with catheter terminating in the distal SVC .",
+        "labels": {
+            "right - sided": "ANAT-DP",
+            "Port - A - Cath": "OBS-DP",
+            "catheter": "OBS-DP",
+            "distal": "ANAT-DP",
+            "SVC": "ANAT-DP",
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There are right axillary surgical clips .",
+        "labels": {
+            "axillary": "ANAT-DP",
+            "surgical": "OBS-DP",
+            "clips": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The lungs are clear without focal consolidation .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP",
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pleural effusion or pneumothorax is seen .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The cardiac and mediastinal silhouettes are unremarkable .",
+        "labels": {
+            "cardiac": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "silhouettes": "ANAT-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute cardiopulmonary process .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Fever and cough .",
+        "labels": {}
+    },
+    {
+        "sentence": "Evaluate for an acute cardiopulmonary process .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "TECHNIQUE : Frontal and lateral views of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : Chest radiographs ___ and ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "CT torso ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : A right MediPort terminates in the distal superior vena cava .",
+        "labels": {
+            "right": "ANAT-DP",
+            "MediPort": "OBS-DP",
+            "distal": "ANAT-DP",
+            "superior vena cava": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Elevation of left hemidiaphragm is unchanged .",
+        "labels": {
+            "Elevation": "OBS-DP",
+            "left": "ANAT-DP",
+            "hemidiaphragm": "ANAT-DP",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no pleural effusion , pneumothorax or focal airspace consolidation .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA",
+            "focal": "OBS-DA",
+            "airspace": "ANAT-DP",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The cardiac mediastinal contour is are durable .",
+        "labels": {
+            "cardiac": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "contour": "ANAT-DP",
+            "durable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Hilar structures are unremarkable .",
+        "labels": {
+            "Hilar": "ANAT-DP",
+            "structures": "ANAT-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute cardiopulmonary process .",
+        "labels": {}
+    },
+    {
+        "sentence": "WET READ : ___ ___ 7:04PM Low lung volumes exaggerating bronchovascular markings .",
+        "labels": {
+            "Low": "OBS-DP",
+            "lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "exaggerating": "OBS-DP",
+            "bronchovascular": "ANAT-DP",
+            "markings": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No focal consolidation .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "______________________________________________________________________________ FINAL REPORT CHEST RADIOGRAPH INDICATION : Persistent febrile neutropenia , rule out infection .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : As compared to the previous radiograph , there is no relevant change .",
+        "labels": {}
+    },
+    {
+        "sentence": "Bilateral central venous access lines are in constant position .",
+        "labels": {
+            "Bilateral": "ANAT-DP",
+            "central": "OBS-DP",
+            "venous": "OBS-DP",
+            "access": "OBS-DP",
+            "lines": "OBS-DP",
+            "constant": "OBS-DP",
+            "position": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Mild elevation of the left hemidiaphragm .",
+        "labels": {
+            "Mild": "OBS-DP",
+            "elevation": "OBS-DP",
+            "left": "ANAT-DP",
+            "hemidiaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Borderline size of the cardiac silhouette .",
+        "labels": {
+            "Borderline": "OBS-DP",
+            "size": "ANAT-DP",
+            "cardiac": "ANAT-DP",
+            "silhouette": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No pulmonary edema .",
+        "labels": {
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pneumonia , no pneumothorax .",
+        "labels": {
+            "pneumonia": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Clips in the right axillary region .",
+        "labels": {
+            "Clips": "OBS-DP",
+            "right": "ANAT-DP",
+            "axillary": "ANAT-DP",
+            "region": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Lymphoma on chemotherapy with nonfunctioning port .",
+        "labels": {}
+    },
+    {
+        "sentence": "Confirm placement .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : Chest radiograph ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "UPRIGHT FRONTAL CHEST RADIOGRAPH : A right MediPort terminates in the low SVC .",
+        "labels": {
+            "right": "ANAT-DP",
+            "MediPort": "OBS-DP",
+            "low": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The course of the catheter is unchanged and there is no evidence of catheter fracture .",
+        "labels": {
+            "course": "OBS-DP",
+            "catheter": "OBS-DP",
+            "unchanged": "OBS-DP",
+            "fracture": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Clips noted in the right axilla .",
+        "labels": {
+            "Clips": "OBS-DP",
+            "axilla": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The lungs are clear .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No pleural effusion , pneumothorax or focal airspace consolidation .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA",
+            "focal": "OBS-DA",
+            "airspace": "ANAT-DP",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Cardiac and mediastinal contours are normal .",
+        "labels": {
+            "Cardiac": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Altered mental status , lymphoma .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : PA and lateral views of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Right - sided Port - A - Cath tip terminates in the SVC .",
+        "labels": {
+            "Right - sided": "ANAT-DP",
+            "Port - A - Cath": "OBS-DP",
+            "tip": "OBS-DP",
+            "SVC": "ANAT-DP",
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The cardiac , mediastinal and hilar contours are within normal limits .",
+        "labels": {
+            "cardiac": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "normal": "OBS-DP",
+            "limits": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The pulmonary vascularity is normal .",
+        "labels": {
+            "pulmonary": "ANAT-DP",
+            "vascularity": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Lungs are clear .",
+        "labels": {
+            "Lungs": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No pleural effusion or pneumothorax is present .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Multiple clips are seen within the right axilla .",
+        "labels": {
+            "Multiple": "OBS-DP",
+            "clips": "OBS-DP",
+            "axilla": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is mild gaseous distention of the stomach .",
+        "labels": {
+            "mild": "OBS-DP",
+            "gaseous": "OBS-DP",
+            "distention": "OBS-DP",
+            "stomach": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No acute osseous abnormalities are detected .",
+        "labels": {
+            "acute": "OBS-DA",
+            "osseous": "ANAT-DP",
+            "abnormalities": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute cardiopulmonary process .",
+        "labels": {
+            "cardiopulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT HISTORY : Fever , to assess for pneumonia .",
+        "labels": {
+            "pneumonia": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINDINGS : In comparison with the study of ___ , there is little change and no evidence of acute cardiopulmonary disease .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "disease": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The patient has taken a better inspiration and there is no pneumonia , vascular congestion or pleural effusion .",
+        "labels": {
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The left central catheter has been removed and the Port - A - Cath tip again lies in the lower portion of the SVC .",
+        "labels": {
+            "left": "ANAT-DP",
+            "central": "OBS-DA",
+            "catheter": "OBS-DA",
+            "Port - A - Cath": "OBS-DP",
+            "tip": "OBS-DP",
+            "lower": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PORTABLE AP ) INDICATION : ___ year old woman s / p Asc Ao repair / / eval for effusion / pneumo eval for effusion / pneumo COMPARISON : Prior chest radiographs ___ and ___ .",
+        "labels": {
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Moderate postoperative widening of the upper mediastinum is stable , midline drains in place .",
+        "labels": {
+            "Moderate": "OBS-DP",
+            "postoperative": "OBS-DP",
+            "widening": "OBS-DP",
+            "upper": "ANAT-DP",
+            "mediastinum": "ANAT-DP",
+            "stable": "OBS-DP",
+            "midline": "ANAT-DP",
+            "drains": "OBS-DP",
+            "in place": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Left lower lobe atelectasis mild .",
+        "labels": {
+            "Left": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "atelectasis": "OBS-DP",
+            "mild": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Heart size normal .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No pulmonary edema .",
+        "labels": {
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No appreciable pleural effusion or pneumothorax .",
+        "labels": {
+            "pleural": "OBS-DP",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "ET tube , nasogastric drainage tube , right pleural drain in standard placements .",
+        "labels": {
+            "ET": "OBS-DP",
+            "tube": "OBS-DP",
+            "nasogastric": "OBS-DP",
+            "drainage": "OBS-DP",
+            "right": "ANAT-DP",
+            "drain": "OBS-DP",
+            "standard": "OBS-DP",
+            "placements": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PORTABLE AP ) INDICATION : ___ year old woman with s / p Asc .",
+        "labels": {}
+    },
+    {
+        "sentence": "Aorta repair - CTs d / c'd / / evaluate for pneumothorax evaluate for pneumothorax IMPRESSION : In comparison with the study of ___ , the monitoring and support devices are stable .",
+        "labels": {
+            "monitoring": "OBS-DP",
+            "support": "OBS-DP",
+            "devices": "OBS-DP",
+            "stable": "OBS-DP",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "There is no evidence of pneumothorax .",
+        "labels": {}
+    },
+    {
+        "sentence": "Continued opacification at the left base is consistent with some combination of pleural effusion and volume loss in the lower lobe .",
+        "labels": {
+            "opacification": "OBS-DP",
+            "left": "ANAT-DP",
+            "base": "ANAT-DP",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DP",
+            "volume": "ANAT-DP",
+            "loss": "OBS-DP",
+            "lower": "ANAT-DP",
+            "lobe": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No definite vascular congestion .",
+        "labels": {
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ year old woman s / p AAA dissection repair / / * * please check film to allow for eval for effusion / edema and location of dobhoff tube tip location * * COMPARISON : Radiographs from ___ IMPRESSION : The Dobbhoff tube has been advanced with the distal tip below the diaphragm and off the field of view .",
+        "labels": {
+            "Dobbhoff": "OBS-DP",
+            "tube": "OBS-DP",
+            "distal": "OBS-DP",
+            "tip": "OBS-DP",
+            "below": "ANAT-DP",
+            "diaphragm": "ANAT-DP",
+            "off the field of view": "OBS-DP",
+            "Tip": "OBS-DP",
+            "effusion": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Nasogastric tube is no longer visualized .",
+        "labels": {
+            "Nasogastric": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "There is an unchanged right IJ central line with the distal lead tip in the right atrium .",
+        "labels": {
+            "unchanged": "OBS-DP",
+            "right": "ANAT-DP",
+            "IJ": "ANAT-DP",
+            "central": "OBS-DP",
+            "line": "OBS-DP",
+            "lead": "OBS-DP",
+            "atrium": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "This could be pulled back 3-4 cm for more optimal placement .",
+        "labels": {}
+    },
+    {
+        "sentence": "Tip of the endotracheal tube is 7 cm above the carina .",
+        "labels": {
+            "endotracheal": "OBS-DP",
+            "7 cm above": "ANAT-DP",
+            "carina": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is a persistent left retrocardiac opacity and small left - sided pleural effusion .",
+        "labels": {
+            "left": "ANAT-DP",
+            "retrocardiac": "ANAT-DP",
+            "opacity": "OBS-DP",
+            "small": "OBS-DP",
+            "left - sided": "ANAT-DP",
+            "pleural": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is also atelectasis at the lung bases , stable .",
+        "labels": {
+            "atelectasis": "OBS-DP",
+            "lung": "ANAT-DP",
+            "bases": "ANAT-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There are no pneumothoraces .",
+        "labels": {
+            "pneumothoraces": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "WET READ : ___ ___ 1:07AM Swan - Ganz catheter has been removed in the interim .",
+        "labels": {
+            "Swan - Ganz": "OBS-DA",
+            "catheter": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "A right IJ catheter has now been placed and the tip projects over the expected region of the right atrium .",
+        "labels": {
+            "right": "ANAT-DP",
+            "IJ": "ANAT-DP",
+            "tip": "OBS-DP",
+            "atrium": "ANAT-DP",
+            "Right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Recommend pulling back by approximately 5 cm to reposition in the SVC - RA junction .",
+        "labels": {}
+    },
+    {
+        "sentence": "Lung volumes are low .",
+        "labels": {
+            "Lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "low": "OBS-DP",
+            "lung": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "A left costophrenic angle blunting probably from small pleural effusion with atelectasis .",
+        "labels": {
+            "left": "ANAT-DP",
+            "costophrenic": "ANAT-DP",
+            "angle": "ANAT-DP",
+            "blunting": "OBS-DP",
+            "small": "OBS-DP",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DP",
+            "atelectasis": "OBS-DP",
+            "Small": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Other lines and tubes are unchanged .",
+        "labels": {
+            "Other lines": "OBS-DP",
+            "tubes": "OBS-DP",
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "___ , d / w ___ ___ from CC 7 B at 105am.",
+        "labels": {}
+    },
+    {
+        "sentence": "______________________________________________________________________________ FINAL REPORT EXAMINATION : CHEST ( PORTABLE AP ) INDICATION : ___ year old woman s / ptype A dissection - cvl change / / check line placement check line placement COMPARISON : Prior chest radiographs ___ through ___ .",
+        "labels": {
+            "placement": "OBS-DP",
+            "line": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Normal postoperative cardiomediastinal silhouette , decreased in caliber substantially since ___ .",
+        "labels": {
+            "Normal": "OBS-DP",
+            "postoperative": "OBS-DP",
+            "cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "decreased": "OBS-DP",
+            "caliber": "ANAT-DP",
+            "substantially": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Small left pleural effusion stable .",
+        "labels": {
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Moderate left lower lobe atelectasis unchanged .",
+        "labels": {
+            "Moderate": "OBS-DP",
+            "lower": "ANAT-DP",
+            "lobe": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Right lung grossly clear .",
+        "labels": {
+            "grossly": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No pneumothorax .",
+        "labels": {}
+    },
+    {
+        "sentence": "ET tube in standard placement .",
+        "labels": {
+            "ET": "OBS-DP",
+            "tube": "OBS-DP",
+            "standard": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Right IJ line ends in the right atrium .",
+        "labels": {}
+    },
+    {
+        "sentence": "Esophageal drainage tube in standard position .",
+        "labels": {
+            "Esophageal": "OBS-DP",
+            "drainage": "OBS-DP",
+            "position": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PORTABLE AP ) INDICATION : ___ year old woman with as above / / s / p chest closure w / dropping spo 2 , r / o PTX s / p chest closure w / dropping spo 2 , r / o PTX COMPARISON : ___ IMPRESSION : ET tube tip is 6 cm above the carinal .",
+        "labels": {
+            "ET": "OBS-DP",
+            "tube": "OBS-DP",
+            "tip": "OBS-DP",
+            "6 cm above": "ANAT-DP",
+            "carinal": "ANAT-DP",
+            "chest": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "NG tube passes below the diaphragm terminating in the stomach .",
+        "labels": {
+            "NG": "OBS-DP",
+            "below": "ANAT-DP",
+            "diaphragm": "ANAT-DP",
+            "stomach": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bilateral chest tubes are in place .",
+        "labels": {
+            "Bilateral": "ANAT-DP",
+            "tubes": "OBS-DP",
+            "in place": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal silhouette is stable .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Minimal left pleural effusion is noted .",
+        "labels": {
+            "Minimal": "OBS-DP",
+            "left": "ANAT-DP",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ year old woman s / p Ascending aorta repair / / eval for pleural effusions TECHNIQUE : Portable semi - upright AP chest COMPARISON : Chest radiographs ___ through ___ FINDINGS : Enteric tube again courses into the stomach .",
+        "labels": {
+            "Enteric": "OBS-DP",
+            "tube": "OBS-DP",
+            "stomach": "ANAT-DP",
+            "pleural": "ANAT-DP",
+            "effusions": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Left PICC line is in the mid SVC .",
+        "labels": {
+            "Left": "ANAT-DP",
+            "PICC": "ANAT-DP",
+            "line": "ANAT-DP",
+            "mid": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Lung volumes are significantly lower with vascular crowding but no frank pulmonary edema .",
+        "labels": {
+            "Lung": "ANAT-DP",
+            "volumes": "ANAT-DP",
+            "significantly": "OBS-DP",
+            "lower": "OBS-DP",
+            "vascular": "ANAT-DP",
+            "crowding": "OBS-DP",
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DA",
+            "lung": "ANAT-DP",
+            "Significantly": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Heart size is exaggerated by low lung volumes and likely top normal .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "exaggerated": "OBS-DP",
+            "low": "OBS-DP",
+            "top": "OBS-U",
+            "normal": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Apparent widening of the mediastinum likely relates to lordotic positioning .",
+        "labels": {
+            "widening": "OBS-DP",
+            "mediastinum": "ANAT-DP",
+            "lordotic": "OBS-DP",
+            "positioning": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bilateral pleural effusions of present are small .",
+        "labels": {
+            "Bilateral": "ANAT-DP",
+            "small": "OBS-DP",
+            "Small": "OBS-U",
+            "bilateral": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is no pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : 1 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Significantly lower lung volumes and lordotic positioning limit the evaluation .",
+        "labels": {}
+    },
+    {
+        "sentence": "2 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Small if any bilateral pleural effusions .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT AP CHEST , 4:18A.M.",
+        "labels": {}
+    },
+    {
+        "sentence": ", ___ HISTORY : Non - small cell lung cancer , admitted for acute hypoxia .",
+        "labels": {
+            "lung": "ANAT-DP",
+            "cancer": "OBS-U"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : PA and lateral chest compared to ___ through ___ : There has been marked acceleration of the extent of consolidative abnormality in the right lung since ___ , mild improvement on the left which has been more severely affected since ___ .",
+        "labels": {
+            "marked": "OBS-DP",
+            "acceleration": "OBS-DP",
+            "consolidative": "OBS-DP",
+            "abnormality": "OBS-DP",
+            "right": "ANAT-DP",
+            "mild": "OBS-DP",
+            "improvement": "OBS-DP",
+            "left": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No way to exclude concurrent pneumonia , but I suspect that the findings in both lungs are predominantly rapid progression of lung cancer .",
+        "labels": {
+            "concurrent": "OBS-U",
+            "pneumonia": "OBS-U",
+            "both": "ANAT-DP",
+            "lungs": "ANAT-DP",
+            "predominantly": "OBS-U",
+            "rapid": "OBS-U",
+            "progression": "OBS-U"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ - year - old male with left upper lobe BAC , status post TBBx , rule out pneumothorax .",
+        "labels": {
+            "left": "ANAT-DP",
+            "pneumothorax": "OBS-DA",
+            "upper": "ANAT-DP",
+            "lobe": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "COMPARISONS : Chest CT from ___ , ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Single AP portable exam of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : There appears to be near opacification of the left lung , likely secondary to patient 's known malignancy .",
+        "labels": {
+            "near": "OBS-DP",
+            "opacification": "OBS-DP",
+            "lung": "ANAT-DP",
+            "malignancy": "OBS-U"
+        }
+    },
+    {
+        "sentence": "The extent of the patient 's malignancy is better seen on the prior CT from ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "The right lung also demonstrates nodules that are better evaluated on the prior CT .",
+        "labels": {
+            "right": "ANAT-DP",
+            "nodules": "OBS-DP",
+            "Right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is a focal opacity along the right minor fissure , which did not have a CT correlate , and may be a focal consolidative process , however malignancy cannot be ruled out .",
+        "labels": {
+            "focal": "OBS-U",
+            "opacity": "OBS-DP",
+            "along": "OBS-DP",
+            "minor": "ANAT-DP",
+            "fissure": "ANAT-DP",
+            "consolidative": "OBS-U",
+            "process": "OBS-U"
+        }
+    },
+    {
+        "sentence": "There is no pneumothorax .",
+        "labels": {}
+    },
+    {
+        "sentence": "The heart size is normal .",
+        "labels": {
+            "heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The hilar and mediastinal contours are otherwise unremarkable .",
+        "labels": {
+            "hilar": "ANAT-DP",
+            "mediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "otherwise": "OBS-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : 1 .",
+        "labels": {}
+    },
+    {
+        "sentence": "No post - procedural pneumothorax .",
+        "labels": {
+            "post - procedural": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "2 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Right upper lobe infiltrate abutting the minor fissure without a definite prior CT correlate .",
+        "labels": {
+            "infiltrate": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "This may be secondary to an infectious process , however malignancy cannot be ruled out .",
+        "labels": {
+            "infectious": "OBS-U"
+        }
+    },
+    {
+        "sentence": "3 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Right lung nodules better evaluated on prior CT .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ - year - old man with dyspnea , history of lung adenocarcinoma .",
+        "labels": {
+            "lung": "ANAT-DP",
+            "adenocarcinoma": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Rule out acute pulmonary disease , pulmonary edema , effusion or pneumonia .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : Prior chest CT from ___ and chest radiograph from ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Portable AP chest radiograph .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Again seen is extensive consolidation involving the left lung and right upper lobe .",
+        "labels": {
+            "extensive": "OBS-DP",
+            "consolidation": "OBS-DP",
+            "left": "ANAT-DP",
+            "right": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "lobe": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Since prior examination from ___ , there is improved areation of the left lung .",
+        "labels": {
+            "improved": "OBS-DP",
+            "areation": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There seems to be an increased area of opacity in the right lung base which could represent dissemination of known adenocarcinoma .",
+        "labels": {
+            "increased": "OBS-DP",
+            "area": "OBS-DP",
+            "opacity": "OBS-DP",
+            "base": "ANAT-DP",
+            "dissemination": "OBS-DP",
+            "known": "OBS-DP",
+            "Increased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "However , in the appropriate clinical setting , an underlying infectious process is also possible .",
+        "labels": {
+            "underlying": "OBS-U",
+            "infectious": "OBS-U",
+            "process": "OBS-U"
+        }
+    },
+    {
+        "sentence": "There is no definite pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The heart cannot be evaluated .",
+        "labels": {
+            "heart": "ANAT-DP",
+            "cannot be evaluated": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Increased density at the right lung base which could represent increased disseminated adenocarcinoma .",
+        "labels": {
+            "density": "OBS-DP",
+            "disseminated": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "However , in the appropriate clinical setting , an underlying infectious process is also possible .",
+        "labels": {}
+    },
+    {
+        "sentence": "These findings were discussed with Dr .",
+        "labels": {}
+    },
+    {
+        "sentence": "___ by ___ via telephone on ___ at 3:30p.m.",
+        "labels": {}
+    },
+    {
+        "sentence": ", at time of discovery .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH PERFORMED ON ___ COMPARISON : CT chest from ___ as well as a chest radiograph also from the same day .",
+        "labels": {}
+    },
+    {
+        "sentence": "CLINICAL HISTORY : Fever , tachycardia , cancer , assess pneumonia .",
+        "labels": {
+            "pneumonia": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINDINGS : Portable upright AP view of the chest provided .",
+        "labels": {}
+    },
+    {
+        "sentence": "There is diffuse consolidation within the left lung , similar to prior study .",
+        "labels": {
+            "diffuse": "OBS-DP",
+            "consolidation": "OBS-DP",
+            "left": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "similar to prior study": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Dense consolidation is seen within the right upper lobe , which is increased from prior exam .",
+        "labels": {
+            "Dense": "OBS-DP",
+            "right": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "increased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Persistent consolidation within the left lung and increasing confluence of right upper lobe consolidation is concerning for worsening pneumonia .",
+        "labels": {
+            "increasing": "OBS-DP",
+            "worsening": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ year old man with shortness of breath .",
+        "labels": {}
+    },
+    {
+        "sentence": "Evaluate for evidence of consolidation or pneumothorax COMPARISON : Multiple prior chest radiographs most recent on ___ .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Chest CT from ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Portable upright chest radiograph .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Nearly complete opacification of the left hemithorax is of increasing density since the recent prior CT .",
+        "labels": {
+            "Nearly": "OBS-DP",
+            "complete": "OBS-DP",
+            "opacification": "OBS-DP",
+            "left": "ANAT-DP",
+            "hemithorax": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "A large area of opacity in the inferior segment of the right upper lobe as well as more patchy right middle lobe involvement were better assessed in recent chest CT from ___ and similar in appearance allowing for difference in techniques .",
+        "labels": {
+            "large": "OBS-DP",
+            "area": "OBS-DP",
+            "opacity": "OBS-DP",
+            "inferior": "ANAT-DP",
+            "segment": "ANAT-DP",
+            "right": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "more": "OBS-DP",
+            "patchy": "OBS-DP",
+            "middle": "ANAT-DP",
+            "similar": "OBS-DP",
+            "appearance": "OBS-DP",
+            "Similar": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Widespread opacification of the left mid to lower lung is increasingly dense , however .",
+        "labels": {
+            "Widespread": "OBS-DP",
+            "mid": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "increasingly": "OBS-DP",
+            "dense": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no evidence of pneumothorax .",
+        "labels": {}
+    },
+    {
+        "sentence": "The cardiomediastinal contours are stable .",
+        "labels": {
+            "cardiomediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Similar extensive alveolar opacities in the inferior segment of the right upper lobe and right middle lobe as well as increased confluent opacification of the left mid to lower lung .",
+        "labels": {
+            "extensive": "OBS-DP",
+            "alveolar": "ANAT-DP",
+            "opacities": "OBS-DP",
+            "increased": "OBS-DP",
+            "confluent": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The overall appearance suggests severe worsening multifocal pneumonia superimposed on known malignancy .",
+        "labels": {
+            "overall": "OBS-DP",
+            "severe": "OBS-DP",
+            "worsening": "OBS-DP",
+            "multifocal": "OBS-DP",
+            "pneumonia": "OBS-DP",
+            "superimposed": "OBS-DP",
+            "known": "OBS-DP",
+            "malignancy": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ - year - old man status post right lung biopsy , who presents for evaluation .",
+        "labels": {
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "COMPARISON : Chest radiographs from ___ , ___ and chest CT from ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : PA and lateral radiograph of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : There is a small right apical pneumothorax .",
+        "labels": {
+            "small": "OBS-DP",
+            "apical": "ANAT-DP",
+            "pneumothorax": "OBS-DP",
+            "Small": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Extensive consolidation in the left upper lobe and left lower lobes are unchanged and consistent with patient 's known cancer .",
+        "labels": {
+            "Extensive": "OBS-DP",
+            "consolidation": "OBS-DP",
+            "left": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lobes": "ANAT-DP",
+            "unchanged": "OBS-DP",
+            "cancer": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There has been an interval increase in the opacity in the right middle lobe which could be secondary to worsening malignancy or atelectasis .",
+        "labels": {
+            "interval": "OBS-DP",
+            "increase": "OBS-DP",
+            "opacity": "OBS-DP",
+            "middle": "ANAT-DP",
+            "secondary": "OBS-U",
+            "worsening": "OBS-U",
+            "malignancy": "OBS-U",
+            "atelectasis": "OBS-U"
+        }
+    },
+    {
+        "sentence": "There has been an interval increase in the left lower lobe focal opacity likely secondary to atelectasis .",
+        "labels": {
+            "focal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Small right apical pneumothorax post biopsy .",
+        "labels": {}
+    },
+    {
+        "sentence": "These findings were discussed with Dr .",
+        "labels": {}
+    },
+    {
+        "sentence": "___ at 1:40pm by Dr .",
+        "labels": {}
+    },
+    {
+        "sentence": "___ by telephone on the day of the exam .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : Fever , question pneumonia .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : Chest radiograph on ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : A left PICC line has been removed .",
+        "labels": {
+            "left": "ANAT-DP",
+            "PICC": "OBS-DA",
+            "line": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Again seen is the extensive consolidation involving the left lung and right upper lobe , without significant change since ___ , and consistent with disseminated adenocarcinoma .",
+        "labels": {
+            "extensive": "OBS-DP",
+            "consolidation": "OBS-DP",
+            "lung": "ANAT-DP",
+            "right": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "disseminated": "OBS-DP",
+            "adenocarcinoma": "OBS-DP",
+            "Extensive": "OBS-DP",
+            "significant": "OBS-DA",
+            "change": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pneumothoax .",
+        "labels": {
+            "pneumothoax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Heart not well evaluated .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "not well evaluated": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Extensive consolidation involving the left lung and right upper lobe , without significant change since ___ , and consistent with disseminated adenocarcinoma .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT PA AND LATERAL VIEWS OF THE CHEST REASON FOR EXAM : Low grade fever in patient with known lung cancer .",
+        "labels": {
+            "cancer": "OBS-DP",
+            "lung": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Comparison is made with prior study of ___ , chest CT ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "Cardiomediastinal contours are normal .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Extensive consolidation in the left upper lobe and left lower lobe are unchanged consistent with patient 's known cancer .",
+        "labels": {
+            "Extensive": "OBS-DP",
+            "consolidation": "OBS-DP",
+            "left": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "unchanged": "OBS-DP",
+            "Left": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Right upper lobe and right lower lobe opacities have increased .",
+        "labels": {
+            "Right": "ANAT-DP",
+            "right": "ANAT-DP",
+            "opacities": "OBS-DP",
+            "increased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "These could be due to worsening malignancy or worsening pneumonia .",
+        "labels": {
+            "worsening": "OBS-U",
+            "malignancy": "OBS-U",
+            "pneumonia": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Right lower lobe lung nodule is better seen in prior CT .",
+        "labels": {
+            "nodule": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Left lower lobe opacities have mildly improved .",
+        "labels": {
+            "mildly": "OBS-DP",
+            "improved": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no pleural effusion or pneumothorax .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ - year - old man status post right lung biopsy , presents for evaluation .",
+        "labels": {
+            "right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "COMPARISON : Chest radiograph from ___ performed at 12:08p.m.",
+        "labels": {}
+    },
+    {
+        "sentence": ", ___ , ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : PA and lateral radiographs of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : Again seen is a small right apical pneumothorax , unchanged compared to the prior exam .",
+        "labels": {
+            "small": "OBS-DP",
+            "apical": "ANAT-DP",
+            "pneumothorax": "OBS-DP",
+            "unchanged": "OBS-DP",
+            "Unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Extensive consolidation in the left upper lobe and left lower lobes are unchanged and consistent with patient 's known cancer .",
+        "labels": {
+            "Extensive": "OBS-DP",
+            "consolidation": "OBS-DP",
+            "left": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "lobe": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lobes": "ANAT-DP",
+            "cancer": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The right middle lobe opacity could be secondary to worsening malignancy or atelectasis and appears increased since the study from ___ .",
+        "labels": {
+            "middle": "ANAT-DP",
+            "opacity": "OBS-DP",
+            "secondary": "OBS-U",
+            "worsening": "OBS-U",
+            "malignancy": "OBS-U",
+            "atelectasis": "OBS-U",
+            "increased": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The cardiomediastinal contours are stable .",
+        "labels": {
+            "cardiomediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "stable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Unchanged small right apical pneumothorax .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ M with MM and ANC - 0 p / w fevers , evaluate for pneumonia .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Chest PA and lateral COMPARISON : Chest x - ray ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : The cardiomediastinal contours are within normal limits .",
+        "labels": {
+            "cardiomediastinal": "ANAT-DP",
+            "contours": "ANAT-DP",
+            "within": "OBS-DP",
+            "normal": "OBS-DP",
+            "limits": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The bilateral hila are unremarkable .",
+        "labels": {
+            "bilateral": "ANAT-DP",
+            "hila": "ANAT-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The lungs are clear without focal consolidation .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP",
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "There is no evidence of pulmonary vascular congestion .",
+        "labels": {
+            "pulmonary": "ANAT-DP",
+            "vascular": "ANAT-DP",
+            "congestion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "There is no pneumothorax or pleural effusion .",
+        "labels": {
+            "pneumothorax": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute cardiopulmonary process .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ yo man with a history of multiple myeloma now sp auto transplant .",
+        "labels": {}
+    },
+    {
+        "sentence": "PICC line not drawing .",
+        "labels": {
+            "PICC": "OBS-DP",
+            "line": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Please evaluate for placement .",
+        "labels": {}
+    },
+    {
+        "sentence": "/ / ___ yo man with a history of multiple myeloma now sp auto transplant .",
+        "labels": {}
+    },
+    {
+        "sentence": "PICC line not drawing .",
+        "labels": {}
+    },
+    {
+        "sentence": "Please evaluate for placement .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Chest PA and lateral COMPARISON : Chest radiograph from ___ FINDINGS : The lungs are fully expanded and clear .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "fully": "OBS-DP",
+            "expanded": "OBS-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal and hilar silhouettes are normal .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "hilar": "ANAT-DP",
+            "silhouettes": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Pleural surfaces are normal .",
+        "labels": {
+            "Pleural": "ANAT-DP",
+            "surfaces": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The left PICC line is stable in terminates at the cavoatrial junction .",
+        "labels": {
+            "left": "ANAT-DP",
+            "stable": "OBS-DP",
+            "cavoatrial": "ANAT-DP",
+            "junction": "ANAT-DP",
+            "Left": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Left PICC line is stable and in appropriate position .",
+        "labels": {
+            "appropriate": "OBS-DP",
+            "position": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No acute cardiopulmonary process .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PORTABLE AP ) INDICATION : ___ year old man with multiple myeloma / / new hypoxia , evaluate for PNA COMPARISON : Chest x - ray from ___ 18 : 26 FINDINGS : Lordotic positioning .",
+        "labels": {
+            "Lordotic": "OBS-DP",
+            "positioning": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Again seen is a right subclavian line , with tip over distal SVC .",
+        "labels": {
+            "right": "ANAT-DP",
+            "subclavian": "ANAT-DP",
+            "line": "OBS-DP",
+            "tip": "OBS-DP",
+            "distal": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No pneumothorax is detected .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "There is probable mild cardiomegaly , without significant interval change .",
+        "labels": {
+            "mild": "OBS-U",
+            "cardiomegaly": "OBS-U",
+            "Mild": "OBS-U"
+        }
+    },
+    {
+        "sentence": "There is upper zone redistribution , but no overt CHF .",
+        "labels": {
+            "upper": "ANAT-DP",
+            "zone": "ANAT-DP",
+            "redistribution": "OBS-DP",
+            "overt": "OBS-DA",
+            "CHF": "OBS-DA",
+            "Upper": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Possible minimal retrocardiac atelectasis .",
+        "labels": {
+            "minimal": "OBS-U",
+            "retrocardiac": "ANAT-DP",
+            "atelectasis": "OBS-U"
+        }
+    },
+    {
+        "sentence": "Otherwise , no focal infiltrate , consolidation , or gross effusion .",
+        "labels": {
+            "focal": "OBS-DA",
+            "infiltrate": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "gross": "OBS-DA",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Incidental note is made of bilateral cervical ribs .",
+        "labels": {
+            "bilateral": "ANAT-DP",
+            "cervical": "ANAT-DP",
+            "ribs": "ANAT-DP",
+            "Bilateral": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is pseudoarticulation of the right cervical rib .",
+        "labels": {
+            "pseudoarticulation": "OBS-DP",
+            "rib": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : 1 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Mild cardiomegaly , unchanged .",
+        "labels": {
+            "unchanged": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "2 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Upper zone redistribution , without overt CHF .",
+        "labels": {}
+    },
+    {
+        "sentence": "No focal infiltrate or effusion .",
+        "labels": {}
+    },
+    {
+        "sentence": "No pneumothorax detected .",
+        "labels": {}
+    },
+    {
+        "sentence": "3 .",
+        "labels": {}
+    },
+    {
+        "sentence": "Bilateral cervical ribs noted .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ year old man with hx of myeloma .",
+        "labels": {}
+    },
+    {
+        "sentence": "Confusion with new neutropenia .",
+        "labels": {}
+    },
+    {
+        "sentence": "Please further evaluation / / ___ year old man with hx of myeloma .",
+        "labels": {}
+    },
+    {
+        "sentence": "Confusion with new neutropenia .",
+        "labels": {}
+    },
+    {
+        "sentence": "Please further evaluation TECHNIQUE : PA and lateral views the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : The lungs are clear .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The cardiomediastinal silhouette is within normal limits .",
+        "labels": {
+            "cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "within": "OBS-DP",
+            "normal": "OBS-DP",
+            "limits": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Incidentally noted are bilateral cervical ribs .",
+        "labels": {
+            "bilateral": "ANAT-DP",
+            "cervical": "ANAT-DP",
+            "ribs": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "No acute osseous abnormality identified .",
+        "labels": {
+            "acute": "OBS-DA",
+            "osseous": "ANAT-DP",
+            "abnormality": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute cardiopulmonary process .",
+        "labels": {
+            "cardiopulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : ___ M with seizure and immunocompromised on chemotherapy .",
+        "labels": {}
+    },
+    {
+        "sentence": "/ / ?",
+        "labels": {}
+    },
+    {
+        "sentence": "pneumonia TECHNIQUE : PA and lateral views of the chest .",
+        "labels": {}
+    },
+    {
+        "sentence": "COMPARISON : None .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : The lungs are clear .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no focal consolidation or effusion .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal silhouette is within normal limits .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "within": "OBS-DP",
+            "normal": "OBS-DP",
+            "limits": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bilateral cervical ribs are incidentally noted .",
+        "labels": {
+            "Bilateral": "ANAT-DP",
+            "cervical": "ANAT-DP",
+            "ribs": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute cardiopulmonary process .",
+        "labels": {
+            "acute": "OBS-DA",
+            "cardiopulmonary": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PA AND LAT ) INDICATION : ___ M with presyncope .",
+        "labels": {}
+    },
+    {
+        "sentence": "Evaluate for infection .",
+        "labels": {}
+    },
+    {
+        "sentence": "TECHNIQUE : Chest PA and lateral COMPARISON : Chest radiographs of ___ and ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINDINGS : The right PICC line tip projects in the region of the cavoatrial junction .",
+        "labels": {
+            "right": "ANAT-DP",
+            "PICC": "OBS-DP",
+            "line": "OBS-DP",
+            "tip": "OBS-DP",
+            "cavoatrial": "ANAT-DP",
+            "junction": "ANAT-DP",
+            "Right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is no focal consolidation , pleural effusion , or pneumothorax .",
+        "labels": {
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Cardiomediastinal silhouette is unremarkable .",
+        "labels": {
+            "Cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "unremarkable": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No focal consolidation concerning for pneumonia .",
+        "labels": {
+            "pneumonia": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "Right PICC terminates at the cavoatrial junction .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PORTABLE AP ) INDICATION : ___ year old man with multiple myeloma , currently day + 7 autotransplant with neutropenic fever / / eval for pneumonia TECHNIQUE : Chest single view COMPARISON : ___ FINDINGS : Venous catheter tip mid SVC .",
+        "labels": {
+            "Venous": "OBS-DP",
+            "catheter": "OBS-DP",
+            "tip": "OBS-DP",
+            "mid": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Decreased heart size , pulmonary vascularity .",
+        "labels": {
+            "Decreased": "OBS-DP",
+            "heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "pulmonary": "ANAT-DP",
+            "vascularity": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Cervical accessory ribs .",
+        "labels": {
+            "Cervical": "ANAT-DP",
+            "accessory": "ANAT-DP",
+            "ribs": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Lungs clear .",
+        "labels": {
+            "Lungs": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No pleural fluid .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "fluid": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No infiltrates .",
+        "labels": {
+            "infiltrates": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PA AND LAT ) INDICATION : ___ M with AMS COMPARISON : Prior exam is dated ___ FINDINGS : PA and lateral views of the chest provided .",
+        "labels": {}
+    },
+    {
+        "sentence": "A left upper extremity access PICC line is again seen with its tip in the low SVC .",
+        "labels": {
+            "left": "ANAT-DP",
+            "upper": "ANAT-DP",
+            "extremity": "ANAT-DP",
+            "PICC": "OBS-DP",
+            "line": "OBS-DP",
+            "tip": "OBS-DP",
+            "low": "ANAT-DP",
+            "SVC": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The lungs are clear bilaterally without focal consolidation , large effusion or pneumothorax .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP",
+            "bilaterally": "ANAT-DP",
+            "focal": "OBS-DA",
+            "consolidation": "OBS-DA",
+            "large": "OBS-DA",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No signs of congestion or edema .",
+        "labels": {
+            "congestion": "OBS-DA",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The cardiomediastinal silhouette appears normal .",
+        "labels": {
+            "cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "The imaged bony structures are intact .",
+        "labels": {
+            "bony": "ANAT-DP",
+            "structures": "ANAT-DP",
+            "intact": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No free air is seen below the right hemidiaphragm .",
+        "labels": {
+            "free": "OBS-DA",
+            "air": "OBS-DA",
+            "below": "ANAT-DP",
+            "right": "ANAT-DP",
+            "hemidiaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : PICC line positioned appropriately .",
+        "labels": {
+            "positioned": "OBS-DP",
+            "appropriately": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No acute intrathoracic process .",
+        "labels": {
+            "acute": "OBS-DA",
+            "intrathoracic": "ANAT-DP",
+            "process": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT INDICATION : PICC line placement TECHNIQUE : Chest PA and lateral COMPARISON : ___ FINDINGS : PICC line in situ at the cavoatrial junction .",
+        "labels": {
+            "PICC": "OBS-DP",
+            "line": "OBS-DP",
+            "cavoatrial": "ANAT-DP",
+            "junction": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "The cardiomediastinal shadow is normal .",
+        "labels": {
+            "cardiomediastinal": "ANAT-DP",
+            "shadow": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No airspace consolidation .",
+        "labels": {
+            "airspace": "ANAT-DP",
+            "consolidation": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pulmonary edema .",
+        "labels": {
+            "pulmonary": "ANAT-DP",
+            "edema": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pleural effusion .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "No pneumothorax .",
+        "labels": {
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : Right - sided PICC line in situ with the tip at the cavoatrial junction .",
+        "labels": {
+            "Right - sided": "ANAT-DP",
+            "tip": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PORTABLE AP ) INDICATION : ___ year old woman pacemaker generator change with old RV lead capped .",
+        "labels": {
+            "lead": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "A new RV lead was placed via axillary vein .",
+        "labels": {
+            "New": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "/ / r / o pneumothorax s / p placement of RV pacemaker lead via left axillary vein r / o pneumothorax s / p placement of RV pacemaker lead via left axillary vein IMPRESSION : Compared to chest radiograph ___ .",
+        "labels": {
+            "pneumothorax": "OBS-DA",
+            "left": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "New transvenous right ventricular pacer lead .",
+        "labels": {
+            "transvenous": "OBS-DP",
+            "right": "ANAT-DP",
+            "ventricular": "ANAT-DP",
+            "pacer": "OBS-DP",
+            "Right": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "Orphaned right ventricular lead separated and CT from the generator .",
+        "labels": {
+            "Orphaned": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Right atrial lead unchanged in position .",
+        "labels": {
+            "atrial": "ANAT-DP",
+            "unchanged": "OBS-DP",
+            "position": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No mediastinal widening , pneumothorax or pleural effusion .",
+        "labels": {
+            "mediastinal": "ANAT-DP",
+            "widening": "OBS-DA",
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "2 small areas of irregular opacification project over the anterior right third rib and interspaces .",
+        "labels": {
+            "small": "OBS-DP",
+            "irregular": "OBS-DP",
+            "opacification": "OBS-DP",
+            "anterior": "ANAT-DP",
+            "third": "ANAT-DP",
+            "rib": "ANAT-DP",
+            "interspaces": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "I would recommend conventional chest radiographs supplemented by shallow oblique views .",
+        "labels": {}
+    },
+    {
+        "sentence": "Radiologists should be consulted before the patient leaves the department to see if additional imaging is necessary .",
+        "labels": {}
+    },
+    {
+        "sentence": "Aside from a calcified granuloma in the left lower lung , the lungs Are otherwise clear .",
+        "labels": {
+            "calcified": "OBS-DP",
+            "granuloma": "OBS-DP",
+            "lower": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Heart size normal .",
+        "labels": {
+            "Heart": "ANAT-DP",
+            "size": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No pleural abnormality .",
+        "labels": {
+            "abnormality": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "RECOMMENDATION ( S ) : Conventional PA , lateral , shallow oblique chest radiographs should be shown to radiologist before the patient leaves the department .",
+        "labels": {}
+    },
+    {
+        "sentence": "FINAL REPORT CHEST RADIOGRAPH PERFORMED ON ___ COMPARISON : None .",
+        "labels": {
+            "chest": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "CLINICAL HISTORY : Altered mental status , question pneumonia .",
+        "labels": {
+            "pneumonia": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINDINGS : PA and lateral views of the chest provided demonstrate a dual - lead pacemaker projecting over the left chest wall with leads extending to the region of the right atrium and right ventricle .",
+        "labels": {
+            "dual - lead": "OBS-DP",
+            "pacemaker": "OBS-DP",
+            "left": "ANAT-DP",
+            "wall": "ANAT-DP",
+            "leads": "OBS-DP",
+            "right": "ANAT-DP",
+            "atrium": "ANAT-DP",
+            "ventricle": "ANAT-DP",
+            "findings": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The lungs appear clear without signs of pneumonia or CHF .",
+        "labels": {
+            "lungs": "ANAT-DP",
+            "clear": "OBS-DP",
+            "CHF": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "A hyperdense nodular structure overlying the left lower lung could represent a calcified granuloma .",
+        "labels": {
+            "hyperdense": "OBS-DP",
+            "nodular": "OBS-DP",
+            "structure": "OBS-DP",
+            "lower": "ANAT-DP",
+            "lung": "ANAT-DP",
+            "calcified": "OBS-DP",
+            "granuloma": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "No effusion or pneumothorax is seen .",
+        "labels": {
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "The cardiomediastinal silhouette is normal .",
+        "labels": {
+            "cardiomediastinal": "ANAT-DP",
+            "silhouette": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Bony structures are intact .",
+        "labels": {
+            "Bony": "ANAT-DP",
+            "structures": "ANAT-DP",
+            "intact": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "There is no free air below the right hemidiaphragm .",
+        "labels": {
+            "free": "OBS-DA",
+            "air": "OBS-DA",
+            "below": "ANAT-DP",
+            "hemidiaphragm": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "IMPRESSION : No acute findings .",
+        "labels": {
+            "acute": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "FINAL REPORT EXAMINATION : CHEST ( PA AND LAT ) INDICATION : ___ year old woman s / p new RV lead placement and gen change .",
+        "labels": {}
+    },
+    {
+        "sentence": "/ / Assess leads placement and r / o PTx .",
+        "labels": {
+            "leads": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Assess leads placement and r / o PTx .",
+        "labels": {}
+    },
+    {
+        "sentence": "IMPRESSION : Compared to prior chest radiographs ___ and ___ .",
+        "labels": {}
+    },
+    {
+        "sentence": "Lungs are hyperinflated , suggesting emphysema .",
+        "labels": {
+            "Lungs": "ANAT-DP",
+            "hyperinflated": "OBS-DP",
+            "emphysema": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Pulmonary vasculature is normal .",
+        "labels": {
+            "Pulmonary": "ANAT-DP",
+            "vasculature": "ANAT-DP",
+            "normal": "OBS-DP"
+        }
+    },
+    {
+        "sentence": "Calcified granuloma or breast calcification projects over the left lower lung .",
+        "labels": {
+            "Calcified": "OBS-DP",
+            "granuloma": "OBS-DP",
+            "breast": "ANAT-DP",
+            "calcification": "OBS-DP",
+            "left": "ANAT-DP",
+            "lower": "ANAT-DP",
+            "lung": "ANAT-DP"
+        }
+    },
+    {
+        "sentence": "There is no pleural effusion , pneumothorax or mediastinal widening .",
+        "labels": {
+            "pleural": "ANAT-DP",
+            "effusion": "OBS-DA",
+            "pneumothorax": "OBS-DA",
+            "mediastinal": "ANAT-DP",
+            "widening": "OBS-DA"
+        }
+    },
+    {
+        "sentence": "One atrial and 2 ventricular leads , one detached , follow their expected courses from the left pectoral generator .",
+        "labels": {
+            "One": "ANAT-DP",
+            "atrial": "ANAT-DP",
+            "2": "ANAT-DP",
+            "ventricular": "ANAT-DP",
+            "one": "OBS-DP",
+            "detached": "OBS-DP"
+        }
+    }
+]
