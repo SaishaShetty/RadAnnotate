@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>RadAnnotate — Phase 1</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+  <!-- Nav -->
+  <nav id="nav">
+    <ul class="container">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="phase1.html">Phase 1</a></li>
+	  <li><a href="phase2.html">Phase 2</a></li>
+    </ul>
+  </nav>
+
+  <!-- Phase 2 Page -->
+
+<article id="portfolio" class="wrapper style3">
+        <div class="container">
+            <header>
+                <h2>Phase 2: Fine-tuning the Model</h2>
+                <p>Adapting the model to generate accurate, clinically relevant annotations using synthetic and real data.</p>
+            </header>
+    
+            <p>
+                After generating a diverse synthetic dataset, the next crucial step is to fine-tune a large language model to perform accurate clinical text annotation. Fine-tuning ensures that the model learns to generalize from synthetic and real-world examples, improving its performance on domain-specific tasks such as identifying anatomical entities and clinical observations.
+            </p>
+    
+            <h3>Why Fine-tuning?</h3>
+            <p>
+                Pre-trained language models, while powerful, are often too general to perform well on specialized clinical data out-of-the-box. Fine-tuning on task-specific data helps the model understand the unique language, structure, and context of clinical reports. It aligns the model's outputs with the specific labeling schema used for radiology and clinical entity recognition, enabling higher precision and recall.
+            </p>
+    
+            <h3>Fine-tuning Methodology</h3>
+            <p>
+                We fine-tuned the <strong>Mixtral-7b-instruct v3</strong> model using a carefully prepared dataset that combines both synthetic and real annotated clinical reports. The fine-tuning process involves training the model to generate structured annotations — including both entity labels and relations — directly from raw clinical text.
+            </p>
+            <p>
+                The training pipeline involves the following key steps:
+            </p>
+            <ul>
+                <li><strong>Data Curation:</strong> Combining synthetic data (created in Phase 1) with available real-world datasets to cover a broad range of clinical cases.</li>
+                <li><strong>Instruction Tuning:</strong> Formatting input-output pairs to follow an instruction-based prompting style, guiding the model to perform entity and relation extraction.</li>
+                <li><strong>Model Optimization:</strong> Training Mixtral-7b-instruct v3 using gradient-based optimization, adjusting weights to align predictions with ground truth annotations.</li>
+                <li><strong>Evaluation:</strong> Validating model performance on a held-out set to ensure accuracy, relevance, and clinical correctness of the generated annotations.</li>
+            </ul>
+    
+            <h3>Instruction-based Training Example</h3>
+            <p>
+                Each example for fine-tuning follows a structured prompt format. Below is a simplified example:
+            </p>
+            <pre><code>Instruction: Annotate the following clinical report with entities and relations.
+    Report: There is a small nodule in the right upper lobe of the lung.
+    Annotated Report: 
+    {
+      "entities": {
+        "1": {"tokens": "nodule", "label": "OBS-DP", "start_ix": 3, "end_ix": 3, "relations": []},
+        "2": {"tokens": "right upper lobe", "label": "ANAT-DP", "start_ix": 6, "end_ix": 8, "relations": ["located_at:1"]}
+      }
+    }
+    </code></pre>
+    
+            <figure style="text-align: center;">
+                <img src="images/model_finetuning_pipeline.png" alt="Model Fine-tuning Pipeline" style="max-width: 80%; height: auto;">
+                <figcaption><em>Figure: Overview of the Model Fine-tuning Pipeline.</em></figcaption>
+            </figure>
+    
+            <footer>
+                <p>In the next phase, we explore how to evaluate and validate the model's performance using real clinical reports.</p>
+            </footer>
+        </div>
+    </article>
+    
+
+
+  <!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
+      

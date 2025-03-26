@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>RadAnnotate — Phase 1</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+  <!-- Nav -->
+  <nav id="nav">
+    <ul class="container">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="phase1.html">Phase 1</a></li>
+	  <li><a href="phase2.html">Phase 2</a></li>
+    </ul>
+  </nav>
+
+  <!-- Phase 1 Page -->
+  <article id="work" class="wrapper style2">
+    <div class="container">
+      <header>
+        <h2>Phase 1: Synthetic Data Generation</h2>
+        <p>Building a high-quality synthetic dataset to address real-world limitations and improve model performance.</p>
+      </header>
+
+      <p>
+        One of the major challenges in applying machine learning to medical domains like radiology is the scarcity of large-scale, annotated datasets. Privacy regulations, access restrictions, and the high cost of expert annotation make real data difficult to obtain. To address these limitations, we generate synthetic data that reflects real-world clinical language and structure—enabling large-scale training while preserving patient privacy.
+      </p>
+  
+      <h3>📚 Data Sources</h3>
+      <p>
+        Our base dataset is <strong>RadGraph</strong>, which contains 500 annotated radiology reports. To further expand our dataset, we integrated additional reports from two well-known clinical corpora.
+        The <strong>training and development sets</strong> consist of 425 and 75 reports respectively, sourced from the <strong>MIMIC-CXR</strong> dataset. Each of these reports was labeled by a board-certified radiologist. Importantly, there is no patient overlap between the training and development sets, ensuring clean separation.
+      </p>
+      <p>
+        For the <strong>test set</strong>, we curated 100 reports—50 from MIMIC-CXR and 50 from the <strong>CheXpert</strong> dataset. Each test report was independently annotated by two radiologists. Again, there is no patient overlap with the train/dev sets. This combination allows us to assess generalization across institutional boundaries.
+      </p>
+  
+      <h3>📄 RadGraph Annotation Schema</h3>
+
+      <div style="display: flex; justify-content: center;">
+
+        <div style="text-align: left; max-width: 700px;">
+
+          <div style="border: 1px solid #ccc; padding: 1em 1.5em; border-radius: 8px; background: #f4f4f4; font-family: monospace; font-size: 0.9em; margin-top: 1em;">
+            {
+            <br>&nbsp;&nbsp;"text": "The radiograph shows right lung opacity .",
+            <br>&nbsp;&nbsp;"entities": {
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;"1": {
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tokens": "right lung",
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"label": "ANAT-DP",
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"start_ix": 3,
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"end_ix": 4,
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"relations": [["located_at", "2"]]
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;},
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;"2": {
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tokens": "opacity",
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"label": "OBS-DP",
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"start_ix": 5,
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"end_ix": 5,
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"relations": []
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;}
+            <br>&nbsp;&nbsp;}
+            <br>}
+          </div>
+
+          <div style="border: 1px solid #ddd; padding: 1em 1.5em; border-radius: 8px; background-color: #fefefe; margin-top: 1.5em;">
+            <p><strong>📝 Field Descriptions:</strong></p>
+            <ul style="padding-left: 1.2em; margin: 0;">
+              <li><code>text</code>: The radiology report, with each token (including punctuation) separated by a space.</li>
+              <li><code>entities</code>: A dictionary of labeled spans in the text.</li>
+              <li><code>tokens</code>: The actual words that form the entity.</li>
+              <li><code>label</code>: One of the four entity types (e.g., <code>ANAT-DP</code>, <code>OBS-DP</code>).</li>
+              <li><code>start_ix</code> / <code>end_ix</code>: Start and end positions (zero-based) of the entity tokens.</li>
+              <li><code>relations</code>: List of relationships with other entities in the format <code>[relation_type, object_id]</code>.</li>
+            </ul>
+          </div>
+      
+        </div>
+      </div>
+      
+
+      <h3>🧠 Sentence-Level Generation</h3>
+      <p>
+        Instead of generating entire reports, we decomposed each report into individual sentences and labeled them independently. Since a typical report contains 2–3 sentences, this approach scaled our dataset to around <strong>2,000–3,000 annotated clinical sentences</strong>.
+        These sentence-level samples are easier to generate, faster to validate, and more effective for training models that operate at the phrase or sentence level—especially in tasks like relation extraction and named entity recognition.
+      </p>
+  
+      <h3>🔍 Retrieval-Augmented Generation (RAG)</h3>
+      <p>
+        To ensure diversity and relevance in the synthetic data, we employed a <strong>RAG-based pipeline</strong>. We began by performing a term frequency analysis across the real reports to identify commonly used clinical terms.
+      </p>
+      <p>
+        These terms were then randomly sampled and used to retrieve contextually similar reports or sentences from the dataset. These retrieved samples acted as seed prompts or templates to generate new sentences, helping the model mimic real-world phrasing and clinical style.
+      </p>
+  
+      <h3>🤖 Model: Mixtral-7B-Instruct v3</h3>
+      <p>
+        We used the <strong>Mixtral-7B-Instruct v3</strong> model to generate high-quality clinical sentences and their associated annotations. As an instruction-tuned language model, Mixtral is capable of generating syntactically and clinically coherent outputs when guided with domain-specific prompts.
+      </p>
+      <p>
+        By conditioning Mixtral with keyword prompts and RAG-retrieved content, we ensured that the generated data matched the structure and diversity of the original RadGraph dataset. The resulting synthetic sentences were immediately usable for model training and evaluation.
+      </p>
+  
+      <figure style="text-align: center;">
+        <img src="images/synthetic_data_pipeline.png" alt="Synthetic Data Generation Pipeline" style="max-width: 80%; height: auto;">
+        <figcaption><em>Figure: Overview of the Synthetic Data Generation Pipeline.</em></figcaption>
+      </figure>
+
+      <h3>📊 Evaluation of Synthetic Data Quality</h3>
+
+            <p>
+            To evaluate the realism and clinical quality of our generated synthetic data, we conducted an embedding-based comparison between synthetic and real sentences. Each sentence, whether generated or real, was embedded using a pre-trained clinical language model to capture its semantic features.
+    
+            We then applied <strong>Principal Component Analysis (PCA)</strong> to reduce the high-dimensional embeddings into a 2D space, allowing for visual inspection and comparison. The goal was to observe whether the synthetic sentences occupied similar regions in the embedding space as the original clinical reports.
+            </p>
+
+            <p>
+            The PCA visualization revealed a strong overlap between the two distributions. Clusters formed by synthetic sentences closely aligned with those of real reports, indicating that our generated data preserved both the linguistic and contextual characteristics of genuine clinical documentation.
+            
+            A few synthetic outliers were identified, mostly arising from unusual keyword combinations. These instances provided valuable feedback, allowing us to refine our prompt design and improve generation diversity without sacrificing accuracy.
+            </p>
+            <figure style="text-align: center;">
+                <img src="images/pca_v1.jpg" alt="Synthetic Data Generation Pipeline" style="max-width: 80%; height: auto;">
+                <figcaption><em>Figure: Overview of the Synthetic Data Generation Pipeline.</em></figcaption>
+              </figure>
+
+            <p>
+            Overall, this PCA-based evaluation demonstrated that the synthetic dataset maintains high fidelity to the real data distribution, validating its use for downstream training and fine-tuning tasks.
+            </p>
+
+  
+      <footer>
+        <p>Continue reading to explore how this synthetic data is utilized for training and fine-tuning models in subsequent phases.</p>
+        <a href="#portfolio" class="button large scrolly">Next: Model Training</a>
+      </footer>
+    </div>
+  </article>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
