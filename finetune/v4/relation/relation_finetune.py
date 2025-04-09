@@ -48,23 +48,18 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto"
 )
 
-# Load Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token if tokenizer.pad_token is None else tokenizer.pad_token
 
-# Load and split dataset
-with open("/home/spshetty/RadAnnotate/finetune/v4/mix_data_cleaned_fixed_sanitized.jsonl") as f:
-    data = [json.loads(line) for line in f if line.strip()]
+with open("/home/spshetty/RadAnnotate/finetune/v4/relation/train_new.jsonl") as f:
+    train_data = [json.loads(line) for line in f if line.strip()]
 
-random.shuffle(data)
-split_index = int(0.9 * len(data))
-train_data = data[:split_index]
-eval_data = data[split_index:]
+with open("/home/spshetty/RadAnnotate/finetune/v4/relation/dev_new.jsonl") as f:
+    eval_data = [json.loads(line) for line in f if line.strip()]
 
 train_dataset = Dataset.from_list(train_data)
 eval_dataset = Dataset.from_list(eval_data)
 
-# Format dataset for training (text with instruction)
 def format_chat_template(row):
     instruction = row.get("instruction", "")
     input_text = row.get("input", "").strip()
