@@ -1,7 +1,7 @@
 import json
 
-input_file = "test_set_648.json"   
-output_file = "test_set.json"
+input_file = "/home/spshetty/RadAnnotate/finetune/v4/testing/test_sentence_label.json"   
+output_file = "/home/spshetty/RadAnnotate/finetune/v4/testing/gold_data/test_set.json"
 with open(input_file, "r") as f:
     data = json.load(f)
 

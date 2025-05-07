@@ -22,7 +22,7 @@ def load_json(filepath):
         data = json.load(f)
         return [
             {
-                "report": item["Report"],
+                "report": item["report"],
                 "entities": parse_entities(item.get("entities", []))
             }
             for item in data
@@ -40,13 +40,13 @@ def compute_precision_recall_f1(true_set, pred_set):
     return precision, recall, f1
 
 # Load files
-true_data = load_json("test_set.json")
-pred_data = load_json("/home/spshetty/RadAnnotate/finetune/v4/test_dev/annotated_reports_test.json")
+true_data = load_json("/home/spshetty/RadAnnotate/finetune/v4/testing/gold_data/test_set.json")
+pred_data = load_json("/home/spshetty/RadAnnotate/finetune/v4/testing/FINAL/syn+real(2k)_res.json")
 
 assert len(true_data) == len(pred_data), "Mismatch in number of reports!"
 
 # Output file
-csv_file = "report_comparison_filtered_test.csv"
+csv_file = "/home/spshetty/RadAnnotate/finetune/v4/testing/results/syn+real(4k).csv"
 total_f1 = 0
 included_count = 0
 

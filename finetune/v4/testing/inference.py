@@ -6,7 +6,7 @@ from tqdm import tqdm
 import re
 
 # === Load model and tokenizer ===
-model_path = "/home/spshetty/RadAnnotate/finetune/v4/mistral-ner-v4/checkpoint-6500"
+model_path = "/home/spshetty/RadAnnotate/finetune/v4/mistral-ner-v4/checkpoint-7809"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16).to("cuda")
 
@@ -14,7 +14,7 @@ if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
 # === Load input ===
-with open("/home/spshetty/RadAnnotate/finetune/v4/test_dev/test_set_648.json", "r") as f:
+with open("/home/spshetty/RadAnnotate/finetune/v4/testing/gold_data/test_set.json", "r") as f:
     data = json.load(f)
 
 results = []
@@ -75,8 +75,8 @@ Report: {report} [/INST]
     })
 
 # === Write results to file ===
-output_path = "annotated_reports_test.json"
+output_path = "/home/spshetty/RadAnnotate/finetune/v4/testing/res/annotated_reports_test_new.json"
 with open(output_path, "w") as f:
     json.dump(results, f, indent=2)
 
-print(f"\n✅ Done! Predictions saved to {output_path}")
+print(f"\nDone! Predictions saved to {output_path}")
