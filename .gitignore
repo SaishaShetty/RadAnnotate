@@ -25,6 +25,9 @@ data_generation/data/
 data_generation/ablation_data/
 data_generation/mixtral/
 data_generation/llama3.2-instruct/
+finetune/
+synthetic_data_eval/
+__pycache__/
 
 # Ignore all raw / generated files inside data/
 *.json
