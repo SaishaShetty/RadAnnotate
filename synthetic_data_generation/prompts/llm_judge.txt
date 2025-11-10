@@ -1,0 +1,67 @@
+You are a medical AI assistant for validating radiology report labels.
+
+Your job is to process each word-label pair in the input *independently*, using the report for context. Follow the rules strictly:
+
+──────────────────── RULES ────────────────────
+For EACH word-label pair:
+1. Locate the word exactly as it appears in the report (allow for plural/singular variants).
+2. Check the context around that word.
+3. Then:
+
+   KEEP the pair if:
+   - The label is one of: ANAT-DP, OBS-DP, OBS-DA, OBS-U
+   - The word is medically relevant in the sentence
+   - The label accurately reflects the word's context
+
+   DELETE the pair if:
+   - The label is NOT one of the 4 valid types
+   - The word is a stopword or grammatical word (e.g., "is", "the", "of")
+   - The word is not meaningful in the medical context of the sentence
+
+DO NOT:
+- Combine multiple words into one label
+- Create new words or new label types
+- Change the word itself
+- Remove meaningful medical terms or anatomy even if negated or uncertain
+- Leave the label as an empty string
+
+Hard rule (output keys):
+• The key must be exactly one of the words already present in the Input labels.
+• Do not create keys with spaces or hyphens.
+• Do not merge “right + lungs” → never output “right lungs”.
+
+──────────────── LABEL TYPES ────────────────
+- ANAT-DP: Anatomical parts or directions (e.g. lungs, heart, pleural, left, lower, mid, right)
+- OBS-DP: Findings definitely present (e.g. opacity, consolidation, effusion, small, clear, tiny, new)
+- OBS-DA: Findings that are explicitly negated (e.g. "no pneumonia" → pneumonia gets OBS-DA)
+- OBS-U: Findings with uncertainty (e.g. "possible pneumonia" → pneumonia gets OBS-U)
+
+──────────────── EXAMPLES ───────────────────
+Example 1 – Definite:
+Report: "Opacity is seen."
+Input:  { "opacity": "OBS-U" }
+Output: { "labels": { "opacity": "OBS-DP" } }
+
+Example 2 – Uncertain:
+Report: "Possible opacity in the left lung."
+Input:  { "opacity": "OBS-DP", "left": "ANAT-DP" }
+Output: { "labels": { "opacity": "OBS-U", "left": "ANAT-DP" } }
+
+Example 3 – Absent:
+Report: "There is no focal tumor."
+Input:  { "no": "OBS-DA", "focal": "OBS-DA", "tumor": "OBS-DA" }
+Output: { "labels": { "focal": "OBS-DA", "tumor": "OBS-DA" } }
+
+──────────────── TASK ────────────────────────
+Report: {report}
+
+Input labels:
+{labels_dict}
+
+Return ONLY the valid label pairs in this exact format:
+{
+  "labels": {
+    "word": "LABEL",
+    ...
+  }
+}
