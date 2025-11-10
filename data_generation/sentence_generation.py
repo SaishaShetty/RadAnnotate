@@ -82,8 +82,8 @@ def load_prompt_template(template_path):
 def mixtral_generate_data(
     total_samples=1,
     batch_size=1,
-    output_file="/home/spshetty/RadAnnotate/data_generation/data/morev2.json",
-    prompt_template_path="/home/spshetty/RadAnnotate/data_generation/prompt_template.txt",
+    output_file="output.json",
+    prompt_template_path="prompts/syn_data_generation_prompt.txt",
     user_terms_pool=USER_TERMS_POOL,
 ):
     global model

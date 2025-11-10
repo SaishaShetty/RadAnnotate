@@ -7,7 +7,7 @@ This module of **RadAnnotate** expands a limited set of annotated radiology repo
 ## **Overview**
 
 <p align="center">
-  <img src="/Users/saishashetty/Desktop/RadAnnotate/data_generation/img/syn_data.jpg" width="500"/>
+  <img src="img/syn_data.jpg" width="500"/>
 </p>
 
 *Figure: RAG-Enhanced Synthetic Data Generation Pipeline*
