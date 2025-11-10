@@ -1,6 +1,0 @@
-1. "atrium","markings","enteric","quadrant","subcutaneous","drain","Dobbhoff"
-2. "deformity","Clips","positions","structure","Calcified","Streaky","diffusely"
-3. pigtail,prior,Superiorly","axilla","Triple","side","interstitium","inflammatory","pigtail
-4. "obscures","shadow","spinal","Improved","fusion","hemithorax","pacer"
-5. "conspicuous","aerated","resolving","subdiaphragmatic","paraspinal","distress"
-6. system","function","recurrent","walls","contusion","absent
