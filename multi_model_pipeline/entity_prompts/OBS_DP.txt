@@ -1,0 +1,12 @@
+Extract all observation terms that are clearly present in the report and return them as a list of JSON objects, 
+each with the keys: entity_type, entity_value, start_position, and end_position. 
+Label each of these terms as OBS-DP. Only include findings or clinical observations that are explicitly present or confirmed 
+(e.g., 'consolidation', 'effusion', 'intact'). Ignore any terms that are uncertain, negated, or refer to anatomical structures. 
+If no such terms are present, return an empty list.
+
+Examples:
+Report: 'No consolidation.'
+Output: []
+
+Report: 'There is a possible blockage.'
+Output: []

@@ -1,0 +1,14 @@
+Extract all observation terms that are clearly absent in the report and return them as a list of JSON objects, 
+each with the keys: entity_type, entity_value, start_position, and end_position. 
+Label each of these terms as OBS-DA. Only include findings or clinical observations that are explicitly negated or clearly stated as not present 
+(e.g., 'no consolidation', 'absence of effusion', 'no displaced fractures'). 
+Only label the observation term itself (e.g., 'consolidation', 'effusion', 'fractures', 'displaced') and not the negation words 
+(e.g., 'no', 'absence'). Ignore any terms that are uncertain, present, or refer to anatomical structures. 
+If no such terms are present, return an empty list.
+
+Examples:
+Report: 'Lungs are clear.'
+Output: []
+
+Report: 'Possible consolidation.'
+Output: []

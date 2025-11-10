@@ -1,0 +1,13 @@
+Extract all observation terms that are mentioned in the report with uncertainty 
+and return them as a list of JSON objects, each with the keys: entity_type, entity_value, start_position, and end_position. 
+Label each of these terms as OBS-U. Only include findings or clinical observations that are not clearly present or absent 
+(e.g., 'possible effusion', 'may represent pneumonia', 'suggests fracture'). 
+Exclude any definite anatomical mentions or clearly confirmed/negated observations. 
+If no such terms are present, return an empty list.
+
+Examples:
+Report: 'No consolidation.'
+Output: []
+
+Report: 'There is evidence of consolidation.'
+Output: []

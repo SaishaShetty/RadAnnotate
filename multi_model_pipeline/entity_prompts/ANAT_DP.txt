@@ -1,0 +1,9 @@
+Extract all anatomical terms that are clearly present in the report and return them as a list of JSON objects, 
+each with the keys: entity_type, entity_value, start_position, and end_position. 
+Label each of these terms as ANAT-DP. Only include anatomical structures or modifiers that refer to body parts 
+(e.g., 'lung', 'right', 'left', 'mid'). Ignore findings, uncertain observations, or absent mentions. 
+If no such terms are present, return an empty list.
+
+Example:
+Report: 'No consolidation.'
+Output: []
