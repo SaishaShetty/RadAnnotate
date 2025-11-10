@@ -1,13 +1,74 @@
-data/mixtral/mix
-data/mixtral/mixtral-7b-v3
-data/mixtral/mixtral-model
-data_generation/mixtral/dataset
-data_generation/mixtral/mix
-data_generation/mixtral/mixtral-7b-v3
-data_generation/mixtral/mixtral-model
-finetune/logs
-finetune/mistral-finetuned
-finetune/mixtral-7b
-data_generation/llama3.2-instruct
-/__pycache__
-data_generation/mixtral
+# -----------------------------
+# Python cache & build files
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+build/
+dist/
+
+# -----------------------------
+# Logs & checkpoints
+# -----------------------------
+*.log
+logs/
+finetune/logs/
+synthetic_data_eval/logs/
+
+# -----------------------------
+# Data folders
+# -----------------------------
+# Ignore all large / generated datasets
+data_generation/data/
+data_generation/ablation_data/
+data_generation/mixtral/
+data_generation/llama3.2-instruct/
+
+# Ignore all raw / generated files inside data/
+*.json
+*.csv
+*.tsv
+*.xlsx
+*.zip
+
+# -----------------------------
+# Fine-tuned and model outputs
+# -----------------------------
+finetune/mistral-finetuned/
+finetune/mixtral-7b/
+finetune/mistral-7b/
+finetune/mistral/
+finetune/llama3.2-instruct/
+finetune/checkpoints/
+finetune/outputs/
+
+# -----------------------------
+# Experiment & synthetic data eval outputs
+# -----------------------------
+synthetic_data_eval/results/
+synthetic_data_eval/output/
+synthetic_data_eval/tmp/
+
+# -----------------------------
+# Temporary / environment files
+# -----------------------------
+.env
+*.env
+*.bak
+*.tmp
+.DS_Store
+
+# -----------------------------
+# IDE / Editor configs
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+
+# -----------------------------
+# OS and miscellaneous
+# -----------------------------
+Thumbs.db
+*.ipynb_checkpoints/
