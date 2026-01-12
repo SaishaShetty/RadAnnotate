@@ -37,8 +37,10 @@ The graphs below plot **Predicted Confidence** (X) against **Actual Accuracy** (
 ![OBS-DP Plot](outputs/calibrated/OBS-DP_calibration_plot.png)
 
 ### Low-Sample Entities (Platt)
+![OBS-DA Plot](outputs/calibrated/OBS-DA_calibration_plot.png)
+
 ![OBS-U Plot](outputs/calibrated/OBS-U_calibration_plot.png)
 
-![OBS-DA Plot](outputs/calibrated/OBS-DA_calibration_plot.png)
+
 
 
