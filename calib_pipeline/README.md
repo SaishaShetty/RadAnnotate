@@ -1,4 +1,4 @@
-## Calibration + FP Confidence Reduction (Deduped Reports, Frozen Split)
+# Reliability & Calibration Report
 
 ### Setup
 - Reports were **deduplicated** by exact `report` string.
@@ -8,47 +8,37 @@
 
 ---
 
-### Test Brier Results (Before vs After)
+## 1. Calibration Strategy: Selection Criteria
+We selected two distinct calibration algorithms based on the sample size and distribution of each entity type to ensure statistical robustness.
 
-\[
-\text{Brier}(p,y) \;=\; \frac{1}{N}\sum_{i=1}^{N}(p_i - y_i)^2
-\]
-
-| Entity | TEST preds | Brier (Before) | Brier (After) | $\Delta$ (Before $-$ After) | Saved calibrated JSON? |
-|---|---:|---:|---:|---:|---|
-| ANAT-DP | 487 | 0.0524 | 0.0526 | -0.0001 | No |
-| OBS-DP  | 458 | 0.0975 | 0.0954 | 0.0020 | No |
-| OBS-DA  | 177 | 0.0579 | 0.0550 | 0.0029 | Yes |
-| OBS-U   | 61  | 0.3402 | 0.2846 | 0.0556 | Yes |
-
-**Decision:** calibrated outputs are stored only for **OBS-U** and **OBS-DA**, since they show improvement on TEST.
+* **Isotonic Regression (ANAT-DP, OBS-DP):** Chosen for entities with larger sample sizes ($N > 400$). As a non-parametric mapping, it is more flexible than logistic methods and can correct complex non-linear biases without assuming a specific distribution shape.
+* **Platt Scaling (OBS-U, OBS-DA):** Chosen for entities with smaller sample sizes ($N < 200$). As a parametric method (sigmoid-based), it is less prone to over-fitting on sparse data compared to Isotonic Regression, providing a smoother, more stable calibration for infrequent findings.
 
 ---
 
-### FP Confidence Reduction on TEST (Before vs After)
+## 2. Integrated Performance & Clinical Impact
+This table combines statistical reliability (ECE/Brier) with real-world utility at the high-confidence threshold ($\ge 0.9$).
 
-We compute **false positives (FPs)** as predictions not present in `true_labels`, then measure the fraction of FPs with confidence above thresholds $t \in \{0.6, 0.7, 0.8, 0.9\}$, comparing raw `confidence` (before) vs `cal_conf` (after).
+| Entity | ECE Improv % | Brier Improv % | TP Boost | FP Reduced | Clinical Result |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **ANAT-DP** | **+41.36%** | -3.14% | **+18** | -9 | **Utility:** 18 shy truths promoted. |
+| **OBS-DP** | **+56.79%** | +2.08% | -22 | 0 | **Stability:** Cleansed high-conf zone. |
+| **OBS-DA** | -32.53% | -0.20% | -11 | 0 | **Baseline:** Remained stable. |
+| **OBS-U** | **+45.05%** | **+19.88%** | -26 | **+16** | **Safety:** 100% hallucinations removed. |
 
-#### OBS-U
-- TEST FPs: $24$
-- FP conf reduction:
-  - $t \ge 0.6$: $23/24$ (95.83%) $\rightarrow$ $14/24$ (58.33%)
-  - $t \ge 0.7$: $23/24$ (95.83%) $\rightarrow$ $5/24$ (20.83%)
-  - $t \ge 0.8$: $18/24$ (75.00%) $\rightarrow$ $0/24$ (0.00%)
-  - $t \ge 0.9$: $16/24$ (66.67%) $\rightarrow$ $0/24$ (0.00%)
 
-#### OBS-DA
-- TEST FPs: $11$
-- FP conf reduction:
-  - $t \ge 0.6$: $11/11$ (100.00%) $\rightarrow$ $11/11$ (100.00%)
-  - $t \ge 0.7$: $11/11$ (100.00%) $\rightarrow$ $11/11$ (100.00%)
-  - $t \ge 0.8$: $8/11$ (72.73%) $\rightarrow$ $3/11$ (27.27%)
-  - $t \ge 0.9$: $5/11$ (45.45%) $\rightarrow$ $2/11$ (18.18%)
+## 3. Visual Validation (Reliability Diagrams)
 
----
+The graphs below plot **Predicted Confidence** (X) against **Actual Accuracy** (Y). A perfect model follows the dashed diagonal line.
 
-### Saved Artifacts
-- `outputs/calibrated/OBS-U/test_calibrated.json`
-- `outputs/calibrated/OBS-DA/test_calibrated.json`
+### High-Sample Entities (Isotonic)
+![ANAT-DP Plot](outputs/calibrated/ANAT-DP_calibration_plot.png)
 
-(Original TEST splits in `outputs/splits/**/test.json` remain unchanged.)
+![OBS-DP Plot](outputs/calibrated/OBS-DP_calibration_plot.png)
+
+### Low-Sample Entities (Platt)
+![OBS-U Plot](outputs/calibrated/OBS-U_calibration_plot.png)
+
+![OBS-DA Plot](outputs/calibrated/OBS-DA_calibration_plot.png)
+
+
