@@ -3,7 +3,7 @@
 ### Setup
 - Reports were **deduplicated** by exact `report` string.
 - A **single frozen 50/50 VAL–TEST split** was created per entity (no re-splitting later).
-- **Isotonic regression was fit on VAL only** (no test leakage).
+- **Calibration was fit on VAL only** (no test leakage).
 - All **before vs after** comparisons below are computed on the **same TEST set**.
 
 ---
