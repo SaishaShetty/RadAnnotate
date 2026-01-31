@@ -1,27 +1,10 @@
-<table>
-  <tr>
-    <td valign="middle">
-      <a href="PAPER_LINK_HERE">
-        <img src="img/Rad.png" width="75" alt="RadAnnotate logo"/>
-      </a>
-    </td>
-    <td valign="middle">
-      <span style="font-size:28px;"><strong>RadAnnotate : Synthetic Clinical Report Annotation Pipeline</strong></span>
-    </td>
-  </tr>
-</table>
+# <img src="img/Rad.png" width="100" align="absmiddle" /> RadAnnotate : LLMs for Efficient and Reliable Radiology Report Annotation
 
-<p>
-  <a href="PAPER_LINK_HERE">
-    <img src="https://img.shields.io/badge/Paper-PDF-blue?style=for-the-badge" alt="Paper"/>
-  </a>
-</p>
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue?style=for-the-badge)](PAPER_LINK_HERE)
 
+RadAnnotate is a research pipeline for **data-efficient and reliable annotation of radiology reports** using large language models.  
+It combines **retrieval-augmented synthetic data generation**, **entity-specific annotation models**, and **confidence-based selective automation** to reduce expert labeling effort in low-resource clinical NLP settings.
 
-
-RadAnnotate is a research pipeline for **data-efficient and reliable annotation of radiology reports** using large language models. It combines **retrieval-augmented synthetic data generation**, **entity-specific annotation models**, and **confidence-based selective automation** to reduce expert labeling effort in low-resource clinical NLP settings.
-
----
 
 ## Overview
 
