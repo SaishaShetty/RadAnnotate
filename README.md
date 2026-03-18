@@ -1,6 +1,6 @@
 # <img src="img/Rad.png" width="100" align="absmiddle" /> RadAnnotate : LLMs for Efficient and Reliable Radiology Report Annotation
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-blue?style=for-the-badge)](PAPER_LINK_HERE)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue?style=for-the-badge)](https://arxiv.org/abs/2603.16002)
 
 RadAnnotate is a research pipeline for **data-efficient and reliable annotation of radiology reports** using large language models.  
 It combines **retrieval-augmented synthetic data generation**, **entity-specific annotation models**, and **confidence-based selective automation** to reduce expert labeling effort in low-resource clinical NLP settings.
